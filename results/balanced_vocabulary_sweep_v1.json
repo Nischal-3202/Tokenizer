@@ -1,0 +1,571 @@
+{
+  "experiment": "balanced_vocabulary_sweep_v1",
+  "created_at_utc": "2026-10-29T05:29:27.776489+00:00",
+  "python_version": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "algorithm": "byte_level_bpe",
+  "vocab_sizes_requested": [
+    512,
+    1024,
+    2048
+  ],
+  "selection_manifest": "data/manifests/controlled_multilingual_balanced_v1.json",
+  "training_data": {
+    "english": {
+      "utf8_bytes": 297381,
+      "code_points": 295880,
+      "sha256": "cd1ad6177fcc8d52bbdd872cdb3db4b38416547102fbe60fc837ffb19258bafe"
+    },
+    "hindi": {
+      "utf8_bytes": 299885,
+      "code_points": 120473,
+      "sha256": "3882f079ffbbc5439fe8885bf4923280ddef99943156cde79176d4d019d46de0"
+    },
+    "nepali": {
+      "utf8_bytes": 299348,
+      "code_points": 112989,
+      "sha256": "05118d4217fe12b717c667de7139f883b8d82a8e82d2783f5ea8e788b0d5bfe1"
+    }
+  },
+  "test_data": {
+    "english": {
+      "utf8_bytes": 93262,
+      "code_points": 92916,
+      "sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd"
+    },
+    "hindi": {
+      "utf8_bytes": 226287,
+      "code_points": 90844,
+      "sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21"
+    },
+    "nepali": {
+      "utf8_bytes": 295837,
+      "code_points": 112800,
+      "sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497"
+    }
+  },
+  "models": {
+    "512": {
+      "english_separate": {
+        "requested_vocab_size": 512,
+        "actual_vocab_size": 512,
+        "merge_count": 256,
+        "training_utf8_bytes": 297381,
+        "training_sha256": "cd1ad6177fcc8d52bbdd872cdb3db4b38416547102fbe60fc837ffb19258bafe",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_english_separate_vocab_512.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 43967,
+              "bytes_per_token": 2.1211817954374874,
+              "tokens_per_1000_chars": 473.19083903741017,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 224561,
+              "bytes_per_token": 1.0076861075609744,
+              "tokens_per_1000_chars": 2471.940909691339,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 293853,
+              "bytes_per_token": 1.0067516751573065,
+              "tokens_per_1000_chars": 2605.0797872340427,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "hindi_separate": {
+        "requested_vocab_size": 512,
+        "actual_vocab_size": 512,
+        "merge_count": 256,
+        "training_utf8_bytes": 299885,
+        "training_sha256": "3882f079ffbbc5439fe8885bf4923280ddef99943156cde79176d4d019d46de0",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_hindi_separate_vocab_512.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 90755,
+              "bytes_per_token": 1.0276238223789322,
+              "tokens_per_1000_chars": 976.7424340264324,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 54873,
+              "bytes_per_token": 4.123831392488109,
+              "tokens_per_1000_chars": 604.0354894104179,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 80364,
+              "bytes_per_token": 3.681212980936738,
+              "tokens_per_1000_chars": 712.4468085106383,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "nepali_separate": {
+        "requested_vocab_size": 512,
+        "actual_vocab_size": 512,
+        "merge_count": 256,
+        "training_utf8_bytes": 299348,
+        "training_sha256": "05118d4217fe12b717c667de7139f883b8d82a8e82d2783f5ea8e788b0d5bfe1",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_nepali_separate_vocab_512.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 92954,
+              "bytes_per_token": 1.0033134668760892,
+              "tokens_per_1000_chars": 1000.4089715441904,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 64518,
+              "bytes_per_token": 3.5073467869431787,
+              "tokens_per_1000_chars": 710.2065078596274,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 68273,
+              "bytes_per_token": 4.333147803670558,
+              "tokens_per_1000_chars": 605.2570921985816,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "shared_multilingual": {
+        "requested_vocab_size": 512,
+        "actual_vocab_size": 512,
+        "merge_count": 256,
+        "training_utf8_bytes": 896616,
+        "training_sha256": "3c584ceddd856b64fbf1a998ecf0ec433f0c6284f3e76f8a37e43d81add5c9bf",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_shared_multilingual_vocab_512.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 50886,
+              "bytes_per_token": 1.832763431985222,
+              "tokens_per_1000_chars": 547.6559473072452,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 63076,
+              "bytes_per_token": 3.587529329697508,
+              "tokens_per_1000_chars": 694.3331425300515,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 80241,
+              "bytes_per_token": 3.6868558467616306,
+              "tokens_per_1000_chars": 711.3563829787234,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      }
+    },
+    "1024": {
+      "english_separate": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 1024,
+        "merge_count": 768,
+        "training_utf8_bytes": 297381,
+        "training_sha256": "cd1ad6177fcc8d52bbdd872cdb3db4b38416547102fbe60fc837ffb19258bafe",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_english_separate_vocab_1024.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 35490,
+              "bytes_per_token": 2.627838827838828,
+              "tokens_per_1000_chars": 381.9578974557665,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 223773,
+              "bytes_per_token": 1.0112345993484468,
+              "tokens_per_1000_chars": 2463.2666989564527,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 293322,
+              "bytes_per_token": 1.0085741949120761,
+              "tokens_per_1000_chars": 2600.372340425532,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "hindi_separate": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 1024,
+        "merge_count": 768,
+        "training_utf8_bytes": 299885,
+        "training_sha256": "3882f079ffbbc5439fe8885bf4923280ddef99943156cde79176d4d019d46de0",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_hindi_separate_vocab_1024.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 74288,
+              "bytes_per_token": 1.255411371957786,
+              "tokens_per_1000_chars": 799.5178440742176,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 44418,
+              "bytes_per_token": 5.09448872078887,
+              "tokens_per_1000_chars": 488.9480868301704,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 68872,
+              "bytes_per_token": 4.295461145313045,
+              "tokens_per_1000_chars": 610.5673758865249,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "nepali_separate": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 1024,
+        "merge_count": 768,
+        "training_utf8_bytes": 299348,
+        "training_sha256": "05118d4217fe12b717c667de7139f883b8d82a8e82d2783f5ea8e788b0d5bfe1",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_nepali_separate_vocab_1024.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 92285,
+              "bytes_per_token": 1.01058676924744,
+              "tokens_per_1000_chars": 993.208919884627,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 56654,
+              "bytes_per_token": 3.994192819571434,
+              "tokens_per_1000_chars": 623.6405266170578,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 53373,
+              "bytes_per_token": 5.542821276675473,
+              "tokens_per_1000_chars": 473.1648936170213,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "shared_multilingual": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 1024,
+        "merge_count": 768,
+        "training_utf8_bytes": 896616,
+        "training_sha256": "3c584ceddd856b64fbf1a998ecf0ec433f0c6284f3e76f8a37e43d81add5c9bf",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_shared_multilingual_vocab_1024.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 40334,
+              "bytes_per_token": 2.3122427728467296,
+              "tokens_per_1000_chars": 434.09100693099145,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 51264,
+              "bytes_per_token": 4.414150280898877,
+              "tokens_per_1000_chars": 564.3080445599049,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 63826,
+              "bytes_per_token": 4.635054679911008,
+              "tokens_per_1000_chars": 565.8333333333333,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      }
+    },
+    "2048": {
+      "english_separate": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2048,
+        "merge_count": 1792,
+        "training_utf8_bytes": 297381,
+        "training_sha256": "cd1ad6177fcc8d52bbdd872cdb3db4b38416547102fbe60fc837ffb19258bafe",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_english_separate_vocab_2048.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 29658,
+              "bytes_per_token": 3.1445815631532805,
+              "tokens_per_1000_chars": 319.19152783158984,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 223237,
+              "bytes_per_token": 1.0136626096928376,
+              "tokens_per_1000_chars": 2457.366474395667,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 293002,
+              "bytes_per_token": 1.0096757018723421,
+              "tokens_per_1000_chars": 2597.535460992908,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "hindi_separate": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2048,
+        "merge_count": 1792,
+        "training_utf8_bytes": 299885,
+        "training_sha256": "3882f079ffbbc5439fe8885bf4923280ddef99943156cde79176d4d019d46de0",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_hindi_separate_vocab_2048.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 65619,
+              "bytes_per_token": 1.4212651823404807,
+              "tokens_per_1000_chars": 706.2185199535064,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 37976,
+              "bytes_per_token": 5.958684432273015,
+              "tokens_per_1000_chars": 418.0353132843116,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 62190,
+              "bytes_per_token": 4.756986653802862,
+              "tokens_per_1000_chars": 551.3297872340426,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "nepali_separate": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2048,
+        "merge_count": 1792,
+        "training_utf8_bytes": 299348,
+        "training_sha256": "05118d4217fe12b717c667de7139f883b8d82a8e82d2783f5ea8e788b0d5bfe1",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_nepali_separate_vocab_2048.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 85049,
+              "bytes_per_token": 1.0965678608801985,
+              "tokens_per_1000_chars": 915.3321279435189,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 51448,
+              "bytes_per_token": 4.398363396050381,
+              "tokens_per_1000_chars": 566.3334947822641,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 44908,
+              "bytes_per_token": 6.58762358599804,
+              "tokens_per_1000_chars": 398.12056737588654,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      },
+      "shared_multilingual": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2048,
+        "merge_count": 1792,
+        "training_utf8_bytes": 896616,
+        "training_sha256": "3c584ceddd856b64fbf1a998ecf0ec433f0c6284f3e76f8a37e43d81add5c9bf",
+        "model_file": "results/models/balanced_vocabulary_sweep_v1_shared_multilingual_vocab_2048.json",
+        "test": {
+          "english": {
+            "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+            "metrics": {
+              "characters": 92916,
+              "utf8_bytes": 93262,
+              "tokens": 33909,
+              "bytes_per_token": 2.7503612610221477,
+              "tokens_per_1000_chars": 364.9425287356322,
+              "roundtrip_exact": true
+            }
+          },
+          "hindi": {
+            "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+            "metrics": {
+              "characters": 90844,
+              "utf8_bytes": 226287,
+              "tokens": 43544,
+              "bytes_per_token": 5.196743523792026,
+              "tokens_per_1000_chars": 479.32719827396414,
+              "roundtrip_exact": true
+            }
+          },
+          "nepali": {
+            "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+            "metrics": {
+              "characters": 112800,
+              "utf8_bytes": 295837,
+              "tokens": 53042,
+              "bytes_per_token": 5.577410354059047,
+              "tokens_per_1000_chars": 470.2304964539007,
+              "roundtrip_exact": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

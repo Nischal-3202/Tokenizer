@@ -1,0 +1,939 @@
+{
+  "experiments": {
+    "repeated_vocabulary_sharing_v1": {
+      "label": "fixed_per_language_about_900KB_shared",
+      "example_selection": {
+        "english": {
+          "eligible_word_types": 407,
+          "eligible_occurrences": 9593,
+          "median_percent_increase": 25.0
+        },
+        "hindi": {
+          "eligible_word_types": 603,
+          "eligible_occurrences": 10760,
+          "median_percent_increase": 18.269230769230777
+        },
+        "nepali": {
+          "eligible_word_types": 584,
+          "eligible_occurrences": 7986,
+          "median_percent_increase": 21.875
+        }
+      }
+    },
+    "total_budget_matched_v1": {
+      "label": "total_budget_matched_about_300KB_shared",
+      "example_selection": {}
+    }
+  },
+  "unicode_heldout": {
+    "english": {
+      "utf8_bytes": 93262,
+      "codepoints": 92916,
+      "bytes_per_codepoint": 1.0037237935339447,
+      "unique_codepoints": 93,
+      "graphemes": 92916,
+      "codepoints_per_grapheme": 1.0,
+      "fraction_graphemes_with_multiple_codepoints": 0.0,
+      "devanagari_letters": 0,
+      "codepoint_fraction_latin": 0.8057385165095355,
+      "codepoint_fraction_whitespace": 0.16954022988505746,
+      "codepoint_fraction_ascii_other": 0.022805544793146497,
+      "codepoint_fraction_other": 0.0019157088122605363,
+      "category_fraction_Lu": 0.020254853846484996,
+      "category_fraction_Ll": 0.7855051874811658,
+      "category_fraction_Zs": 0.1694218433854234,
+      "category_fraction_Po": 0.015562443497352448,
+      "category_fraction_Nd": 0.00444487494080675,
+      "category_fraction_Pf": 0.0012484394506866417,
+      "category_fraction_Pd": 0.002001808084721684,
+      "category_fraction_Ps": 0.0005488828619398166,
+      "category_fraction_Pe": 0.0005488828619398166,
+      "category_fraction_Cc": 0.00011838649963407809,
+      "category_fraction_Pi": 0.0002905850445563735,
+      "category_fraction_So": 5.3812045288217315e-05,
+      "fraction_graphemes_with_1_codepoints": 1.0,
+      "devanagari_run_bytes": 0,
+      "devanagari_byte_trigram_entropy_bits": 0.0,
+      "devanagari_byte_6gram_entropy_bits": 0.0,
+      "devanagari_byte_trigram_types": 0,
+      "devanagari_byte_trigram_types_per_1000_bytes": null
+    },
+    "hindi": {
+      "utf8_bytes": 226287,
+      "codepoints": 90844,
+      "bytes_per_codepoint": 2.4909405134075997,
+      "unique_codepoints": 157,
+      "graphemes": 61872,
+      "codepoints_per_grapheme": 1.4682570468063099,
+      "fraction_graphemes_with_multiple_codepoints": 0.35686578743211794,
+      "devanagari_letters": 40981,
+      "codepoint_fraction_devanagari": 0.7442538857822201,
+      "codepoint_fraction_whitespace": 0.1951477257716525,
+      "codepoint_fraction_latin": 0.025450222359209195,
+      "codepoint_fraction_ascii_other": 0.03389326757958699,
+      "codepoint_fraction_other": 0.0012548985073312492,
+      "category_fraction_Lo": 0.4511139976222976,
+      "category_fraction_Mc": 0.14531504557263,
+      "category_fraction_Zs": 0.1946413632160627,
+      "category_fraction_Mn": 0.14002025450222358,
+      "category_fraction_Lu": 0.005988287613931575,
+      "category_fraction_Ll": 0.019494958390207387,
+      "category_fraction_Po": 0.018416185989168245,
+      "category_fraction_Pd": 0.003907797983356083,
+      "category_fraction_Nd": 0.017502531812777947,
+      "category_fraction_Ps": 0.0008255911232442429,
+      "category_fraction_Pe": 0.0008255911232442429,
+      "category_fraction_Cc": 0.0005063625555898022,
+      "category_fraction_Pi": 0.00029721280436792745,
+      "category_fraction_Pf": 0.00033023644929769717,
+      "category_fraction_Sm": 0.0008145832416009863,
+      "dependents_per_1000_devanagari_letters_vowel_sign": 487.95783411824993,
+      "dependents_per_1000_devanagari_letters_anusvara": 61.93113882042898,
+      "dependents_per_1000_devanagari_letters_virama": 74.44913496498377,
+      "dependents_per_1000_devanagari_letters_nukta": 7.418071789365803,
+      "dependents_per_1000_devanagari_letters_candrabindu": 0.6344403504062859,
+      "dependents_per_1000_devanagari_letters_visarga": 0.1220077596935165,
+      "fraction_graphemes_with_1_codepoints": 0.6431342125678821,
+      "fraction_graphemes_with_2_codepoints": 0.2776215412464443,
+      "fraction_graphemes_with_3_codepoints": 0.051590380139643136,
+      "fraction_graphemes_with_4_codepoints": 0.024098138091543833,
+      "devanagari_run_bytes": 202833,
+      "devanagari_byte_trigram_entropy_bits": 6.805409327377158,
+      "devanagari_byte_6gram_entropy_bits": 10.45372496949655,
+      "devanagari_byte_trigram_types": 225,
+      "devanagari_byte_trigram_types_per_1000_bytes": 1.109286950348316
+    },
+    "nepali": {
+      "utf8_bytes": 295837,
+      "codepoints": 112800,
+      "bytes_per_codepoint": 2.6226684397163122,
+      "unique_codepoints": 161,
+      "graphemes": 72553,
+      "codepoints_per_grapheme": 1.5547255110057476,
+      "fraction_graphemes_with_multiple_codepoints": 0.40043830027703886,
+      "devanagari_letters": 55841,
+      "codepoint_fraction_devanagari": 0.8097872340425532,
+      "codepoint_fraction_whitespace": 0.15691489361702127,
+      "codepoint_fraction_latin": 0.0225,
+      "codepoint_fraction_ascii_other": 0.009210992907801419,
+      "codepoint_fraction_other": 0.0015868794326241134,
+      "category_fraction_Lo": 0.4950709219858156,
+      "category_fraction_Mn": 0.1335549645390071,
+      "category_fraction_Mc": 0.16203014184397163,
+      "category_fraction_Zs": 0.15643617021276596,
+      "category_fraction_Po": 0.015336879432624113,
+      "category_fraction_Ll": 0.01973404255319149,
+      "category_fraction_Pd": 0.0013475177304964538,
+      "category_fraction_Lu": 0.0027659574468085106,
+      "category_fraction_Nd": 0.011923758865248227,
+      "category_fraction_Cc": 0.0004787234042553191,
+      "category_fraction_Ps": 0.00027482269503546097,
+      "category_fraction_Pe": 0.00027482269503546097,
+      "category_fraction_Pi": 0.0003546099290780142,
+      "category_fraction_Pf": 0.00033687943262411345,
+      "category_fraction_So": 2.6595744680851064e-05,
+      "category_fraction_Sm": 2.6595744680851064e-05,
+      "category_fraction_Sc": 2.6595744680851064e-05,
+      "dependents_per_1000_devanagari_letters_virama": 128.5793592521624,
+      "dependents_per_1000_devanagari_letters_vowel_sign": 450.636629000197,
+      "dependents_per_1000_devanagari_letters_candrabindu": 9.330062140720976,
+      "dependents_per_1000_devanagari_letters_anusvara": 8.291398793001559,
+      "dependents_per_1000_devanagari_letters_visarga": 0.25071184255296286,
+      "fraction_graphemes_with_1_codepoints": 0.5995616997229611,
+      "fraction_graphemes_with_2_codepoints": 0.3015726434468595,
+      "fraction_graphemes_with_3_codepoints": 0.050280484611249704,
+      "fraction_graphemes_with_4_codepoints": 0.044091905227902364,
+      "devanagari_run_bytes": 274032,
+      "devanagari_byte_trigram_entropy_bits": 6.7302550819733975,
+      "devanagari_byte_6gram_entropy_bits": 10.319509359993821,
+      "devanagari_byte_trigram_types": 237,
+      "devanagari_byte_trigram_types_per_1000_bytes": 0.8648624978104746
+    }
+  },
+  "validation": [
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "english",
+      "text": "test:english",
+      "tokens": 35298,
+      "published_tokens": 35298,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "english",
+      "text": "test:hindi",
+      "tokens": 223811,
+      "published_tokens": 223811,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "english",
+      "text": "test:nepali",
+      "tokens": 293375,
+      "published_tokens": 293375,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "hindi",
+      "text": "test:english",
+      "tokens": 68030,
+      "published_tokens": 68030,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "hindi",
+      "text": "test:hindi",
+      "tokens": 44435,
+      "published_tokens": 44435,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "hindi",
+      "text": "test:nepali",
+      "tokens": 68064,
+      "published_tokens": 68064,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "nepali",
+      "text": "test:english",
+      "tokens": 92882,
+      "published_tokens": 92882,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "nepali",
+      "text": "test:hindi",
+      "tokens": 56990,
+      "published_tokens": 56990,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "nepali",
+      "text": "test:nepali",
+      "tokens": 53593,
+      "published_tokens": 53593,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "shared",
+      "text": "test:english",
+      "tokens": 40286,
+      "published_tokens": 40286,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "shared",
+      "text": "test:hindi",
+      "tokens": 51365,
+      "published_tokens": 51365,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_1",
+      "model": "shared",
+      "text": "test:nepali",
+      "tokens": 63858,
+      "published_tokens": 63858,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "english",
+      "text": "test:english",
+      "tokens": 35218,
+      "published_tokens": 35218,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "english",
+      "text": "test:hindi",
+      "tokens": 223748,
+      "published_tokens": 223748,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "english",
+      "text": "test:nepali",
+      "tokens": 293373,
+      "published_tokens": 293373,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "hindi",
+      "text": "test:english",
+      "tokens": 71873,
+      "published_tokens": 71873,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "hindi",
+      "text": "test:hindi",
+      "tokens": 44545,
+      "published_tokens": 44545,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "hindi",
+      "text": "test:nepali",
+      "tokens": 68950,
+      "published_tokens": 68950,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "nepali",
+      "text": "test:english",
+      "tokens": 89953,
+      "published_tokens": 89953,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "nepali",
+      "text": "test:hindi",
+      "tokens": 56870,
+      "published_tokens": 56870,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "nepali",
+      "text": "test:nepali",
+      "tokens": 53864,
+      "published_tokens": 53864,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "shared",
+      "text": "test:english",
+      "tokens": 40472,
+      "published_tokens": 40472,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "shared",
+      "text": "test:hindi",
+      "tokens": 51219,
+      "published_tokens": 51219,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_2",
+      "model": "shared",
+      "text": "test:nepali",
+      "tokens": 63636,
+      "published_tokens": 63636,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "english",
+      "text": "test:english",
+      "tokens": 35574,
+      "published_tokens": 35574,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "english",
+      "text": "test:hindi",
+      "tokens": 223871,
+      "published_tokens": 223871,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "english",
+      "text": "test:nepali",
+      "tokens": 293448,
+      "published_tokens": 293448,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "hindi",
+      "text": "test:english",
+      "tokens": 73505,
+      "published_tokens": 73505,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "hindi",
+      "text": "test:hindi",
+      "tokens": 44170,
+      "published_tokens": 44170,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "hindi",
+      "text": "test:nepali",
+      "tokens": 67813,
+      "published_tokens": 67813,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "nepali",
+      "text": "test:english",
+      "tokens": 86953,
+      "published_tokens": 86953,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "nepali",
+      "text": "test:hindi",
+      "tokens": 56902,
+      "published_tokens": 56902,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "nepali",
+      "text": "test:nepali",
+      "tokens": 53466,
+      "published_tokens": 53466,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "shared",
+      "text": "test:english",
+      "tokens": 40413,
+      "published_tokens": 40413,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "shared",
+      "text": "test:hindi",
+      "tokens": 51368,
+      "published_tokens": 51368,
+      "match": true
+    },
+    {
+      "experiment": "repeated_vocabulary_sharing_v1",
+      "replicate": "replicate_3",
+      "model": "shared",
+      "text": "test:nepali",
+      "tokens": 63382,
+      "published_tokens": 63382,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "english",
+      "text": "test:english",
+      "tokens": 37210,
+      "published_tokens": 37210,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "english",
+      "text": "test:hindi",
+      "tokens": 224147,
+      "published_tokens": 224147,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "english",
+      "text": "test:nepali",
+      "tokens": 293597,
+      "published_tokens": 293597,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "hindi",
+      "text": "test:english",
+      "tokens": 77910,
+      "published_tokens": 77910,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "hindi",
+      "text": "test:hindi",
+      "tokens": 45874,
+      "published_tokens": 45874,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "hindi",
+      "text": "test:nepali",
+      "tokens": 71105,
+      "published_tokens": 71105,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "nepali",
+      "text": "test:english",
+      "tokens": 83261,
+      "published_tokens": 83261,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "nepali",
+      "text": "test:hindi",
+      "tokens": 59088,
+      "published_tokens": 59088,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "nepali",
+      "text": "test:nepali",
+      "tokens": 56362,
+      "published_tokens": 56362,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "shared",
+      "text": "test:english",
+      "tokens": 40901,
+      "published_tokens": 40901,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "shared",
+      "text": "test:hindi",
+      "tokens": 52042,
+      "published_tokens": 52042,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_1",
+      "model": "shared",
+      "text": "test:nepali",
+      "tokens": 65924,
+      "published_tokens": 65924,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "english",
+      "text": "test:english",
+      "tokens": 36696,
+      "published_tokens": 36696,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "english",
+      "text": "test:hindi",
+      "tokens": 223819,
+      "published_tokens": 223819,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "english",
+      "text": "test:nepali",
+      "tokens": 293413,
+      "published_tokens": 293413,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "hindi",
+      "text": "test:english",
+      "tokens": 85838,
+      "published_tokens": 85838,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "hindi",
+      "text": "test:hindi",
+      "tokens": 45657,
+      "published_tokens": 45657,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "hindi",
+      "text": "test:nepali",
+      "tokens": 71319,
+      "published_tokens": 71319,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "nepali",
+      "text": "test:english",
+      "tokens": 92911,
+      "published_tokens": 92911,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "nepali",
+      "text": "test:hindi",
+      "tokens": 57783,
+      "published_tokens": 57783,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "nepali",
+      "text": "test:nepali",
+      "tokens": 55890,
+      "published_tokens": 55890,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "shared",
+      "text": "test:english",
+      "tokens": 41746,
+      "published_tokens": 41746,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "shared",
+      "text": "test:hindi",
+      "tokens": 51848,
+      "published_tokens": 51848,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_2",
+      "model": "shared",
+      "text": "test:nepali",
+      "tokens": 64622,
+      "published_tokens": 64622,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "english",
+      "text": "test:english",
+      "tokens": 36649,
+      "published_tokens": 36649,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "english",
+      "text": "test:hindi",
+      "tokens": 223964,
+      "published_tokens": 223964,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "english",
+      "text": "test:nepali",
+      "tokens": 293540,
+      "published_tokens": 293540,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "hindi",
+      "text": "test:english",
+      "tokens": 78073,
+      "published_tokens": 78073,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "hindi",
+      "text": "test:hindi",
+      "tokens": 46513,
+      "published_tokens": 46513,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "hindi",
+      "text": "test:nepali",
+      "tokens": 70057,
+      "published_tokens": 70057,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "nepali",
+      "text": "test:english",
+      "tokens": 92319,
+      "published_tokens": 92319,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "nepali",
+      "text": "test:hindi",
+      "tokens": 58653,
+      "published_tokens": 58653,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "nepali",
+      "text": "test:nepali",
+      "tokens": 55364,
+      "published_tokens": 55364,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "shared",
+      "text": "test:english",
+      "tokens": 41740,
+      "published_tokens": 41740,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "shared",
+      "text": "test:hindi",
+      "tokens": 52206,
+      "published_tokens": 52206,
+      "match": true
+    },
+    {
+      "experiment": "total_budget_matched_v1",
+      "replicate": "replicate_3",
+      "model": "shared",
+      "text": "test:nepali",
+      "tokens": 64213,
+      "published_tokens": 64213,
+      "match": true
+    }
+  ],
+  "hindi_nepali_top_codepoint_gaps": [
+    {
+      "character": "्",
+      "codepoint": "U+094D",
+      "name": "DEVANAGARI SIGN VIRAMA",
+      "abs_rate_gap": 0.030067435375927744,
+      "hindi_rate": 0.0335850468935758,
+      "nepali_rate": 0.06365248226950354
+    },
+    {
+      "character": "ं",
+      "codepoint": "U+0902",
+      "name": "DEVANAGARI SIGN ANUSVARA",
+      "abs_rate_gap": 0.023833393681507165,
+      "hindi_rate": 0.02793800361058518,
+      "nepali_rate": 0.0041046099290780146
+    },
+    {
+      "character": "ा",
+      "codepoint": "U+093E",
+      "name": "DEVANAGARI VOWEL SIGN AA",
+      "abs_rate_gap": 0.01800803130360487,
+      "hindi_rate": 0.06265686231341641,
+      "nepali_rate": 0.08066489361702128
+    },
+    {
+      "character": "न",
+      "codepoint": "U+0928",
+      "name": "DEVANAGARI LETTER NA",
+      "abs_rate_gap": 0.017175054360198498,
+      "hindi_rate": 0.030590903086610013,
+      "nepali_rate": 0.04776595744680851
+    },
+    {
+      "character": "े",
+      "codepoint": "U+0947",
+      "name": "DEVANAGARI VOWEL SIGN E",
+      "abs_rate_gap": 0.016757299396580716,
+      "hindi_rate": 0.04837963982211263,
+      "nepali_rate": 0.031622340425531914
+    },
+    {
+      "character": "ी",
+      "codepoint": "U+0940",
+      "name": "DEVANAGARI VOWEL SIGN II",
+      "abs_rate_gap": 0.014138021972668603,
+      "hindi_rate": 0.029776319845009027,
+      "nepali_rate": 0.015638297872340425
+    },
+    {
+      "character": "र",
+      "codepoint": "U+0930",
+      "name": "DEVANAGARI LETTER RA",
+      "abs_rate_gap": 0.009463404804932525,
+      "hindi_rate": 0.050625247677336976,
+      "nepali_rate": 0.0600886524822695
+    },
+    {
+      "character": "ु",
+      "codepoint": "U+0941",
+      "name": "DEVANAGARI VOWEL SIGN U",
+      "abs_rate_gap": 0.008311955402621467,
+      "hindi_rate": 0.009719959490995553,
+      "nepali_rate": 0.01803191489361702
+    },
+    {
+      "character": "छ",
+      "codepoint": "U+091B",
+      "name": "DEVANAGARI LETTER CHA",
+      "abs_rate_gap": 0.008269110150953189,
+      "hindi_rate": 0.0013319536788340453,
+      "nepali_rate": 0.009601063829787234
+    },
+    {
+      "character": "ि",
+      "codepoint": "U+093F",
+      "name": "DEVANAGARI VOWEL SIGN I",
+      "abs_rate_gap": 0.008001848153064824,
+      "hindi_rate": 0.028620492272467088,
+      "nepali_rate": 0.03662234042553191
+    },
+    {
+      "character": "ह",
+      "codepoint": "U+0939",
+      "name": "DEVANAGARI LETTER HA",
+      "abs_rate_gap": 0.006749479116409052,
+      "hindi_rate": 0.024382457839813305,
+      "nepali_rate": 0.017632978723404254
+    },
+    {
+      "character": "ो",
+      "codepoint": "U+094B",
+      "name": "DEVANAGARI VOWEL SIGN O",
+      "abs_rate_gap": 0.005855262829178601,
+      "hindi_rate": 0.02115714851833913,
+      "nepali_rate": 0.02701241134751773
+    },
+    {
+      "character": "ग",
+      "codepoint": "U+0917",
+      "name": "DEVANAGARI LETTER GA",
+      "abs_rate_gap": 0.005468114460734027,
+      "hindi_rate": 0.010666637312315617,
+      "nepali_rate": 0.016134751773049644
+    },
+    {
+      "character": "म",
+      "codepoint": "U+092E",
+      "name": "DEVANAGARI LETTER MA",
+      "abs_rate_gap": 0.005456868465338913,
+      "hindi_rate": 0.02388710316586676,
+      "nepali_rate": 0.029343971631205674
+    },
+    {
+      "character": "ँ",
+      "codepoint": "U+0901",
+      "name": "DEVANAGARI SIGN CANDRABINDU",
+      "abs_rate_gap": 0.004332589403516464,
+      "hindi_rate": 0.00028620492272467084,
+      "nepali_rate": 0.004618794326241135
+    }
+  ],
+  "validation_pairs": 72,
+  "method": {
+    "predominant_threshold": 0.8,
+    "token_identity": "exact UTF-8 byte string",
+    "emission_class": "share of shared-tokenizer emissions on the three training files of that replicate",
+    "rule_match": "same ordered pair of child byte strings",
+    "type_match": "same resulting byte string in the vocabulary",
+    "boundary_identity": "net extra tokens = shared boundaries absent from dedicated segmentation minus dedicated boundaries absent from shared segmentation",
+    "word_examples": "repeated_vocabulary_sharing_v1 only; whitespace-delimited types with >=5 held-out occurrences and a letter; ranked by mean extra overlapping tokens across three replicates; median band is the types nearest the median percent increase among types that increase",
+    "example_segmentation": "replicate_1 occurrence whose extra token count is closest to the median extra for that type",
+    "suffixes": "word-final 2- and 3-codepoint strings on words of at least 4 codepoints with a letter; minimum 40 occurrences; not a morphological parse",
+    "lexicon": "exact whitespace word match against the other Indic language's training file in the same replicate",
+    "ngram_min_count": 10
+  }
+}

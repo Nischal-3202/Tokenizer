@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="28" font-family="Georgia, serif" font-size="16">Dedicated learned tokens retained by the shared vocabulary</text>
+<text x="64" y="48" font-family="Helvetica, sans-serif" font-size="11" fill="#444">Mean of three replicates. Retention is exact byte-string membership, weighted by held-out emissions.</text>
+<line x1="64" y1="352.0" x2="740" y2="352.0" stroke="#e6e6e6"/>
+<text x="56" y="356.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">0</text>
+<line x1="64" y1="215.0" x2="740" y2="215.0" stroke="#e6e6e6"/>
+<text x="56" y="219.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">47</text>
+<line x1="64" y1="78.0" x2="740" y2="78.0" stroke="#e6e6e6"/>
+<text x="56" y="82.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">93</text>
+<line x1="64" y1="78" x2="64" y2="352" stroke="#222"/>
+<line x1="64" y1="352" x2="740" y2="352" stroke="#222"/>
+<text x="16" y="215.0" transform="rotate(-90 16 215.0)" font-family="Helvetica, sans-serif" font-size="11">Coverage of dedicated learned tokens (%)</text>
+<rect x="86.5" y="207.5" width="17.0" height="144.5" fill="#0072B2"/>
+<rect x="104.5" y="119.8" width="17.0" height="232.2" fill="#56B4E9"/>
+<rect x="122.5" y="214.3" width="17.0" height="137.7" fill="#E69F00"/>
+<rect x="140.5" y="125.9" width="17.0" height="226.1" fill="#D55E00"/>
+<text x="176.7" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">English</text>
+<rect x="311.9" y="230.7" width="17.0" height="121.3" fill="#0072B2"/>
+<rect x="329.9" y="135.0" width="17.0" height="217.0" fill="#56B4E9"/>
+<rect x="347.9" y="240.5" width="17.0" height="111.5" fill="#E69F00"/>
+<rect x="365.9" y="128.7" width="17.0" height="223.3" fill="#D55E00"/>
+<text x="402.0" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">Hindi</text>
+<rect x="537.2" y="235.2" width="17.0" height="116.8" fill="#0072B2"/>
+<rect x="555.2" y="135.3" width="17.0" height="216.7" fill="#56B4E9"/>
+<rect x="573.2" y="242.3" width="17.0" height="109.7" fill="#E69F00"/>
+<rect x="591.2" y="130.5" width="17.0" height="221.5" fill="#D55E00"/>
+<text x="627.3" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">Nepali</text>
+<rect x="64" y="398" width="10" height="10" fill="#0072B2"/>
+<text x="78" y="408" font-family="Helvetica, sans-serif" font-size="11">900 KB type coverage</text>
+<rect x="222" y="398" width="10" height="10" fill="#56B4E9"/>
+<text x="236" y="408" font-family="Helvetica, sans-serif" font-size="11">900 KB emission coverage</text>
+<rect x="408" y="398" width="10" height="10" fill="#E69F00"/>
+<text x="422" y="408" font-family="Helvetica, sans-serif" font-size="11">300 KB type coverage</text>
+<rect x="566" y="398" width="10" height="10" fill="#D55E00"/>
+<text x="580" y="408" font-family="Helvetica, sans-serif" font-size="11">300 KB emission coverage</text>
+<text x="64" y="442" font-family="Helvetica, sans-serif" font-size="10" fill="#444">Source: dedicated vs shared vocabularies at size 1024. Base bytes 0–255 are excluded.</text>
+</svg>

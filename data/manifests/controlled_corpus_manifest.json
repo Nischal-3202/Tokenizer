@@ -1,0 +1,22 @@
+{
+  "byte_budget_per_language": 900000,
+  "selection_method": "Deterministic source-order selection of complete documents without exceeding the per-language UTF-8 byte budget.",
+  "languages": {
+    "hindi": {
+      "source_documents": 405,
+      "selected_documents": 157,
+      "selected_utf8_bytes": 899626,
+      "selected_code_points": 362977,
+      "sha256": "5f5c10611daf215ca2506d4163a836290fbba8d3c1c70e73519da95a4b463e6e",
+      "output_file": "data/controlled/hindi_train.txt"
+    },
+    "nepali": {
+      "source_documents": 484,
+      "selected_documents": 181,
+      "selected_utf8_bytes": 899229,
+      "selected_code_points": 338618,
+      "sha256": "d244f79f5fa1818bba75d3a80f2810b6f3192dbd89e529b6ac11e0661feaffb8",
+      "output_file": "data/controlled/nepali_train.txt"
+    }
+  }
+}

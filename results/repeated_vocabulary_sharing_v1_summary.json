@@ -1,0 +1,86 @@
+{
+  "experiment": "repeated_vocabulary_sharing_v1",
+  "vocab_size": 1024,
+  "replicates": {
+    "replicate_1": {
+      "english": {
+        "dedicated_tokens": 35298,
+        "shared_tokens": 40286,
+        "penalty_percent": 14.131112244319791
+      },
+      "hindi": {
+        "dedicated_tokens": 44435,
+        "shared_tokens": 51365,
+        "penalty_percent": 15.595814110498482
+      },
+      "nepali": {
+        "dedicated_tokens": 53593,
+        "shared_tokens": 63858,
+        "penalty_percent": 19.153620808687702
+      }
+    },
+    "replicate_2": {
+      "english": {
+        "dedicated_tokens": 35218,
+        "shared_tokens": 40472,
+        "penalty_percent": 14.918507581350445
+      },
+      "hindi": {
+        "dedicated_tokens": 44545,
+        "shared_tokens": 51219,
+        "penalty_percent": 14.98260186328432
+      },
+      "nepali": {
+        "dedicated_tokens": 53864,
+        "shared_tokens": 63636,
+        "penalty_percent": 18.14198722709045
+      }
+    },
+    "replicate_3": {
+      "english": {
+        "dedicated_tokens": 35574,
+        "shared_tokens": 40413,
+        "penalty_percent": 13.602631135098667
+      },
+      "hindi": {
+        "dedicated_tokens": 44170,
+        "shared_tokens": 51368,
+        "penalty_percent": 16.29612859406837
+      },
+      "nepali": {
+        "dedicated_tokens": 53466,
+        "shared_tokens": 63382,
+        "penalty_percent": 18.546365914786968
+      }
+    }
+  },
+  "per_language": {
+    "english": {
+      "penalties_percent": [
+        14.131112244319791,
+        14.918507581350445,
+        13.602631135098667
+      ],
+      "mean_penalty_percent": 14.217416986922968,
+      "sample_stddev_percentage_points": 0.6621699833856126
+    },
+    "hindi": {
+      "penalties_percent": [
+        15.595814110498482,
+        14.98260186328432,
+        16.29612859406837
+      ],
+      "mean_penalty_percent": 15.624848189283725,
+      "sample_stddev_percentage_points": 0.657244514179647
+    },
+    "nepali": {
+      "penalties_percent": [
+        19.153620808687702,
+        18.14198722709045,
+        18.546365914786968
+      ],
+      "mean_penalty_percent": 18.61399131685504,
+      "sample_stddev_percentage_points": 0.5091959564916755
+    }
+  }
+}

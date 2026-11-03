@@ -1,0 +1,63 @@
+evidence_tier,experiment,vocab_size,replicate,language,condition,tokens,bytes_per_token,roundtrip_exact,note
+single_run_sweep,balanced_vocabulary_sweep_v1,512,,english,dedicated,43967,2.121182,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,512,,english,shared,50886,1.832763,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,512,,hindi,dedicated,54873,4.123831,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,512,,hindi,shared,63076,3.587529,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,512,,nepali,dedicated,68273,4.333148,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,512,,nepali,shared,80241,3.686856,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,1024,,english,dedicated,35490,2.627839,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,1024,,english,shared,40334,2.312243,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,1024,,hindi,dedicated,44418,5.094489,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,1024,,hindi,shared,51264,4.414150,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,1024,,nepali,dedicated,53373,5.542821,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,1024,,nepali,shared,63826,4.635055,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,2048,,english,dedicated,29658,3.144582,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,2048,,english,shared,33909,2.750361,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,2048,,hindi,dedicated,37976,5.958684,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,2048,,hindi,shared,43544,5.196744,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,2048,,nepali,dedicated,44908,6.587624,True,single deterministic balanced run
+single_run_sweep,balanced_vocabulary_sweep_v1,2048,,nepali,shared,53042,5.577410,True,single deterministic balanced run
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_1,english,dedicated,35298,2.642133,True,shared penalty 14.13%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_1,english,shared,40286,2.314998,True,shared penalty 14.13%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_1,hindi,dedicated,44435,5.092540,True,shared penalty 15.60%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_1,hindi,shared,51365,4.405471,True,shared penalty 15.60%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_1,nepali,dedicated,53593,5.520068,True,shared penalty 19.15%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_1,nepali,shared,63858,4.632732,True,shared penalty 19.15%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_2,english,dedicated,35218,2.648134,True,shared penalty 14.92%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_2,english,shared,40472,2.304359,True,shared penalty 14.92%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_2,hindi,dedicated,44545,5.079964,True,shared penalty 14.98%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_2,hindi,shared,51219,4.418028,True,shared penalty 14.98%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_2,nepali,dedicated,53864,5.492295,True,shared penalty 18.14%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_2,nepali,shared,63636,4.648894,True,shared penalty 18.14%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_3,english,dedicated,35574,2.621634,True,shared penalty 13.60%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_3,english,shared,40413,2.307723,True,shared penalty 13.60%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_3,hindi,dedicated,44170,5.123093,True,shared penalty 16.30%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_3,hindi,shared,51368,4.405213,True,shared penalty 16.30%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_3,nepali,dedicated,53466,5.533180,True,shared penalty 18.55%
+three_resample_summary,repeated_vocabulary_sharing_v1,1024,replicate_3,nepali,shared,63382,4.667524,True,shared penalty 18.55%
+total_budget_matched,total_budget_matched_v1,1024,replicate_1,english,dedicated,37210,2.506369,True,shared penalty 9.92%
+total_budget_matched,total_budget_matched_v1,1024,replicate_1,english,shared,40901,2.280189,True,shared penalty 9.92%
+total_budget_matched,total_budget_matched_v1,1024,replicate_1,hindi,dedicated,45874,4.932794,True,shared penalty 13.45%
+total_budget_matched,total_budget_matched_v1,1024,replicate_1,hindi,shared,52042,4.348161,True,shared penalty 13.45%
+total_budget_matched,total_budget_matched_v1,1024,replicate_1,nepali,dedicated,56362,5.248873,True,shared penalty 16.97%
+total_budget_matched,total_budget_matched_v1,1024,replicate_1,nepali,shared,65924,4.487546,True,shared penalty 16.97%
+total_budget_matched,total_budget_matched_v1,1024,replicate_2,english,dedicated,36696,2.541476,True,shared penalty 13.76%
+total_budget_matched,total_budget_matched_v1,1024,replicate_2,english,shared,41746,2.234034,True,shared penalty 13.76%
+total_budget_matched,total_budget_matched_v1,1024,replicate_2,hindi,dedicated,45657,4.956239,True,shared penalty 13.56%
+total_budget_matched,total_budget_matched_v1,1024,replicate_2,hindi,shared,51848,4.364431,True,shared penalty 13.56%
+total_budget_matched,total_budget_matched_v1,1024,replicate_2,nepali,dedicated,55890,5.293201,True,shared penalty 15.62%
+total_budget_matched,total_budget_matched_v1,1024,replicate_2,nepali,shared,64622,4.577961,True,shared penalty 15.62%
+total_budget_matched,total_budget_matched_v1,1024,replicate_3,english,dedicated,36649,2.544735,True,shared penalty 13.89%
+total_budget_matched,total_budget_matched_v1,1024,replicate_3,english,shared,41740,2.234356,True,shared penalty 13.89%
+total_budget_matched,total_budget_matched_v1,1024,replicate_3,hindi,dedicated,46513,4.865027,True,shared penalty 12.24%
+total_budget_matched,total_budget_matched_v1,1024,replicate_3,hindi,shared,52206,4.334502,True,shared penalty 12.24%
+total_budget_matched,total_budget_matched_v1,1024,replicate_3,nepali,dedicated,55364,5.343490,True,shared penalty 15.98%
+total_budget_matched,total_budget_matched_v1,1024,replicate_3,nepali,shared,64213,4.607120,True,shared penalty 15.98%
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,english,byte_bpe,24602,3.790830,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,english,grapheme_bpe,24467,3.811746,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,hindi,byte_bpe,30980,7.304293,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,hindi,grapheme_bpe,31879,7.098309,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,hindi,akshara_bpe,31874,7.099423,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,nepali,byte_bpe,36116,8.191300,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,nepali,grapheme_bpe,38665,7.651287,True,full-corpus dedicated training
+contextual_baseline,multilingual_tokenizer_baseline_v1,4096,,nepali,akshara_bpe,38665,7.651287,True,full-corpus dedicated training

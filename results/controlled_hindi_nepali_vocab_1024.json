@@ -1,0 +1,61 @@
+{
+  "experiment": "controlled_hindi_nepali",
+  "vocab_size": 1024,
+  "training": {
+    "hindi_utf8_bytes": 899783,
+    "nepali_utf8_bytes": 899410,
+    "joint_utf8_bytes": 1799194
+  },
+  "models": {
+    "hindi_separate": {
+      "actual_vocab_size": 1024,
+      "merge_count": 768,
+      "test": {
+        "hindi": {
+          "characters": 90844,
+          "utf8_bytes": 226287,
+          "tokens": 43839,
+          "bytes_per_token": 5.161773763087662,
+          "tokens_per_1000_chars": 482.57452335872483,
+          "roundtrip_exact": true
+        }
+      }
+    },
+    "nepali_separate": {
+      "actual_vocab_size": 1024,
+      "merge_count": 768,
+      "test": {
+        "nepali": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 52603,
+          "bytes_per_token": 5.623956808547041,
+          "tokens_per_1000_chars": 466.33865248226954,
+          "roundtrip_exact": true
+        }
+      }
+    },
+    "joint": {
+      "actual_vocab_size": 1024,
+      "merge_count": 768,
+      "test": {
+        "hindi": {
+          "characters": 90844,
+          "utf8_bytes": 226287,
+          "tokens": 45058,
+          "bytes_per_token": 5.02212703626437,
+          "tokens_per_1000_chars": 495.9931310818546,
+          "roundtrip_exact": true
+        },
+        "nepali": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 55055,
+          "bytes_per_token": 5.373481064390155,
+          "tokens_per_1000_chars": 488.0762411347518,
+          "roundtrip_exact": true
+        }
+      }
+    }
+  }
+}

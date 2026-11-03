@@ -1,0 +1,90 @@
+{
+  "experiment": "repeated_corpus_sampling_v1",
+  "selection_method": "Sort complete source lines by SHA-256 of seed plus document; greedily select documents within the byte budget.",
+  "byte_budget_per_language_per_replicate": 300000,
+  "seeds": {
+    "replicate_1": 11,
+    "replicate_2": 22,
+    "replicate_3": 33
+  },
+  "replicates": {
+    "replicate_1": {
+      "seed": 11,
+      "languages": {
+        "english": {
+          "path": "data/controlled_multilingual_replicates/replicate_1/english_train.txt",
+          "selected_documents": 35,
+          "utf8_bytes_including_newlines": 297771,
+          "code_points": 296930,
+          "sha256": "8fbc632c4c534498c4b5f516fe61933ded98ffe31a402ebe6e92152b1ac03b24"
+        },
+        "hindi": {
+          "path": "data/controlled_multilingual_replicates/replicate_1/hindi_train.txt",
+          "selected_documents": 50,
+          "utf8_bytes_including_newlines": 299583,
+          "code_points": 121501,
+          "sha256": "1751247fd5742940939f82b8f4395f2d38f71e0b0371ee850be8902987cafd32"
+        },
+        "nepali": {
+          "path": "data/controlled_multilingual_replicates/replicate_1/nepali_train.txt",
+          "selected_documents": 63,
+          "utf8_bytes_including_newlines": 298950,
+          "code_points": 112055,
+          "sha256": "6aae22488d62953ba52b7e5ac81ba456402ff1ef72f06fdd67215eb786aab060"
+        }
+      }
+    },
+    "replicate_2": {
+      "seed": 22,
+      "languages": {
+        "english": {
+          "path": "data/controlled_multilingual_replicates/replicate_2/english_train.txt",
+          "selected_documents": 28,
+          "utf8_bytes_including_newlines": 296697,
+          "code_points": 295580,
+          "sha256": "b6852a33b73d605d0b481f38acb980b231447166898e40a3a06a4f11b194f940"
+        },
+        "hindi": {
+          "path": "data/controlled_multilingual_replicates/replicate_2/hindi_train.txt",
+          "selected_documents": 63,
+          "utf8_bytes_including_newlines": 299358,
+          "code_points": 121640,
+          "sha256": "3f9ce534a8281dc660924be310db9867fd62a4db3909a3ae6ba623e60b2c0ce7"
+        },
+        "nepali": {
+          "path": "data/controlled_multilingual_replicates/replicate_2/nepali_train.txt",
+          "selected_documents": 65,
+          "utf8_bytes_including_newlines": 299125,
+          "code_points": 112265,
+          "sha256": "fc1a0bd3cac31af016dcd4668c768d914d78570681bf2da5f125bd62afd03ba3"
+        }
+      }
+    },
+    "replicate_3": {
+      "seed": 33,
+      "languages": {
+        "english": {
+          "path": "data/controlled_multilingual_replicates/replicate_3/english_train.txt",
+          "selected_documents": 29,
+          "utf8_bytes_including_newlines": 299806,
+          "code_points": 299062,
+          "sha256": "c44280061430fcd077e1de02c4afc5530626a4d5440535c1bb45ad6894fdba88"
+        },
+        "hindi": {
+          "path": "data/controlled_multilingual_replicates/replicate_3/hindi_train.txt",
+          "selected_documents": 49,
+          "utf8_bytes_including_newlines": 299596,
+          "code_points": 120526,
+          "sha256": "df2acff0c5cb466cd8e7e19e4178c21e2bb2f2dbc1e2d7d4ac2f5edde2d619fc"
+        },
+        "nepali": {
+          "path": "data/controlled_multilingual_replicates/replicate_3/nepali_train.txt",
+          "selected_documents": 70,
+          "utf8_bytes_including_newlines": 300000,
+          "code_points": 112937,
+          "sha256": "aca6593ab1119f5c53d07d242936e8869169d2a0494b4f9dd037510ffc97b709"
+        }
+      }
+    }
+  }
+}

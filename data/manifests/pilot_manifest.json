@@ -1,0 +1,55 @@
+{
+  "dataset_id": "ashtok897/indic-hplt-v2",
+  "split": "train",
+  "collection_timestamp_utc": "2026-10-28T06:18:59.246915+00:00",
+  "random_seed": 42,
+  "test_fraction": 0.1,
+  "max_characters_per_language": 1000000,
+  "cleaning": "Replace NUL characters, collapse whitespace, strip ends; reject texts outside configured length bounds; deduplicate exact cleaned text within each language.",
+  "languages": {
+    "en": {
+      "directory": "english",
+      "documents": 102,
+      "train_documents": 91,
+      "test_documents": 11,
+      "characters": 1004519,
+      "utf8_bytes": 1008080,
+      "collection_stats": {
+        "records_seen": 134,
+        "documents_kept": 102,
+        "characters_kept": 1004519,
+        "utf8_bytes_kept": 1008080,
+        "length_rejected": 32
+      }
+    },
+    "hi": {
+      "directory": "hindi",
+      "documents": 451,
+      "train_documents": 405,
+      "test_documents": 46,
+      "characters": 1001090,
+      "utf8_bytes": 2487596,
+      "collection_stats": {
+        "records_seen": 452,
+        "documents_kept": 451,
+        "characters_kept": 1001090,
+        "utf8_bytes_kept": 2487596,
+        "length_rejected": 1
+      }
+    },
+    "ne": {
+      "directory": "nepali",
+      "documents": 538,
+      "train_documents": 484,
+      "test_documents": 54,
+      "characters": 1001382,
+      "utf8_bytes": 2659149,
+      "collection_stats": {
+        "records_seen": 538,
+        "documents_kept": 538,
+        "characters_kept": 1001382,
+        "utf8_bytes_kept": 2659149
+      }
+    }
+  }
+}

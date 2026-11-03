@@ -1,0 +1,29 @@
+{
+  "experiment": "joint_hindi_nepali",
+  "requested_vocab_size": 1024,
+  "actual_vocab_size": 1024,
+  "merge_count": 768,
+  "training_characters": {
+    "hindi": 910697,
+    "nepali": 889120,
+    "combined": 1799818
+  },
+  "test": {
+    "hindi": {
+      "characters": 90844,
+      "utf8_bytes": 226287,
+      "tokens": 44944,
+      "bytes_per_token": 5.034865610537558,
+      "tokens_per_1000_chars": 494.73823257452335,
+      "roundtrip_exact": true
+    },
+    "nepali": {
+      "characters": 112800,
+      "utf8_bytes": 295837,
+      "tokens": 54678,
+      "bytes_per_token": 5.410530743626321,
+      "tokens_per_1000_chars": 484.73404255319144,
+      "roundtrip_exact": true
+    }
+  }
+}

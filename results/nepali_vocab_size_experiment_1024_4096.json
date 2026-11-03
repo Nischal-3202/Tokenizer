@@ -1,0 +1,139 @@
+{
+  "language": "nepali",
+  "vocab_sizes": [
+    1024,
+    2048,
+    4096
+  ],
+  "models": {
+    "byte_bpe": {
+      "1024": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 1024,
+        "merge_count": 768,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 52491,
+          "bytes_per_token": 5.6359566401859365,
+          "tokens_per_1000_chars": 465.34574468085106,
+          "roundtrip_exact": true
+        }
+      },
+      "2048": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2048,
+        "merge_count": 1792,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 43063,
+          "bytes_per_token": 6.869865081392379,
+          "tokens_per_1000_chars": 381.76418439716315,
+          "roundtrip_exact": true
+        }
+      },
+      "4096": {
+        "requested_vocab_size": 4096,
+        "actual_vocab_size": 4096,
+        "merge_count": 3840,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 36116,
+          "bytes_per_token": 8.191300254734744,
+          "tokens_per_1000_chars": 320.177304964539,
+          "roundtrip_exact": true
+        }
+      }
+    },
+    "grapheme_bpe": {
+      "1024": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 2326,
+        "merge_count": 0,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 74033,
+          "bytes_per_token": 3.9960152904785704,
+          "tokens_per_1000_chars": 656.3209219858156,
+          "roundtrip_exact": true
+        },
+        "base_vocab_size": 2326
+      },
+      "2048": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2326,
+        "merge_count": 0,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 74033,
+          "bytes_per_token": 3.9960152904785704,
+          "tokens_per_1000_chars": 656.3209219858156,
+          "roundtrip_exact": true
+        },
+        "base_vocab_size": 2326
+      },
+      "4096": {
+        "requested_vocab_size": 4096,
+        "actual_vocab_size": 4096,
+        "merge_count": 1770,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 38665,
+          "bytes_per_token": 7.651286693391956,
+          "tokens_per_1000_chars": 342.7748226950354,
+          "roundtrip_exact": true
+        },
+        "base_vocab_size": 2326
+      }
+    },
+    "akshara_bpe": {
+      "1024": {
+        "requested_vocab_size": 1024,
+        "actual_vocab_size": 2327,
+        "merge_count": 0,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 74033,
+          "bytes_per_token": 3.9960152904785704,
+          "tokens_per_1000_chars": 656.3209219858156,
+          "roundtrip_exact": true
+        },
+        "base_vocab_size": 2327
+      },
+      "2048": {
+        "requested_vocab_size": 2048,
+        "actual_vocab_size": 2327,
+        "merge_count": 0,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 74033,
+          "bytes_per_token": 3.9960152904785704,
+          "tokens_per_1000_chars": 656.3209219858156,
+          "roundtrip_exact": true
+        },
+        "base_vocab_size": 2327
+      },
+      "4096": {
+        "requested_vocab_size": 4096,
+        "actual_vocab_size": 4096,
+        "merge_count": 1769,
+        "test": {
+          "characters": 112800,
+          "utf8_bytes": 295837,
+          "tokens": 38665,
+          "bytes_per_token": 7.651286693391956,
+          "tokens_per_1000_chars": 342.7748226950354,
+          "roundtrip_exact": true
+        },
+        "base_vocab_size": 2327
+      }
+    }
+  }
+}

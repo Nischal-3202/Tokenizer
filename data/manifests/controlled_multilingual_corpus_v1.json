@@ -1,0 +1,31 @@
+{
+  "experiment": "controlled_multilingual_corpus_v1",
+  "byte_budget_per_language": 900000,
+  "selection_method": "Deterministic source-order selection of complete documents without exceeding the UTF-8 byte budget.",
+  "languages": {
+    "english": {
+      "source_documents": 91,
+      "selected_documents": 89,
+      "selected_utf8_bytes": 894067,
+      "selected_code_points": 891008,
+      "sha256": "b1916ccd90be0da64fb143edaa4e469aa19e94a00fc10f366aaacbd713fff78f",
+      "output_file": "data/controlled_multilingual/english_train.txt"
+    },
+    "hindi": {
+      "source_documents": 405,
+      "selected_documents": 157,
+      "selected_utf8_bytes": 899626,
+      "selected_code_points": 362977,
+      "sha256": "5f5c10611daf215ca2506d4163a836290fbba8d3c1c70e73519da95a4b463e6e",
+      "output_file": "data/controlled_multilingual/hindi_train.txt"
+    },
+    "nepali": {
+      "source_documents": 484,
+      "selected_documents": 181,
+      "selected_utf8_bytes": 899229,
+      "selected_code_points": 338618,
+      "sha256": "d244f79f5fa1818bba75d3a80f2810b6f3192dbd89e529b6ac11e0661feaffb8",
+      "output_file": "data/controlled_multilingual/nepali_train.txt"
+    }
+  }
+}

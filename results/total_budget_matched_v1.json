@@ -1,0 +1,596 @@
+{
+  "experiment": "total_budget_matched_v1",
+  "created_at_utc": "2026-10-29T07:13:33.261473+00:00",
+  "python_version": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "algorithm": "byte_level_bpe",
+  "requested_vocab_size": 1024,
+  "selection_manifest": "data/manifests/total_budget_matched_replicates_v1.json",
+  "design": "Each dedicated and joint source language sample is matched within replicate at approximately 100 KB; the joint tokenizer totals approximately 300 KB.",
+  "test_data": {
+    "english": {
+      "utf8_bytes": 93262,
+      "code_points": 92916,
+      "sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd"
+    },
+    "hindi": {
+      "utf8_bytes": 226287,
+      "code_points": 90844,
+      "sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21"
+    },
+    "nepali": {
+      "utf8_bytes": 295837,
+      "code_points": 112800,
+      "sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497"
+    }
+  },
+  "replicates": {
+    "replicate_1": {
+      "training_data": {
+        "english": {
+          "utf8_bytes": 99884,
+          "code_points": 99616,
+          "sha256": "8eca633db71fb80b4a221f0c76bc406e06ddb418172aaa03c796e3ea1ee81dc9"
+        },
+        "hindi": {
+          "utf8_bytes": 98750,
+          "code_points": 39624,
+          "sha256": "9417a85b107496b2f01fa6a2336f746b05c7118da35925d689bccbf64030b28b"
+        },
+        "nepali": {
+          "utf8_bytes": 99246,
+          "code_points": 37292,
+          "sha256": "817f83a08778ae44984f4b23955b55fe4cab0293d4b9a4141892639530f46582"
+        }
+      },
+      "models": {
+        "english_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 99884,
+          "training_sha256": "8eca633db71fb80b4a221f0c76bc406e06ddb418172aaa03c796e3ea1ee81dc9",
+          "model_file": "results/models/total_budget_matched_v1_replicate_1_english_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 37210,
+                "bytes_per_token": 2.506369255576458,
+                "tokens_per_1000_chars": 400.4692410349133,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 224147,
+                "bytes_per_token": 1.009547306009003,
+                "tokens_per_1000_chars": 2467.3836466910307,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 293597,
+                "bytes_per_token": 1.0076295057510805,
+                "tokens_per_1000_chars": 2602.8102836879434,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "hindi_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 98750,
+          "training_sha256": "9417a85b107496b2f01fa6a2336f746b05c7118da35925d689bccbf64030b28b",
+          "model_file": "results/models/total_budget_matched_v1_replicate_1_hindi_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 77910,
+                "bytes_per_token": 1.1970478757540752,
+                "tokens_per_1000_chars": 838.4992896810022,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 45874,
+                "bytes_per_token": 4.932794175349871,
+                "tokens_per_1000_chars": 504.975562502752,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 71105,
+                "bytes_per_token": 4.160565361085719,
+                "tokens_per_1000_chars": 630.363475177305,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "nepali_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 99246,
+          "training_sha256": "817f83a08778ae44984f4b23955b55fe4cab0293d4b9a4141892639530f46582",
+          "model_file": "results/models/total_budget_matched_v1_replicate_1_nepali_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 83261,
+                "bytes_per_token": 1.1201162609144737,
+                "tokens_per_1000_chars": 896.0889405484523,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 59088,
+                "bytes_per_token": 3.8296608448415923,
+                "tokens_per_1000_chars": 650.4337105367442,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 56362,
+                "bytes_per_token": 5.248873354387708,
+                "tokens_per_1000_chars": 499.66312056737587,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "shared_multilingual": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 297882,
+          "training_sha256": "3308b2d221095aeb17feae53db7566a27a5fa221ab1a0609fcc0eb347bc368eb",
+          "model_file": "results/models/total_budget_matched_v1_replicate_1_shared_multilingual_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 40901,
+                "bytes_per_token": 2.2801887484413585,
+                "tokens_per_1000_chars": 440.1932928666753,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 52042,
+                "bytes_per_token": 4.348161100649476,
+                "tokens_per_1000_chars": 572.8721764783585,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 65924,
+                "bytes_per_token": 4.487546265396517,
+                "tokens_per_1000_chars": 584.4326241134752,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "replicate_2": {
+      "training_data": {
+        "english": {
+          "utf8_bytes": 98309,
+          "code_points": 97980,
+          "sha256": "63a484b1734eee623d72a8f28b9c1d6b2ec0def2181f1f5ea784a588c460fc96"
+        },
+        "hindi": {
+          "utf8_bytes": 99405,
+          "code_points": 39509,
+          "sha256": "617656599cd7d3b8fd7d218d8b8a0e4c2e2eebcef775fd018163d1ea7eaa579c"
+        },
+        "nepali": {
+          "utf8_bytes": 99588,
+          "code_points": 37240,
+          "sha256": "feb79e21a619ba43543300d5ff42b850c57e0829227a76222063a40421d4f3fd"
+        }
+      },
+      "models": {
+        "english_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 98309,
+          "training_sha256": "63a484b1734eee623d72a8f28b9c1d6b2ec0def2181f1f5ea784a588c460fc96",
+          "model_file": "results/models/total_budget_matched_v1_replicate_2_english_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 36696,
+                "bytes_per_token": 2.5414759101809463,
+                "tokens_per_1000_chars": 394.9373627792845,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 223819,
+                "bytes_per_token": 1.0110267671645392,
+                "tokens_per_1000_chars": 2463.7730615120427,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 293413,
+                "bytes_per_token": 1.0082613926444977,
+                "tokens_per_1000_chars": 2601.1790780141846,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "hindi_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 99405,
+          "training_sha256": "617656599cd7d3b8fd7d218d8b8a0e4c2e2eebcef775fd018163d1ea7eaa579c",
+          "model_file": "results/models/total_budget_matched_v1_replicate_2_hindi_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 85838,
+                "bytes_per_token": 1.0864885015960297,
+                "tokens_per_1000_chars": 923.8236686899995,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 45657,
+                "bytes_per_token": 4.956238911886458,
+                "tokens_per_1000_chars": 502.5868521861653,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 71319,
+                "bytes_per_token": 4.148081156494062,
+                "tokens_per_1000_chars": 632.2606382978723,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "nepali_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 99588,
+          "training_sha256": "feb79e21a619ba43543300d5ff42b850c57e0829227a76222063a40421d4f3fd",
+          "model_file": "results/models/total_budget_matched_v1_replicate_2_nepali_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 92911,
+                "bytes_per_token": 1.0037778088708549,
+                "tokens_per_1000_chars": 999.9461879547118,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 57783,
+                "bytes_per_token": 3.916151809355693,
+                "tokens_per_1000_chars": 636.0684249922945,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 55890,
+                "bytes_per_token": 5.293200930398998,
+                "tokens_per_1000_chars": 495.47872340425533,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "shared_multilingual": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 297304,
+          "training_sha256": "939fb63129f2928c129370332511df26ea7bdd57100cb7327ef16def53f85cc1",
+          "model_file": "results/models/total_budget_matched_v1_replicate_2_shared_multilingual_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 41746,
+                "bytes_per_token": 2.234034398505246,
+                "tokens_per_1000_chars": 449.287528520384,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 51848,
+                "bytes_per_token": 4.364430643419225,
+                "tokens_per_1000_chars": 570.7366474395668,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 64622,
+                "bytes_per_token": 4.577961065890873,
+                "tokens_per_1000_chars": 572.8900709219859,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "replicate_3": {
+      "training_data": {
+        "english": {
+          "utf8_bytes": 96525,
+          "code_points": 96378,
+          "sha256": "0efb4928105b2107ceb89d49829f3c580e21920ae71c739d9dcb2785e74f592f"
+        },
+        "hindi": {
+          "utf8_bytes": 99720,
+          "code_points": 40308,
+          "sha256": "7cb81885c4014bdd692dd27d03aabc4ee7653f667400c00708a7a4bc26d7e49f"
+        },
+        "nepali": {
+          "utf8_bytes": 99620,
+          "code_points": 37496,
+          "sha256": "b17b719f7d7862f9438780aaf1ef7dacd41bf5fd472921eee68a0010458d4c5a"
+        }
+      },
+      "models": {
+        "english_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 96525,
+          "training_sha256": "0efb4928105b2107ceb89d49829f3c580e21920ae71c739d9dcb2785e74f592f",
+          "model_file": "results/models/total_budget_matched_v1_replicate_3_english_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 36649,
+                "bytes_per_token": 2.5447351905918305,
+                "tokens_per_1000_chars": 394.4315295535753,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 223964,
+                "bytes_per_token": 1.01037220267543,
+                "tokens_per_1000_chars": 2465.3692043503147,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 293540,
+                "bytes_per_token": 1.0078251686311916,
+                "tokens_per_1000_chars": 2602.304964539007,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "hindi_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 99720,
+          "training_sha256": "7cb81885c4014bdd692dd27d03aabc4ee7653f667400c00708a7a4bc26d7e49f",
+          "model_file": "results/models/total_budget_matched_v1_replicate_3_hindi_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 78073,
+                "bytes_per_token": 1.194548691609135,
+                "tokens_per_1000_chars": 840.2535623573981,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 46513,
+                "bytes_per_token": 4.86502698170404,
+                "tokens_per_1000_chars": 512.0095988727929,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 70057,
+                "bytes_per_token": 4.222804287936966,
+                "tokens_per_1000_chars": 621.072695035461,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "nepali_separate": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 99620,
+          "training_sha256": "b17b719f7d7862f9438780aaf1ef7dacd41bf5fd472921eee68a0010458d4c5a",
+          "model_file": "results/models/total_budget_matched_v1_replicate_3_nepali_separate_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 92319,
+                "bytes_per_token": 1.0102145820470325,
+                "tokens_per_1000_chars": 993.5748417925868,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 58653,
+                "bytes_per_token": 3.858063526162345,
+                "tokens_per_1000_chars": 645.6452820219278,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 55364,
+                "bytes_per_token": 5.343490354743154,
+                "tokens_per_1000_chars": 490.8156028368794,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        },
+        "shared_multilingual": {
+          "actual_vocab_size": 1024,
+          "merge_count": 768,
+          "training_utf8_bytes": 295867,
+          "training_sha256": "e10b2ce7d588e9b41be64438a976fd29eb9e5afc364bd7ce4dd9a08d42dbd139",
+          "model_file": "results/models/total_budget_matched_v1_replicate_3_shared_multilingual_vocab_1024.json",
+          "test": {
+            "english": {
+              "test_sha256": "3ca0d56b55616435f868d83b95b17e08ddae354edc0f2251961fe4944cd3bcfd",
+              "metrics": {
+                "characters": 92916,
+                "utf8_bytes": 93262,
+                "tokens": 41740,
+                "bytes_per_token": 2.234355534259703,
+                "tokens_per_1000_chars": 449.22295406603814,
+                "roundtrip_exact": true
+              }
+            },
+            "hindi": {
+              "test_sha256": "1a10e42e80775ad75254534e4dae8e455f6208ac7ceeaeb5c7485cfb21239f21",
+              "metrics": {
+                "characters": 90844,
+                "utf8_bytes": 226287,
+                "tokens": 52206,
+                "bytes_per_token": 4.334501781404437,
+                "tokens_per_1000_chars": 574.6774690678526,
+                "roundtrip_exact": true
+              }
+            },
+            "nepali": {
+              "test_sha256": "c90991323ea059db86845d94ea42f7370dc82acc7d8f9e98b13a83a927973497",
+              "metrics": {
+                "characters": 112800,
+                "utf8_bytes": 295837,
+                "tokens": 64213,
+                "bytes_per_token": 4.607120053571706,
+                "tokens_per_1000_chars": 569.264184397163,
+                "roundtrip_exact": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

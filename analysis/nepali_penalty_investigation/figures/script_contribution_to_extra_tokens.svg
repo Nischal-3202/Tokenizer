@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="28" font-family="Georgia, serif" font-size="16">Extra shared tokens by the script at the token start</text>
+<text x="64" y="48" font-family="Helvetica, sans-serif" font-size="11" fill="#444">Mean token-count difference (shared minus dedicated) across three replicates. Parts sum to the net penalty.</text>
+<line x1="64" y1="352.0" x2="740" y2="352.0" stroke="#e6e6e6"/>
+<text x="56" y="356.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">0</text>
+<line x1="64" y1="215.0" x2="740" y2="215.0" stroke="#e6e6e6"/>
+<text x="56" y="219.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">6101</text>
+<line x1="64" y1="78.0" x2="740" y2="78.0" stroke="#e6e6e6"/>
+<text x="56" y="82.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">12202</text>
+<line x1="64" y1="78" x2="64" y2="352" stroke="#222"/>
+<line x1="64" y1="352" x2="740" y2="352" stroke="#222"/>
+<text x="16" y="215.0" transform="rotate(-90 16 215.0)" font-family="Helvetica, sans-serif" font-size="11">Extra tokens (shared − dedicated)</text>
+<rect x="86.5" y="352.0" width="17.0" height="0.0" fill="#009E73"/>
+<rect x="104.5" y="236.5" width="17.0" height="115.5" fill="#0072B2"/>
+<rect x="122.5" y="355.6" width="17.0" height="-3.6" fill="#999999"/>
+<rect x="140.5" y="351.7" width="17.0" height="0.3" fill="#E69F00"/>
+<text x="176.7" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">English</text>
+<rect x="311.9" y="236.8" width="17.0" height="115.2" fill="#009E73"/>
+<rect x="329.9" y="357.6" width="17.0" height="-5.6" fill="#0072B2"/>
+<rect x="347.9" y="317.3" width="17.0" height="34.7" fill="#999999"/>
+<rect x="365.9" y="341.4" width="17.0" height="10.6" fill="#E69F00"/>
+<text x="402.0" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">Hindi</text>
+<rect x="537.2" y="119.8" width="17.0" height="232.2" fill="#009E73"/>
+<rect x="555.2" y="374.3" width="17.0" height="-22.3" fill="#0072B2"/>
+<rect x="573.2" y="339.5" width="17.0" height="12.5" fill="#999999"/>
+<rect x="591.2" y="351.9" width="17.0" height="0.1" fill="#E69F00"/>
+<text x="627.3" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">Nepali</text>
+<rect x="64" y="398" width="10" height="10" fill="#009E73"/>
+<text x="78" y="408" font-family="Helvetica, sans-serif" font-size="11">Devanagari</text>
+<rect x="152" y="398" width="10" height="10" fill="#0072B2"/>
+<text x="166" y="408" font-family="Helvetica, sans-serif" font-size="11">Latin letters</text>
+<rect x="261" y="398" width="10" height="10" fill="#999999"/>
+<text x="275" y="408" font-family="Helvetica, sans-serif" font-size="11">Whitespace</text>
+<rect x="349" y="398" width="10" height="10" fill="#E69F00"/>
+<text x="363" y="408" font-family="Helvetica, sans-serif" font-size="11">Other ASCII</text>
+<text x="64" y="442" font-family="Helvetica, sans-serif" font-size="10" fill="#444">Source: repeated_vocabulary_sharing_v1 on fixed held-out tests. Script is the codepoint containing the token's first byte.</text>
+</svg>

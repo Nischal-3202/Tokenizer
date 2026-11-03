@@ -1,0 +1,68 @@
+{
+  "en": {
+    "language": "english",
+    "requested_vocab_size": 512,
+    "actual_vocab_size": 512,
+    "merge_count": 256,
+    "train": {
+      "characters": 911705,
+      "utf8_bytes": 914920,
+      "tokens": 433996,
+      "bytes_per_token": 2.1081300288481923,
+      "tokens_per_1000_chars": 476.0267849797906,
+      "roundtrip_exact": true
+    },
+    "test": {
+      "characters": 92916,
+      "utf8_bytes": 93262,
+      "tokens": 43838,
+      "bytes_per_token": 2.127423696336512,
+      "tokens_per_1000_chars": 471.8024882689741,
+      "roundtrip_exact": true
+    }
+  },
+  "hi": {
+    "language": "hindi",
+    "requested_vocab_size": 512,
+    "actual_vocab_size": 512,
+    "merge_count": 256,
+    "train": {
+      "characters": 910697,
+      "utf8_bytes": 2261760,
+      "tokens": 543360,
+      "bytes_per_token": 4.162544169611308,
+      "tokens_per_1000_chars": 596.641912732775,
+      "roundtrip_exact": true
+    },
+    "test": {
+      "characters": 90844,
+      "utf8_bytes": 226287,
+      "tokens": 54410,
+      "bytes_per_token": 4.158922992097041,
+      "tokens_per_1000_chars": 598.9388402095901,
+      "roundtrip_exact": true
+    }
+  },
+  "ne": {
+    "language": "nepali",
+    "requested_vocab_size": 512,
+    "actual_vocab_size": 512,
+    "merge_count": 256,
+    "train": {
+      "characters": 889120,
+      "utf8_bytes": 2363850,
+      "tokens": 531018,
+      "bytes_per_token": 4.451544015457103,
+      "tokens_per_1000_chars": 597.2399676084218,
+      "roundtrip_exact": true
+    },
+    "test": {
+      "characters": 112800,
+      "utf8_bytes": 295837,
+      "tokens": 67952,
+      "bytes_per_token": 4.353617259241818,
+      "tokens_per_1000_chars": 602.4113475177305,
+      "roundtrip_exact": true
+    }
+  }
+}

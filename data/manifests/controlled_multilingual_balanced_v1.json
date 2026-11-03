@@ -1,0 +1,34 @@
+{
+  "experiment": "balanced_multilingual_corpus_v1",
+  "selection_method": "SHA-256 hash ordering; retain complete documents while staying within the byte budget",
+  "byte_budget_per_language": 300000,
+  "languages": {
+    "english": {
+      "source_path": "data/processed/english/train.txt",
+      "output_path": "data/controlled_multilingual_balanced/english_train.txt",
+      "available_documents": 91,
+      "selected_documents": 31,
+      "selected_document_bytes": 297350,
+      "output_bytes_including_newlines": 297381,
+      "output_sha256": "cd1ad6177fcc8d52bbdd872cdb3db4b38416547102fbe60fc837ffb19258bafe"
+    },
+    "hindi": {
+      "source_path": "data/processed/hindi/train.txt",
+      "output_path": "data/controlled_multilingual_balanced/hindi_train.txt",
+      "available_documents": 405,
+      "selected_documents": 55,
+      "selected_document_bytes": 299830,
+      "output_bytes_including_newlines": 299885,
+      "output_sha256": "3882f079ffbbc5439fe8885bf4923280ddef99943156cde79176d4d019d46de0"
+    },
+    "nepali": {
+      "source_path": "data/processed/nepali/train.txt",
+      "output_path": "data/controlled_multilingual_balanced/nepali_train.txt",
+      "available_documents": 484,
+      "selected_documents": 67,
+      "selected_document_bytes": 299281,
+      "output_bytes_including_newlines": 299348,
+      "output_sha256": "05118d4217fe12b717c667de7139f883b8d82a8e82d2783f5ea8e788b0d5bfe1"
+    }
+  }
+}

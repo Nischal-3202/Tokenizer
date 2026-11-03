@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="64" y="28" font-family="Georgia, serif" font-size="16">Script composition of the fixed held-out tests</text>
+<text x="64" y="48" font-family="Helvetica, sans-serif" font-size="11" fill="#444">Share of Unicode codepoints. English, Hindi, and Nepali tests are the sets used for the published penalties.</text>
+<line x1="64" y1="352.0" x2="740" y2="352.0" stroke="#e6e6e6"/>
+<text x="56" y="356.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">0</text>
+<line x1="64" y1="215.0" x2="740" y2="215.0" stroke="#e6e6e6"/>
+<text x="56" y="219.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">48</text>
+<line x1="64" y1="78.0" x2="740" y2="78.0" stroke="#e6e6e6"/>
+<text x="56" y="82.0" text-anchor="end" font-family="Helvetica, sans-serif" font-size="10" fill="#333">96</text>
+<line x1="64" y1="78" x2="64" y2="352" stroke="#222"/>
+<line x1="64" y1="352" x2="740" y2="352" stroke="#222"/>
+<text x="16" y="215.0" transform="rotate(-90 16 215.0)" font-family="Helvetica, sans-serif" font-size="11">Codepoints (%)</text>
+<rect x="86.5" y="352.0" width="17.0" height="0.0" fill="#009E73"/>
+<rect x="104.5" y="121.0" width="17.0" height="231.0" fill="#0072B2"/>
+<rect x="122.5" y="303.4" width="17.0" height="48.6" fill="#999999"/>
+<rect x="140.5" y="345.5" width="17.0" height="6.5" fill="#E69F00"/>
+<rect x="158.5" y="351.5" width="17.0" height="0.5" fill="#CC79A7"/>
+<text x="176.7" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">English</text>
+<rect x="311.9" y="138.6" width="17.0" height="213.4" fill="#009E73"/>
+<rect x="329.9" y="344.7" width="17.0" height="7.3" fill="#0072B2"/>
+<rect x="347.9" y="296.0" width="17.0" height="56.0" fill="#999999"/>
+<rect x="365.9" y="342.3" width="17.0" height="9.7" fill="#E69F00"/>
+<rect x="383.9" y="351.6" width="17.0" height="0.4" fill="#CC79A7"/>
+<text x="402.0" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">Hindi</text>
+<rect x="537.2" y="119.8" width="17.0" height="232.2" fill="#009E73"/>
+<rect x="555.2" y="345.5" width="17.0" height="6.5" fill="#0072B2"/>
+<rect x="573.2" y="307.0" width="17.0" height="45.0" fill="#999999"/>
+<rect x="591.2" y="349.4" width="17.0" height="2.6" fill="#E69F00"/>
+<rect x="609.2" y="351.5" width="17.0" height="0.5" fill="#CC79A7"/>
+<text x="627.3" y="368" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="11">Nepali</text>
+<rect x="64" y="398" width="10" height="10" fill="#009E73"/>
+<text x="78" y="408" font-family="Helvetica, sans-serif" font-size="11">Devanagari</text>
+<rect x="152" y="398" width="10" height="10" fill="#0072B2"/>
+<text x="166" y="408" font-family="Helvetica, sans-serif" font-size="11">Latin letters</text>
+<rect x="261" y="398" width="10" height="10" fill="#999999"/>
+<text x="275" y="408" font-family="Helvetica, sans-serif" font-size="11">Whitespace</text>
+<rect x="349" y="398" width="10" height="10" fill="#E69F00"/>
+<text x="363" y="408" font-family="Helvetica, sans-serif" font-size="11">Other ASCII</text>
+<rect x="444" y="398" width="10" height="10" fill="#CC79A7"/>
+<text x="458" y="408" font-family="Helvetica, sans-serif" font-size="11">Other</text>
+<text x="64" y="442" font-family="Helvetica, sans-serif" font-size="10" fill="#444">Source: data/processed/{english,hindi,nepali}/test.txt.</text>
+</svg>

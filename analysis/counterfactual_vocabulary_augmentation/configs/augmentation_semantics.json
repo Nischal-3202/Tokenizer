@@ -1,0 +1,20 @@
+{
+  "experiment": "counterfactual_vocabulary_augmentation",
+  "source": "repeated_vocabulary_sharing_v1",
+  "priority": "Original shared merge ids are unchanged and always outrank added merges. Added ids increase in acceptance order.",
+  "candidate_identity": "Dedicated merge parent byte string, with that merge's own child byte strings.",
+  "frequency": "Dedicated-tokenizer emission count on the replicate training file. Test text is not used.",
+  "eligibility": "Both children exist uniquely in the original shared vocabulary, and isolation encoding returns the new id.",
+  "cumulative_block": "A later eligible piece is skipped if higher-priority added merges prevent isolation construction.",
+  "budgets": [
+    "25",
+    "50",
+    "100",
+    "200",
+    "all"
+  ],
+  "combined_budget": "Per language. Turns alternate, Nepali then Hindi.",
+  "random_seed": "random.Random(20261030 + replicate_index), replicate_1 index 0.",
+  "excluded_without_shared_children": "Not added. A prerequisite merge would be a new token the frequency rank did not independently justify, and it would need its own priority.",
+  "not_a_retrained_tokenizer": true
+}

@@ -1,0 +1,4539 @@
+{
+  "replicate": "replicate_1",
+  "source_language": "hindi",
+  "training_file": "data/controlled_multilingual_replicates/replicate_1/hindi_train.txt",
+  "training_sha256": "1751247fd5742940939f82b8f4395f2d38f71e0b0371ee850be8902987cafd32",
+  "missing_dedicated_strings": 444,
+  "individually_eligible": 348,
+  "frequency_accepted": 348,
+  "random_accepted": 348,
+  "random_seed": 20261030,
+  "frequency_order": [
+    {
+      "addition_order": 1,
+      "frequency_rank": 1,
+      "train_emissions": 307,
+      "hex": "2c20e0a4",
+      "gloss": ", ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 2,
+      "frequency_rank": 4,
+      "train_emissions": 109,
+      "hex": "e0a48220e0a4",
+      "gloss": "ं ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 3,
+      "frequency_rank": 5,
+      "train_emissions": 104,
+      "hex": "b8e0a58720e0a4",
+      "gloss": "⟨b8⟩े ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 4,
+      "frequency_rank": 7,
+      "train_emissions": 102,
+      "hex": "94e0a4b020e0a4",
+      "gloss": "⟨94⟩र ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 5,
+      "frequency_rank": 9,
+      "train_emissions": 100,
+      "hex": "ade0a58020e0a4",
+      "gloss": "⟨ad⟩ी ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 6,
+      "frequency_rank": 11,
+      "train_emissions": 79,
+      "hex": "e0a4a8e0a587",
+      "gloss": "ने"
+    },
+    {
+      "addition_order": 7,
+      "frequency_rank": 12,
+      "train_emissions": 77,
+      "hex": "b9e0a4ae",
+      "gloss": "⟨b9⟩म"
+    },
+    {
+      "addition_order": 8,
+      "frequency_rank": 13,
+      "train_emissions": 77,
+      "hex": "e0a4bee0a4b0e0a58020e0a4",
+      "gloss": "ारी ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 9,
+      "frequency_rank": 14,
+      "train_emissions": 76,
+      "hex": "e0a4bee0a5a420e0a4",
+      "gloss": "ा। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 10,
+      "frequency_rank": 16,
+      "train_emissions": 71,
+      "hex": "afe0a4b9",
+      "gloss": "⟨af⟩ह"
+    },
+    {
+      "addition_order": 11,
+      "frequency_rank": 17,
+      "train_emissions": 71,
+      "hex": "2c20e0a4b8",
+      "gloss": ", स"
+    },
+    {
+      "addition_order": 12,
+      "frequency_rank": 18,
+      "train_emissions": 69,
+      "hex": "86e0a4aa",
+      "gloss": "⟨86⟩प"
+    },
+    {
+      "addition_order": 13,
+      "frequency_rank": 19,
+      "train_emissions": 69,
+      "hex": "e0a4a820e0a495",
+      "gloss": "न क"
+    },
+    {
+      "addition_order": 14,
+      "frequency_rank": 20,
+      "train_emissions": 69,
+      "hex": "e0a4bfe0a4afe0a4be20e0a4",
+      "gloss": "िया ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 15,
+      "frequency_rank": 21,
+      "train_emissions": 68,
+      "hex": "e0a482e0a4a1",
+      "gloss": "ंड"
+    },
+    {
+      "addition_order": 16,
+      "frequency_rank": 23,
+      "train_emissions": 66,
+      "hex": "b2e0a497",
+      "gloss": "⟨b2⟩ग"
+    },
+    {
+      "addition_order": 17,
+      "frequency_rank": 24,
+      "train_emissions": 65,
+      "hex": "aae0a4b020e0a4",
+      "gloss": "⟨aa⟩र ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 18,
+      "frequency_rank": 25,
+      "train_emissions": 64,
+      "hex": "e0a4b020e0a495",
+      "gloss": "र क"
+    },
+    {
+      "addition_order": 19,
+      "frequency_rank": 26,
+      "train_emissions": 61,
+      "hex": "e0a5a420e0a487e0a4b8",
+      "gloss": "। इस"
+    },
+    {
+      "addition_order": 20,
+      "frequency_rank": 27,
+      "train_emissions": 61,
+      "hex": "e0a4a4e0a58020e0a4b9e0a588",
+      "gloss": "ती है"
+    },
+    {
+      "addition_order": 21,
+      "frequency_rank": 29,
+      "train_emissions": 57,
+      "hex": "e0a4bee0a5a4",
+      "gloss": "ा।"
+    },
+    {
+      "addition_order": 22,
+      "frequency_rank": 32,
+      "train_emissions": 54,
+      "hex": "e0a482e0a49f",
+      "gloss": "ंट"
+    },
+    {
+      "addition_order": 23,
+      "frequency_rank": 33,
+      "train_emissions": 54,
+      "hex": "20e0a495e0a588",
+      "gloss": " कै"
+    },
+    {
+      "addition_order": 24,
+      "frequency_rank": 34,
+      "train_emissions": 54,
+      "hex": "e0a4a4e0a4be20e0a4",
+      "gloss": "ता ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 25,
+      "frequency_rank": 36,
+      "train_emissions": 53,
+      "hex": "e0a4b9e0a4a4",
+      "gloss": "हत"
+    },
+    {
+      "addition_order": 26,
+      "frequency_rank": 37,
+      "train_emissions": 52,
+      "hex": "20e0a4aee0a4bfe0a4b2",
+      "gloss": " मिल"
+    },
+    {
+      "addition_order": 27,
+      "frequency_rank": 38,
+      "train_emissions": 51,
+      "hex": "e0a58be0a48220e0a495e0a58020e0a4",
+      "gloss": "ों की ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 28,
+      "frequency_rank": 39,
+      "train_emissions": 51,
+      "hex": "20e0a495e0a58720e0a4b8e0a4bee0a4a5",
+      "gloss": " के साथ"
+    },
+    {
+      "addition_order": 29,
+      "frequency_rank": 40,
+      "train_emissions": 49,
+      "hex": "e0a582e0a49f",
+      "gloss": "ूट"
+    },
+    {
+      "addition_order": 30,
+      "frequency_rank": 41,
+      "train_emissions": 49,
+      "hex": "20e0a4afe0a4b9",
+      "gloss": " यह"
+    },
+    {
+      "addition_order": 31,
+      "frequency_rank": 42,
+      "train_emissions": 49,
+      "hex": "e0a4b8e0a58720e0a4",
+      "gloss": "से ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 32,
+      "frequency_rank": 43,
+      "train_emissions": 49,
+      "hex": "20e0a495e0a58720e0a4ace0a4bee0a4a6",
+      "gloss": " के बाद"
+    },
+    {
+      "addition_order": 33,
+      "frequency_rank": 44,
+      "train_emissions": 48,
+      "hex": "e0a482e0a49a",
+      "gloss": "ंच"
+    },
+    {
+      "addition_order": 34,
+      "frequency_rank": 45,
+      "train_emissions": 48,
+      "hex": "e0a482e0a4b8",
+      "gloss": "ंस"
+    },
+    {
+      "addition_order": 35,
+      "frequency_rank": 46,
+      "train_emissions": 48,
+      "hex": "97e0a4bee0a482e0a4a7",
+      "gloss": "⟨97⟩ांध"
+    },
+    {
+      "addition_order": 36,
+      "frequency_rank": 47,
+      "train_emissions": 48,
+      "hex": "e0a58be0a48220e0a495e0a58b20e0a4",
+      "gloss": "ों को ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 37,
+      "frequency_rank": 48,
+      "train_emissions": 47,
+      "hex": "20e0a495e0a58020e0a4b8",
+      "gloss": " की स"
+    },
+    {
+      "addition_order": 38,
+      "frequency_rank": 49,
+      "train_emissions": 46,
+      "hex": "e0a587e0a5a420e0a4",
+      "gloss": "े। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 39,
+      "frequency_rank": 50,
+      "train_emissions": 46,
+      "hex": "e0a4be20e0a495e0a4bf",
+      "gloss": "ा कि"
+    },
+    {
+      "addition_order": 40,
+      "frequency_rank": 52,
+      "train_emissions": 46,
+      "hex": "e0a4be20e0a4b9e0a588e0a5a420e0a4",
+      "gloss": "ा है। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 41,
+      "frequency_rank": 53,
+      "train_emissions": 45,
+      "hex": "e0a580e0a48f",
+      "gloss": "ीए"
+    },
+    {
+      "addition_order": 42,
+      "frequency_rank": 54,
+      "train_emissions": 45,
+      "hex": "e0a58be0a4a1e0a4bc",
+      "gloss": "ोड़"
+    },
+    {
+      "addition_order": 43,
+      "frequency_rank": 56,
+      "train_emissions": 45,
+      "hex": "e0a58de0a49fe0a58de0a4b0",
+      "gloss": "्ट्र"
+    },
+    {
+      "addition_order": 44,
+      "frequency_rank": 57,
+      "train_emissions": 44,
+      "hex": "203130",
+      "gloss": " 10"
+    },
+    {
+      "addition_order": 45,
+      "frequency_rank": 58,
+      "train_emissions": 44,
+      "hex": "e0a482e0a4ac",
+      "gloss": "ंब"
+    },
+    {
+      "addition_order": 46,
+      "frequency_rank": 59,
+      "train_emissions": 44,
+      "hex": "e0a4bee0a48fe0a497",
+      "gloss": "ाएग"
+    },
+    {
+      "addition_order": 47,
+      "frequency_rank": 61,
+      "train_emissions": 43,
+      "hex": "9ae0a4b2",
+      "gloss": "⟨9a⟩ल"
+    },
+    {
+      "addition_order": 48,
+      "frequency_rank": 62,
+      "train_emissions": 43,
+      "hex": "e0a4be2e",
+      "gloss": "ा."
+    },
+    {
+      "addition_order": 49,
+      "frequency_rank": 63,
+      "train_emissions": 43,
+      "hex": "e0a587e0a4a6",
+      "gloss": "ेद"
+    },
+    {
+      "addition_order": 50,
+      "frequency_rank": 64,
+      "train_emissions": 42,
+      "hex": "2c20e0a4ae",
+      "gloss": ", म"
+    },
+    {
+      "addition_order": 51,
+      "frequency_rank": 65,
+      "train_emissions": 42,
+      "hex": "e0a4bee0a4b0e0a580",
+      "gloss": "ारी"
+    },
+    {
+      "addition_order": 52,
+      "frequency_rank": 66,
+      "train_emissions": 42,
+      "hex": "e0a58de0a4b5e0a4bee0a4b0",
+      "gloss": "्वार"
+    },
+    {
+      "addition_order": 53,
+      "frequency_rank": 67,
+      "train_emissions": 41,
+      "hex": "e0a482e0a4aa",
+      "gloss": "ंप"
+    },
+    {
+      "addition_order": 54,
+      "frequency_rank": 68,
+      "train_emissions": 41,
+      "hex": "e0a582e0a4aa",
+      "gloss": "ूप"
+    },
+    {
+      "addition_order": 55,
+      "frequency_rank": 69,
+      "train_emissions": 41,
+      "hex": "e0a58be0a49f",
+      "gloss": "ोट"
+    },
+    {
+      "addition_order": 56,
+      "frequency_rank": 70,
+      "train_emissions": 41,
+      "hex": "a6e0a587e0a496",
+      "gloss": "⟨a6⟩ेख"
+    },
+    {
+      "addition_order": 57,
+      "frequency_rank": 71,
+      "train_emissions": 41,
+      "hex": "e0a4b0e0a580e0a49c",
+      "gloss": "रीज"
+    },
+    {
+      "addition_order": 58,
+      "frequency_rank": 72,
+      "train_emissions": 41,
+      "hex": "20e0a495e0a58de0a4af",
+      "gloss": " क्य"
+    },
+    {
+      "addition_order": 59,
+      "frequency_rank": 73,
+      "train_emissions": 40,
+      "hex": "e0a4bfe0a49c",
+      "gloss": "िज"
+    },
+    {
+      "addition_order": 60,
+      "frequency_rank": 74,
+      "train_emissions": 40,
+      "hex": "e0a589e0a4b2",
+      "gloss": "ॉल"
+    },
+    {
+      "addition_order": 61,
+      "frequency_rank": 77,
+      "train_emissions": 40,
+      "hex": "e0a58be0a48220e0a495e0a58720e0a4",
+      "gloss": "ों के ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 62,
+      "frequency_rank": 78,
+      "train_emissions": 39,
+      "hex": "2033",
+      "gloss": " 3"
+    },
+    {
+      "addition_order": 63,
+      "frequency_rank": 79,
+      "train_emissions": 39,
+      "hex": "85e0a4aa",
+      "gloss": "⟨85⟩प"
+    },
+    {
+      "addition_order": 64,
+      "frequency_rank": 80,
+      "train_emissions": 39,
+      "hex": "e0a482e0a49c",
+      "gloss": "ंज"
+    },
+    {
+      "addition_order": 65,
+      "frequency_rank": 81,
+      "train_emissions": 39,
+      "hex": "e0a580e0a495",
+      "gloss": "ीक"
+    },
+    {
+      "addition_order": 66,
+      "frequency_rank": 82,
+      "train_emissions": 39,
+      "hex": "e0a5a420e0a4b8",
+      "gloss": "। स"
+    },
+    {
+      "addition_order": 67,
+      "frequency_rank": 84,
+      "train_emissions": 39,
+      "hex": "ade0a4bee0a4b0e0a4a4",
+      "gloss": "⟨ad⟩ारत"
+    },
+    {
+      "addition_order": 68,
+      "frequency_rank": 86,
+      "train_emissions": 38,
+      "hex": "2032",
+      "gloss": " 2"
+    },
+    {
+      "addition_order": 69,
+      "frequency_rank": 87,
+      "train_emissions": 38,
+      "hex": "e0a482e0a4a7",
+      "gloss": "ंध"
+    },
+    {
+      "addition_order": 70,
+      "frequency_rank": 88,
+      "train_emissions": 38,
+      "hex": "e0a4bee0a4b6",
+      "gloss": "ाश"
+    },
+    {
+      "addition_order": 71,
+      "frequency_rank": 90,
+      "train_emissions": 38,
+      "hex": "e0a4bfe0a4b020e0a4",
+      "gloss": "िर ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 72,
+      "frequency_rank": 93,
+      "train_emissions": 38,
+      "hex": "e0a58020e0a495e0a58720e0a4",
+      "gloss": "ी के ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 73,
+      "frequency_rank": 94,
+      "train_emissions": 37,
+      "hex": "e0a580e0a4b5",
+      "gloss": "ीव"
+    },
+    {
+      "addition_order": 74,
+      "frequency_rank": 95,
+      "train_emissions": 37,
+      "hex": "e0a58be0a4a8",
+      "gloss": "ोन"
+    },
+    {
+      "addition_order": 75,
+      "frequency_rank": 96,
+      "train_emissions": 37,
+      "hex": "e0a4be20e0a4b9e0a5882e",
+      "gloss": "ा है."
+    },
+    {
+      "addition_order": 76,
+      "frequency_rank": 97,
+      "train_emissions": 37,
+      "hex": "e0a4bee0a4b0e0a58de0a4a1",
+      "gloss": "ार्ड"
+    },
+    {
+      "addition_order": 77,
+      "frequency_rank": 98,
+      "train_emissions": 36,
+      "hex": "2044",
+      "gloss": " D"
+    },
+    {
+      "addition_order": 78,
+      "frequency_rank": 100,
+      "train_emissions": 36,
+      "hex": "e0a580e0a4ae",
+      "gloss": "ीम"
+    },
+    {
+      "addition_order": 79,
+      "frequency_rank": 101,
+      "train_emissions": 36,
+      "hex": "e0a495e0a58de0a49f",
+      "gloss": "क्ट"
+    },
+    {
+      "addition_order": 80,
+      "frequency_rank": 102,
+      "train_emissions": 36,
+      "hex": "e0a4be20e0a495e0a4b0",
+      "gloss": "ा कर"
+    },
+    {
+      "addition_order": 81,
+      "frequency_rank": 103,
+      "train_emissions": 36,
+      "hex": "e0a58020e0a495e0a58020e0a4",
+      "gloss": "ी की ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 82,
+      "frequency_rank": 104,
+      "train_emissions": 35,
+      "hex": "2050",
+      "gloss": " P"
+    },
+    {
+      "addition_order": 83,
+      "frequency_rank": 105,
+      "train_emissions": 35,
+      "hex": "2c20e0a4aa",
+      "gloss": ", प"
+    },
+    {
+      "addition_order": 84,
+      "frequency_rank": 106,
+      "train_emissions": 35,
+      "hex": "e0a482e0a495",
+      "gloss": "ंक"
+    },
+    {
+      "addition_order": 85,
+      "frequency_rank": 107,
+      "train_emissions": 35,
+      "hex": "e0a580e0a49c",
+      "gloss": "ीज"
+    },
+    {
+      "addition_order": 86,
+      "frequency_rank": 108,
+      "train_emissions": 35,
+      "hex": "20e0a4ace0a4a8",
+      "gloss": " बन"
+    },
+    {
+      "addition_order": 87,
+      "frequency_rank": 110,
+      "train_emissions": 35,
+      "hex": "b9e0a58be0a497",
+      "gloss": "⟨b9⟩ोग"
+    },
+    {
+      "addition_order": 88,
+      "frequency_rank": 111,
+      "train_emissions": 35,
+      "hex": "e0a58de0a4b0e0a4ae",
+      "gloss": "्रम"
+    },
+    {
+      "addition_order": 89,
+      "frequency_rank": 112,
+      "train_emissions": 35,
+      "hex": "e0a4bee0a4b0e0a58de0a4af",
+      "gloss": "ार्य"
+    },
+    {
+      "addition_order": 90,
+      "frequency_rank": 113,
+      "train_emissions": 34,
+      "hex": "86e0a4af",
+      "gloss": "⟨86⟩य"
+    },
+    {
+      "addition_order": 91,
+      "frequency_rank": 114,
+      "train_emissions": 34,
+      "hex": "89e0a4aa",
+      "gloss": "⟨89⟩प"
+    },
+    {
+      "addition_order": 92,
+      "frequency_rank": 115,
+      "train_emissions": 34,
+      "hex": "e0a4b9e0a4b2",
+      "gloss": "हल"
+    },
+    {
+      "addition_order": 93,
+      "frequency_rank": 116,
+      "train_emissions": 34,
+      "hex": "e0a4bfe0a496",
+      "gloss": "िख"
+    },
+    {
+      "addition_order": 94,
+      "frequency_rank": 117,
+      "train_emissions": 34,
+      "hex": "e0a58be0a4a1",
+      "gloss": "ोड"
+    },
+    {
+      "addition_order": 95,
+      "frequency_rank": 118,
+      "train_emissions": 34,
+      "hex": "e0a4b020e0a4ac",
+      "gloss": "र ब"
+    },
+    {
+      "addition_order": 96,
+      "frequency_rank": 119,
+      "train_emissions": 34,
+      "hex": "e0a58020e0a4a4",
+      "gloss": "ी त"
+    },
+    {
+      "addition_order": 97,
+      "frequency_rank": 122,
+      "train_emissions": 34,
+      "hex": "e0a4bee0a4a8e0a58720e0a4",
+      "gloss": "ाने ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 98,
+      "frequency_rank": 123,
+      "train_emissions": 33,
+      "hex": "86e0a4b0",
+      "gloss": "⟨86⟩र"
+    },
+    {
+      "addition_order": 99,
+      "frequency_rank": 124,
+      "train_emissions": 33,
+      "hex": "97e0a488",
+      "gloss": "⟨97⟩ई"
+    },
+    {
+      "addition_order": 100,
+      "frequency_rank": 125,
+      "train_emissions": 33,
+      "hex": "aae0a4b0",
+      "gloss": "⟨aa⟩र"
+    },
+    {
+      "addition_order": 101,
+      "frequency_rank": 126,
+      "train_emissions": 33,
+      "hex": "20e0a485e0a4aa",
+      "gloss": " अप"
+    },
+    {
+      "addition_order": 102,
+      "frequency_rank": 127,
+      "train_emissions": 33,
+      "hex": "20e0a4a4e0a495",
+      "gloss": " तक"
+    },
+    {
+      "addition_order": 103,
+      "frequency_rank": 128,
+      "train_emissions": 33,
+      "hex": "e0a4aee0a4bee0a4a8",
+      "gloss": "मान"
+    },
+    {
+      "addition_order": 104,
+      "frequency_rank": 129,
+      "train_emissions": 33,
+      "hex": "20e0a495e0a58720e0a4b2",
+      "gloss": " के ल"
+    },
+    {
+      "addition_order": 105,
+      "frequency_rank": 131,
+      "train_emissions": 33,
+      "hex": "20e0a4afe0a58be0a49ce0a4a8",
+      "gloss": " योजन"
+    },
+    {
+      "addition_order": 106,
+      "frequency_rank": 132,
+      "train_emissions": 33,
+      "hex": "20e0a4b9e0a588e0a5a420e0a4",
+      "gloss": " है। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 107,
+      "frequency_rank": 134,
+      "train_emissions": 32,
+      "hex": "2042",
+      "gloss": " B"
+    },
+    {
+      "addition_order": 108,
+      "frequency_rank": 135,
+      "train_emissions": 32,
+      "hex": "89e0a4b8",
+      "gloss": "⟨89⟩स"
+    },
+    {
+      "addition_order": 109,
+      "frequency_rank": 136,
+      "train_emissions": 32,
+      "hex": "e0a587e0a4a1",
+      "gloss": "ेड"
+    },
+    {
+      "addition_order": 110,
+      "frequency_rank": 137,
+      "train_emissions": 32,
+      "hex": "20e0a4b8e0a495",
+      "gloss": " सक"
+    },
+    {
+      "addition_order": 111,
+      "frequency_rank": 138,
+      "train_emissions": 32,
+      "hex": "e0a482e0a4a4e0a58de0a4b0",
+      "gloss": "ंत्र"
+    },
+    {
+      "addition_order": 112,
+      "frequency_rank": 142,
+      "train_emissions": 31,
+      "hex": "2048",
+      "gloss": " H"
+    },
+    {
+      "addition_order": 113,
+      "frequency_rank": 143,
+      "train_emissions": 31,
+      "hex": "2053",
+      "gloss": " S"
+    },
+    {
+      "addition_order": 114,
+      "frequency_rank": 144,
+      "train_emissions": 31,
+      "hex": "e0a580e0a4a1",
+      "gloss": "ीड"
+    },
+    {
+      "addition_order": 115,
+      "frequency_rank": 145,
+      "train_emissions": 31,
+      "hex": "e0a588e0a4a8",
+      "gloss": "ैन"
+    },
+    {
+      "addition_order": 116,
+      "frequency_rank": 146,
+      "train_emissions": 31,
+      "hex": "e0a58720e0a49c",
+      "gloss": "े ज"
+    },
+    {
+      "addition_order": 117,
+      "frequency_rank": 147,
+      "train_emissions": 31,
+      "hex": "e0a58720e0a4ae",
+      "gloss": "े म"
+    },
+    {
+      "addition_order": 118,
+      "frequency_rank": 148,
+      "train_emissions": 31,
+      "hex": "e0a4bfe0a495e0a58de0a4b7",
+      "gloss": "िक्ष"
+    },
+    {
+      "addition_order": 119,
+      "frequency_rank": 149,
+      "train_emissions": 31,
+      "hex": "20e0a4ade0a4bee0a4b0e0a4a4",
+      "gloss": " भारत"
+    },
+    {
+      "addition_order": 120,
+      "frequency_rank": 150,
+      "train_emissions": 30,
+      "hex": "617264",
+      "gloss": "ard"
+    },
+    {
+      "addition_order": 121,
+      "frequency_rank": 151,
+      "train_emissions": 30,
+      "hex": "e0a495e0a4bf",
+      "gloss": "कि"
+    },
+    {
+      "addition_order": 122,
+      "frequency_rank": 152,
+      "train_emissions": 30,
+      "hex": "e0a580e0a4b8",
+      "gloss": "ीस"
+    },
+    {
+      "addition_order": 123,
+      "frequency_rank": 153,
+      "train_emissions": 30,
+      "hex": "e0a4b020e0a4b2",
+      "gloss": "र ल"
+    },
+    {
+      "addition_order": 124,
+      "frequency_rank": 154,
+      "train_emissions": 30,
+      "hex": "e0a58020e0a4b5",
+      "gloss": "ी व"
+    },
+    {
+      "addition_order": 125,
+      "frequency_rank": 155,
+      "train_emissions": 30,
+      "hex": "e0a495e0a58de0a4b8",
+      "gloss": "क्स"
+    },
+    {
+      "addition_order": 126,
+      "frequency_rank": 157,
+      "train_emissions": 30,
+      "hex": "e0a4be20e0a4b9e0a58820e0a495e0a4bf",
+      "gloss": "ा है कि"
+    },
+    {
+      "addition_order": 127,
+      "frequency_rank": 158,
+      "train_emissions": 29,
+      "hex": "e0a4b9e0a4a8",
+      "gloss": "हन"
+    },
+    {
+      "addition_order": 128,
+      "frequency_rank": 159,
+      "train_emissions": 29,
+      "hex": "e0a4b9e0a580",
+      "gloss": "ही"
+    },
+    {
+      "addition_order": 129,
+      "frequency_rank": 160,
+      "train_emissions": 29,
+      "hex": "e0a580e0a49a",
+      "gloss": "ीच"
+    },
+    {
+      "addition_order": 130,
+      "frequency_rank": 161,
+      "train_emissions": 29,
+      "hex": "e0a58be0a4b6",
+      "gloss": "ोश"
+    },
+    {
+      "addition_order": 131,
+      "frequency_rank": 162,
+      "train_emissions": 29,
+      "hex": "b2e0a587e0a495",
+      "gloss": "⟨b2⟩ेक"
+    },
+    {
+      "addition_order": 132,
+      "frequency_rank": 164,
+      "train_emissions": 29,
+      "hex": "20e0a4b9e0a581e0a4",
+      "gloss": " हु⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 133,
+      "frequency_rank": 165,
+      "train_emissions": 29,
+      "hex": "e0a4b0e0a58de0a4a4",
+      "gloss": "र्त"
+    },
+    {
+      "addition_order": 134,
+      "frequency_rank": 166,
+      "train_emissions": 29,
+      "hex": "e0a4bee0a487e0a4a8",
+      "gloss": "ाइन"
+    },
+    {
+      "addition_order": 135,
+      "frequency_rank": 167,
+      "train_emissions": 29,
+      "hex": "20e0a4b9e0a58b20e0a4",
+      "gloss": " हो ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 136,
+      "frequency_rank": 168,
+      "train_emissions": 29,
+      "hex": "e0a582e0a4b0e0a58de0a4a3",
+      "gloss": "ूर्ण"
+    },
+    {
+      "addition_order": 137,
+      "frequency_rank": 170,
+      "train_emissions": 28,
+      "hex": "e0a5a4202d",
+      "gloss": "। -"
+    },
+    {
+      "addition_order": 138,
+      "frequency_rank": 171,
+      "train_emissions": 28,
+      "hex": "e0a587e0a4ac",
+      "gloss": "ेब"
+    },
+    {
+      "addition_order": 139,
+      "frequency_rank": 172,
+      "train_emissions": 28,
+      "hex": "a4e0a58b20e0a4",
+      "gloss": "⟨a4⟩ो ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 140,
+      "frequency_rank": 173,
+      "train_emissions": 28,
+      "hex": "e0a495e0a4b020e0a4",
+      "gloss": "कर ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 141,
+      "frequency_rank": 174,
+      "train_emissions": 28,
+      "hex": "e0a4bee0a482e0a4b5",
+      "gloss": "ांव"
+    },
+    {
+      "addition_order": 142,
+      "frequency_rank": 176,
+      "train_emissions": 28,
+      "hex": "e0a587e0a482e0a49f",
+      "gloss": "ेंट"
+    },
+    {
+      "addition_order": 143,
+      "frequency_rank": 177,
+      "train_emissions": 28,
+      "hex": "20e0a495e0a4bfe0a4b8",
+      "gloss": " किस"
+    },
+    {
+      "addition_order": 144,
+      "frequency_rank": 178,
+      "train_emissions": 28,
+      "hex": "20e0a495e0a58720e0a4aa",
+      "gloss": " के प"
+    },
+    {
+      "addition_order": 145,
+      "frequency_rank": 180,
+      "train_emissions": 28,
+      "hex": "e0a4bee0a49ce0a58de0a4af",
+      "gloss": "ाज्य"
+    },
+    {
+      "addition_order": 146,
+      "frequency_rank": 183,
+      "train_emissions": 27,
+      "hex": "5265",
+      "gloss": "Re"
+    },
+    {
+      "addition_order": 147,
+      "frequency_rank": 184,
+      "train_emissions": 27,
+      "hex": "90e0a4b8",
+      "gloss": "⟨90⟩स"
+    },
+    {
+      "addition_order": 148,
+      "frequency_rank": 186,
+      "train_emissions": 27,
+      "hex": "e0a4bee0a4ab",
+      "gloss": "ाफ"
+    },
+    {
+      "addition_order": 149,
+      "frequency_rank": 187,
+      "train_emissions": 27,
+      "hex": "e0a58be0a4a7",
+      "gloss": "ोध"
+    },
+    {
+      "addition_order": 150,
+      "frequency_rank": 188,
+      "train_emissions": 27,
+      "hex": "20e0a495e0a4b9",
+      "gloss": " कह"
+    },
+    {
+      "addition_order": 151,
+      "frequency_rank": 189,
+      "train_emissions": 27,
+      "hex": "97e0a58de0a4b0",
+      "gloss": "⟨97⟩्र"
+    },
+    {
+      "addition_order": 152,
+      "frequency_rank": 190,
+      "train_emissions": 27,
+      "hex": "e0a4be20e0a4b5",
+      "gloss": "ा व"
+    },
+    {
+      "addition_order": 153,
+      "frequency_rank": 191,
+      "train_emissions": 27,
+      "hex": "e0a58b20e0a4b0",
+      "gloss": "ो र"
+    },
+    {
+      "addition_order": 154,
+      "frequency_rank": 192,
+      "train_emissions": 27,
+      "hex": "e0a4bee0a4a8e0a587",
+      "gloss": "ाने"
+    },
+    {
+      "addition_order": 155,
+      "frequency_rank": 193,
+      "train_emissions": 27,
+      "hex": "e0a580e0a5a420e0a4",
+      "gloss": "ी। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 156,
+      "frequency_rank": 195,
+      "train_emissions": 26,
+      "hex": "86e0a49c",
+      "gloss": "⟨86⟩ज"
+    },
+    {
+      "addition_order": 157,
+      "frequency_rank": 196,
+      "train_emissions": 26,
+      "hex": "b8e0a4ae",
+      "gloss": "⟨b8⟩म"
+    },
+    {
+      "addition_order": 158,
+      "frequency_rank": 197,
+      "train_emissions": 26,
+      "hex": "e0a58720",
+      "gloss": "े "
+    },
+    {
+      "addition_order": 159,
+      "frequency_rank": 199,
+      "train_emissions": 26,
+      "hex": "e0a4b0e0a4b9",
+      "gloss": "रह"
+    },
+    {
+      "addition_order": 160,
+      "frequency_rank": 200,
+      "train_emissions": 26,
+      "hex": "b9e0a58020e0a4",
+      "gloss": "⟨b9⟩ी ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 161,
+      "frequency_rank": 202,
+      "train_emissions": 26,
+      "hex": "e0a4bee0a481e0a4a6",
+      "gloss": "ाँद"
+    },
+    {
+      "addition_order": 162,
+      "frequency_rank": 203,
+      "train_emissions": 26,
+      "hex": "e0a4bee0a482e0a497",
+      "gloss": "ांग"
+    },
+    {
+      "addition_order": 163,
+      "frequency_rank": 207,
+      "train_emissions": 25,
+      "hex": "6d6d",
+      "gloss": "mm"
+    },
+    {
+      "addition_order": 164,
+      "frequency_rank": 208,
+      "train_emissions": 25,
+      "hex": "20e0a498",
+      "gloss": " घ"
+    },
+    {
+      "addition_order": 165,
+      "frequency_rank": 209,
+      "train_emissions": 25,
+      "hex": "86e0a4b5",
+      "gloss": "⟨86⟩व"
+    },
+    {
+      "addition_order": 166,
+      "frequency_rank": 210,
+      "train_emissions": 25,
+      "hex": "a4e0a495",
+      "gloss": "⟨a4⟩क"
+    },
+    {
+      "addition_order": 167,
+      "frequency_rank": 211,
+      "train_emissions": 25,
+      "hex": "e0a582e0a4a4",
+      "gloss": "ूत"
+    },
+    {
+      "addition_order": 168,
+      "frequency_rank": 212,
+      "train_emissions": 25,
+      "hex": "20e0a4b2e0a497",
+      "gloss": " लग"
+    },
+    {
+      "addition_order": 169,
+      "frequency_rank": 213,
+      "train_emissions": 25,
+      "hex": "e0a5a420e0a4ae",
+      "gloss": "। म"
+    },
+    {
+      "addition_order": 170,
+      "frequency_rank": 214,
+      "train_emissions": 25,
+      "hex": "e0a482e0a5a420e0a4",
+      "gloss": "ं। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 171,
+      "frequency_rank": 215,
+      "train_emissions": 25,
+      "hex": "e0a4afe0a58be0a497",
+      "gloss": "योग"
+    },
+    {
+      "addition_order": 172,
+      "frequency_rank": 216,
+      "train_emissions": 25,
+      "hex": "e0a581e0a4b0e0a582",
+      "gloss": "ुरू"
+    },
+    {
+      "addition_order": 173,
+      "frequency_rank": 217,
+      "train_emissions": 25,
+      "hex": "20e0a4b8e0a4bee0a4b2",
+      "gloss": " साल"
+    },
+    {
+      "addition_order": 174,
+      "frequency_rank": 218,
+      "train_emissions": 25,
+      "hex": "20e0a4b8e0a58de0a49f",
+      "gloss": " स्ट"
+    },
+    {
+      "addition_order": 175,
+      "frequency_rank": 219,
+      "train_emissions": 25,
+      "hex": "20e0a495e0a58020e0a49c",
+      "gloss": " की ज"
+    },
+    {
+      "addition_order": 176,
+      "frequency_rank": 220,
+      "train_emissions": 25,
+      "hex": "20e0a495e0a58720e0a4ae",
+      "gloss": " के म"
+    },
+    {
+      "addition_order": 177,
+      "frequency_rank": 221,
+      "train_emissions": 25,
+      "hex": "e0a58de0a4afe0a4bee0a4a6",
+      "gloss": "्याद"
+    },
+    {
+      "addition_order": 178,
+      "frequency_rank": 222,
+      "train_emissions": 25,
+      "hex": "e0a58020e0a4ace0a4bee0a4ac",
+      "gloss": "ी बाब"
+    },
+    {
+      "addition_order": 179,
+      "frequency_rank": 223,
+      "train_emissions": 24,
+      "hex": "2041",
+      "gloss": " A"
+    },
+    {
+      "addition_order": 180,
+      "frequency_rank": 224,
+      "train_emissions": 24,
+      "hex": "6b6172",
+      "gloss": "kar"
+    },
+    {
+      "addition_order": 181,
+      "frequency_rank": 225,
+      "train_emissions": 24,
+      "hex": "e280a6",
+      "gloss": "…"
+    },
+    {
+      "addition_order": 182,
+      "frequency_rank": 226,
+      "train_emissions": 24,
+      "hex": "85e0a4b2",
+      "gloss": "⟨85⟩ल"
+    },
+    {
+      "addition_order": 183,
+      "frequency_rank": 227,
+      "train_emissions": 24,
+      "hex": "e0a581e0a4ae",
+      "gloss": "ुम"
+    },
+    {
+      "addition_order": 184,
+      "frequency_rank": 228,
+      "train_emissions": 24,
+      "hex": "e0a582e0a49c",
+      "gloss": "ूज"
+    },
+    {
+      "addition_order": 185,
+      "frequency_rank": 230,
+      "train_emissions": 24,
+      "hex": "b2e0a58be0a495",
+      "gloss": "⟨b2⟩ोक"
+    },
+    {
+      "addition_order": 186,
+      "frequency_rank": 231,
+      "train_emissions": 24,
+      "hex": "e0a4a820e0a4a8",
+      "gloss": "न न"
+    },
+    {
+      "addition_order": 187,
+      "frequency_rank": 233,
+      "train_emissions": 24,
+      "hex": "e0a4a4e0a58de0a4a4",
+      "gloss": "त्त"
+    },
+    {
+      "addition_order": 188,
+      "frequency_rank": 234,
+      "train_emissions": 24,
+      "hex": "e0a4a4e0a58de0a4af",
+      "gloss": "त्य"
+    },
+    {
+      "addition_order": 189,
+      "frequency_rank": 235,
+      "train_emissions": 24,
+      "hex": "e0a4a6e0a4bee0a4a8",
+      "gloss": "दान"
+    },
+    {
+      "addition_order": 190,
+      "frequency_rank": 236,
+      "train_emissions": 24,
+      "hex": "e0a4a8e0a58020e0a4",
+      "gloss": "नी ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 191,
+      "frequency_rank": 237,
+      "train_emissions": 24,
+      "hex": "e0a4ade0a4bee0a4b5",
+      "gloss": "भाव"
+    },
+    {
+      "addition_order": 192,
+      "frequency_rank": 238,
+      "train_emissions": 24,
+      "hex": "20e0a4b2e0a58be0a497",
+      "gloss": " लोग"
+    },
+    {
+      "addition_order": 193,
+      "frequency_rank": 239,
+      "train_emissions": 24,
+      "hex": "e0a4bfe0a4b6e0a58de0a4b5",
+      "gloss": "िश्व"
+    },
+    {
+      "addition_order": 194,
+      "frequency_rank": 240,
+      "train_emissions": 24,
+      "hex": "e0a58de0a495e0a582e0a4b2",
+      "gloss": "्कूल"
+    },
+    {
+      "addition_order": 195,
+      "frequency_rank": 245,
+      "train_emissions": 24,
+      "hex": "e0a4a4e0a4be20e0a4b9e0a588e0a5a420e0a4",
+      "gloss": "ता है। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 196,
+      "frequency_rank": 246,
+      "train_emissions": 24,
+      "hex": "e0a58720e0a4b9e0a588e0a482e0a5a420e0a4",
+      "gloss": "े हैं। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 197,
+      "frequency_rank": 248,
+      "train_emissions": 23,
+      "hex": "6768",
+      "gloss": "gh"
+    },
+    {
+      "addition_order": 198,
+      "frequency_rank": 249,
+      "train_emissions": 23,
+      "hex": "e0a4bfe0a497",
+      "gloss": "िग"
+    },
+    {
+      "addition_order": 199,
+      "frequency_rank": 250,
+      "train_emissions": 23,
+      "hex": "e0a581e0a4b5",
+      "gloss": "ुव"
+    },
+    {
+      "addition_order": 200,
+      "frequency_rank": 251,
+      "train_emissions": 23,
+      "hex": "20e0a485e0a4a8",
+      "gloss": " अन"
+    },
+    {
+      "addition_order": 201,
+      "frequency_rank": 252,
+      "train_emissions": 23,
+      "hex": "97e0a580e0a4a4",
+      "gloss": "⟨97⟩ीत"
+    },
+    {
+      "addition_order": 202,
+      "frequency_rank": 253,
+      "train_emissions": 23,
+      "hex": "b5e0a4bee0a4b2",
+      "gloss": "⟨b5⟩ाल"
+    },
+    {
+      "addition_order": 203,
+      "frequency_rank": 254,
+      "train_emissions": 23,
+      "hex": "b6e0a58de0a4b0",
+      "gloss": "⟨b6⟩्र"
+    },
+    {
+      "addition_order": 204,
+      "frequency_rank": 255,
+      "train_emissions": 23,
+      "hex": "20e0a4b9e0a5882e",
+      "gloss": " है."
+    },
+    {
+      "addition_order": 205,
+      "frequency_rank": 256,
+      "train_emissions": 23,
+      "hex": "e0a4b8e0a4bee0a4a8",
+      "gloss": "सान"
+    },
+    {
+      "addition_order": 206,
+      "frequency_rank": 258,
+      "train_emissions": 23,
+      "hex": "e0a4bfe0a495e0a4b2",
+      "gloss": "िकल"
+    },
+    {
+      "addition_order": 207,
+      "frequency_rank": 259,
+      "train_emissions": 23,
+      "hex": "e0a58de0a4b0e0a588",
+      "gloss": "्रै"
+    },
+    {
+      "addition_order": 208,
+      "frequency_rank": 261,
+      "train_emissions": 23,
+      "hex": "20e0a495e0a58be0a488",
+      "gloss": " कोई"
+    },
+    {
+      "addition_order": 209,
+      "frequency_rank": 262,
+      "train_emissions": 23,
+      "hex": "20e0a4b8e0a58de0a4b5",
+      "gloss": " स्व"
+    },
+    {
+      "addition_order": 210,
+      "frequency_rank": 263,
+      "train_emissions": 23,
+      "hex": "e0a4be20e0a495e0a58b",
+      "gloss": "ा को"
+    },
+    {
+      "addition_order": 211,
+      "frequency_rank": 264,
+      "train_emissions": 23,
+      "hex": "e0a58720e0a495e0a4b9",
+      "gloss": "े कह"
+    },
+    {
+      "addition_order": 212,
+      "frequency_rank": 265,
+      "train_emissions": 23,
+      "hex": "20e0a495e0a58720e0a4b0",
+      "gloss": " के र"
+    },
+    {
+      "addition_order": 213,
+      "frequency_rank": 267,
+      "train_emissions": 23,
+      "hex": "20e0a497e0a4bee0a482e0a4a7",
+      "gloss": " गांध"
+    },
+    {
+      "addition_order": 214,
+      "frequency_rank": 268,
+      "train_emissions": 23,
+      "hex": "e0a58be0a48220e0a495e0a58b",
+      "gloss": "ों को"
+    },
+    {
+      "addition_order": 215,
+      "frequency_rank": 271,
+      "train_emissions": 23,
+      "hex": "20e0a4b9e0a58820e0a495e0a4bf",
+      "gloss": " है कि"
+    },
+    {
+      "addition_order": 216,
+      "frequency_rank": 272,
+      "train_emissions": 23,
+      "hex": "e0a58be0a48220e0a495e0a4be20e0a4",
+      "gloss": "ों का ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 217,
+      "frequency_rank": 273,
+      "train_emissions": 22,
+      "hex": "2056",
+      "gloss": " V"
+    },
+    {
+      "addition_order": 218,
+      "frequency_rank": 274,
+      "train_emissions": 22,
+      "hex": "6720",
+      "gloss": "g "
+    },
+    {
+      "addition_order": 219,
+      "frequency_rank": 275,
+      "train_emissions": 22,
+      "hex": "20e28093",
+      "gloss": " –"
+    },
+    {
+      "addition_order": 220,
+      "frequency_rank": 276,
+      "train_emissions": 22,
+      "hex": "696e6469",
+      "gloss": "indi"
+    },
+    {
+      "addition_order": 221,
+      "frequency_rank": 277,
+      "train_emissions": 22,
+      "hex": "85e0a4b8",
+      "gloss": "⟨85⟩स"
+    },
+    {
+      "addition_order": 222,
+      "frequency_rank": 278,
+      "train_emissions": 22,
+      "hex": "87e0a4a8",
+      "gloss": "⟨87⟩न"
+    },
+    {
+      "addition_order": 223,
+      "frequency_rank": 279,
+      "train_emissions": 22,
+      "hex": "b5e0a4b9",
+      "gloss": "⟨b5⟩ह"
+    },
+    {
+      "addition_order": 224,
+      "frequency_rank": 280,
+      "train_emissions": 22,
+      "hex": "e0a580e0a4",
+      "gloss": "ी⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 225,
+      "frequency_rank": 281,
+      "train_emissions": 22,
+      "hex": "e0a581e0a4a6",
+      "gloss": "ुद"
+    },
+    {
+      "addition_order": 226,
+      "frequency_rank": 282,
+      "train_emissions": 22,
+      "hex": "e0a58be0a4b9",
+      "gloss": "ोह"
+    },
+    {
+      "addition_order": 227,
+      "frequency_rank": 283,
+      "train_emissions": 22,
+      "hex": "20e0a485e0a4ac",
+      "gloss": " अब"
+    },
+    {
+      "addition_order": 228,
+      "frequency_rank": 284,
+      "train_emissions": 22,
+      "hex": "20e0a495e0a488",
+      "gloss": " कई"
+    },
+    {
+      "addition_order": 229,
+      "frequency_rank": 285,
+      "train_emissions": 22,
+      "hex": "20e0a4b8e0a4b0",
+      "gloss": " सर"
+    },
+    {
+      "addition_order": 230,
+      "frequency_rank": 286,
+      "train_emissions": 22,
+      "hex": "9ce0a4bfe0a4b8",
+      "gloss": "⟨9c⟩िस"
+    },
+    {
+      "addition_order": 231,
+      "frequency_rank": 287,
+      "train_emissions": 22,
+      "hex": "e0a4b2e0a58de0a4",
+      "gloss": "ल्⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 232,
+      "frequency_rank": 288,
+      "train_emissions": 22,
+      "hex": "e0a4a1e0a4bce0a495",
+      "gloss": "ड़क"
+    },
+    {
+      "addition_order": 233,
+      "frequency_rank": 289,
+      "train_emissions": 22,
+      "hex": "e0a4bee0a4b0e0a4a3",
+      "gloss": "ारण"
+    },
+    {
+      "addition_order": 234,
+      "frequency_rank": 290,
+      "train_emissions": 22,
+      "hex": "e0a4bfe0a482e0a4b9",
+      "gloss": "िंह"
+    },
+    {
+      "addition_order": 235,
+      "frequency_rank": 292,
+      "train_emissions": 22,
+      "hex": "20e0a4aae0a582e0a4b0",
+      "gloss": " पूर"
+    },
+    {
+      "addition_order": 236,
+      "frequency_rank": 293,
+      "train_emissions": 22,
+      "hex": "ace0a4a4e0a4bee0a4af",
+      "gloss": "⟨ac⟩ताय"
+    },
+    {
+      "addition_order": 237,
+      "frequency_rank": 294,
+      "train_emissions": 22,
+      "hex": "e0a587e0a4b8e0a58de0a49f",
+      "gloss": "ेस्ट"
+    },
+    {
+      "addition_order": 238,
+      "frequency_rank": 295,
+      "train_emissions": 22,
+      "hex": "20e0a495e0a4b0e0a4a8e0a58720e0a4",
+      "gloss": " करने ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 239,
+      "frequency_rank": 298,
+      "train_emissions": 21,
+      "hex": "ace0a4a8",
+      "gloss": "⟨ac⟩न"
+    },
+    {
+      "addition_order": 240,
+      "frequency_rank": 299,
+      "train_emissions": 21,
+      "hex": "e0a4be2d",
+      "gloss": "ा-"
+    },
+    {
+      "addition_order": 241,
+      "frequency_rank": 300,
+      "train_emissions": 21,
+      "hex": "e0a5802e",
+      "gloss": "ी."
+    },
+    {
+      "addition_order": 242,
+      "frequency_rank": 301,
+      "train_emissions": 21,
+      "hex": "2c20e0a495",
+      "gloss": ", क"
+    },
+    {
+      "addition_order": 243,
+      "frequency_rank": 303,
+      "train_emissions": 21,
+      "hex": "e0a4a8e0a4b2",
+      "gloss": "नल"
+    },
+    {
+      "addition_order": 244,
+      "frequency_rank": 304,
+      "train_emissions": 21,
+      "hex": "e0a4ace0a4b0",
+      "gloss": "बर"
+    },
+    {
+      "addition_order": 245,
+      "frequency_rank": 305,
+      "train_emissions": 21,
+      "hex": "e0a4aee0a4af",
+      "gloss": "मय"
+    },
+    {
+      "addition_order": 246,
+      "frequency_rank": 306,
+      "train_emissions": 21,
+      "hex": "e0a4b0e0a58b",
+      "gloss": "रो"
+    },
+    {
+      "addition_order": 247,
+      "frequency_rank": 307,
+      "train_emissions": 21,
+      "hex": "e0a4bee0a4b7",
+      "gloss": "ाष"
+    },
+    {
+      "addition_order": 248,
+      "frequency_rank": 308,
+      "train_emissions": 21,
+      "hex": "e0a580e0a49f",
+      "gloss": "ीट"
+    },
+    {
+      "addition_order": 249,
+      "frequency_rank": 309,
+      "train_emissions": 21,
+      "hex": "e0a580e0a4ac",
+      "gloss": "ीब"
+    },
+    {
+      "addition_order": 250,
+      "frequency_rank": 310,
+      "train_emissions": 21,
+      "hex": "e0a58de0a4b9",
+      "gloss": "्ह"
+    },
+    {
+      "addition_order": 251,
+      "frequency_rank": 311,
+      "train_emissions": 21,
+      "hex": "20e0a495e0a4ae",
+      "gloss": " कम"
+    },
+    {
+      "addition_order": 252,
+      "frequency_rank": 312,
+      "train_emissions": 21,
+      "hex": "a8e0a58720e0a4",
+      "gloss": "⟨a8⟩े ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 253,
+      "frequency_rank": 313,
+      "train_emissions": 21,
+      "hex": "e0a58020e0a4b2",
+      "gloss": "ी ल"
+    },
+    {
+      "addition_order": 254,
+      "frequency_rank": 314,
+      "train_emissions": 21,
+      "hex": "e0a4b0e0a58de0a49f",
+      "gloss": "र्ट"
+    },
+    {
+      "addition_order": 255,
+      "frequency_rank": 315,
+      "train_emissions": 21,
+      "hex": "e0a587e0a482e0a4a6",
+      "gloss": "ेंद"
+    },
+    {
+      "addition_order": 256,
+      "frequency_rank": 321,
+      "train_emissions": 21,
+      "hex": "e0a4b0e0a580e0a495e0a58de0a4b7",
+      "gloss": "रीक्ष"
+    },
+    {
+      "addition_order": 257,
+      "frequency_rank": 324,
+      "train_emissions": 20,
+      "hex": "6169",
+      "gloss": "ai"
+    },
+    {
+      "addition_order": 258,
+      "frequency_rank": 325,
+      "train_emissions": 20,
+      "hex": "7761",
+      "gloss": "wa"
+    },
+    {
+      "addition_order": 259,
+      "frequency_rank": 326,
+      "train_emissions": 20,
+      "hex": "20e0a491",
+      "gloss": " ऑ"
+    },
+    {
+      "addition_order": 260,
+      "frequency_rank": 327,
+      "train_emissions": 20,
+      "hex": "85e0a4ac",
+      "gloss": "⟨85⟩ब"
+    },
+    {
+      "addition_order": 261,
+      "frequency_rank": 328,
+      "train_emissions": 20,
+      "hex": "b9e0a581e0a4",
+      "gloss": "⟨b9⟩ु⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 262,
+      "frequency_rank": 329,
+      "train_emissions": 20,
+      "hex": "85e0a482e0a4a4",
+      "gloss": "⟨85⟩ंत"
+    },
+    {
+      "addition_order": 263,
+      "frequency_rank": 330,
+      "train_emissions": 20,
+      "hex": "b0e0a4bee0a4ae",
+      "gloss": "⟨b0⟩ाम"
+    },
+    {
+      "addition_order": 264,
+      "frequency_rank": 331,
+      "train_emissions": 20,
+      "hex": "e0a4a8e0a58de0a4b9",
+      "gloss": "न्ह"
+    },
+    {
+      "addition_order": 265,
+      "frequency_rank": 332,
+      "train_emissions": 20,
+      "hex": "e0a4afe0a58720e0a4",
+      "gloss": "ये ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 266,
+      "frequency_rank": 333,
+      "train_emissions": 20,
+      "hex": "e0a4b0e0a580e0a4a6",
+      "gloss": "रीद"
+    },
+    {
+      "addition_order": 267,
+      "frequency_rank": 334,
+      "train_emissions": 20,
+      "hex": "e0a4b0e0a58de0a49a",
+      "gloss": "र्च"
+    },
+    {
+      "addition_order": 268,
+      "frequency_rank": 335,
+      "train_emissions": 20,
+      "hex": "e0a4bee0a4afe0a495",
+      "gloss": "ायक"
+    },
+    {
+      "addition_order": 269,
+      "frequency_rank": 338,
+      "train_emissions": 20,
+      "hex": "20e0a495e0a58720e0a4a6",
+      "gloss": " के द"
+    },
+    {
+      "addition_order": 270,
+      "frequency_rank": 339,
+      "train_emissions": 20,
+      "hex": "e0a4bee0a4a8e0a58020e0a4",
+      "gloss": "ानी ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 271,
+      "frequency_rank": 341,
+      "train_emissions": 20,
+      "hex": "e0a58de0a4afe0a495e0a58de0a4a4",
+      "gloss": "्यक्त"
+    },
+    {
+      "addition_order": 272,
+      "frequency_rank": 343,
+      "train_emissions": 19,
+      "hex": "2035",
+      "gloss": " 5"
+    },
+    {
+      "addition_order": 273,
+      "frequency_rank": 344,
+      "train_emissions": 19,
+      "hex": "2054",
+      "gloss": " T"
+    },
+    {
+      "addition_order": 274,
+      "frequency_rank": 345,
+      "train_emissions": 19,
+      "hex": "e0a49d",
+      "gloss": "झ"
+    },
+    {
+      "addition_order": 275,
+      "frequency_rank": 347,
+      "train_emissions": 19,
+      "hex": "86e0a488",
+      "gloss": "⟨86⟩ई"
+    },
+    {
+      "addition_order": 276,
+      "frequency_rank": 348,
+      "train_emissions": 19,
+      "hex": "89e0a4ae",
+      "gloss": "⟨89⟩म"
+    },
+    {
+      "addition_order": 277,
+      "frequency_rank": 349,
+      "train_emissions": 19,
+      "hex": "e0a4b0e0a4a8",
+      "gloss": "रन"
+    },
+    {
+      "addition_order": 278,
+      "frequency_rank": 350,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a493",
+      "gloss": "ाओ"
+    },
+    {
+      "addition_order": 279,
+      "frequency_rank": 351,
+      "train_emissions": 19,
+      "hex": "e0a4bfe0a4b7",
+      "gloss": "िष"
+    },
+    {
+      "addition_order": 280,
+      "frequency_rank": 352,
+      "train_emissions": 19,
+      "hex": "e0a580e0a4b2",
+      "gloss": "ील"
+    },
+    {
+      "addition_order": 281,
+      "frequency_rank": 353,
+      "train_emissions": 19,
+      "hex": "e0a581e0a4a7",
+      "gloss": "ुध"
+    },
+    {
+      "addition_order": 282,
+      "frequency_rank": 354,
+      "train_emissions": 19,
+      "hex": "20e0a4a6e0a587",
+      "gloss": " दे"
+    },
+    {
+      "addition_order": 283,
+      "frequency_rank": 355,
+      "train_emissions": 19,
+      "hex": "96e0a587e0a4b2",
+      "gloss": "⟨96⟩ेल"
+    },
+    {
+      "addition_order": 284,
+      "frequency_rank": 356,
+      "train_emissions": 19,
+      "hex": "ade0a4bee0a497",
+      "gloss": "⟨ad⟩ाग"
+    },
+    {
+      "addition_order": 285,
+      "frequency_rank": 357,
+      "train_emissions": 19,
+      "hex": "e0a4b020e0a49c",
+      "gloss": "र ज"
+    },
+    {
+      "addition_order": 286,
+      "frequency_rank": 358,
+      "train_emissions": 19,
+      "hex": "e0a4be20e0a49a",
+      "gloss": "ा च"
+    },
+    {
+      "addition_order": 287,
+      "frequency_rank": 359,
+      "train_emissions": 19,
+      "hex": "e0a58720e0a4ac",
+      "gloss": "े ब"
+    },
+    {
+      "addition_order": 288,
+      "frequency_rank": 361,
+      "train_emissions": 19,
+      "hex": "e0a4b0e0a58de0a4b8",
+      "gloss": "र्स"
+    },
+    {
+      "addition_order": 289,
+      "frequency_rank": 362,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a4a8e0a4b5",
+      "gloss": "ानव"
+    },
+    {
+      "addition_order": 290,
+      "frequency_rank": 363,
+      "train_emissions": 19,
+      "hex": "e0a58de0a4b5e0a4aa",
+      "gloss": "्वप"
+    },
+    {
+      "addition_order": 291,
+      "frequency_rank": 364,
+      "train_emissions": 19,
+      "hex": "20e0a497e0a58de0a4b0",
+      "gloss": " ग्र"
+    },
+    {
+      "addition_order": 292,
+      "frequency_rank": 366,
+      "train_emissions": 19,
+      "hex": "aae0a58de0a4b0e0a495",
+      "gloss": "⟨aa⟩्रक"
+    },
+    {
+      "addition_order": 293,
+      "frequency_rank": 367,
+      "train_emissions": 19,
+      "hex": "b9e0a588e0a5a420e0a4",
+      "gloss": "⟨b9⟩ै। ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 294,
+      "frequency_rank": 370,
+      "train_emissions": 19,
+      "hex": "e0a58020e0a4b9e0a58b",
+      "gloss": "ी हो"
+    },
+    {
+      "addition_order": 295,
+      "frequency_rank": 371,
+      "train_emissions": 19,
+      "hex": "20e0a495e0a58020e0a4ac",
+      "gloss": " की ब"
+    },
+    {
+      "addition_order": 296,
+      "frequency_rank": 372,
+      "train_emissions": 19,
+      "hex": "e0a495e0a4b0e0a58de0a4ae",
+      "gloss": "कर्म"
+    },
+    {
+      "addition_order": 297,
+      "frequency_rank": 374,
+      "train_emissions": 19,
+      "hex": "e0a581e0a495e0a58de0a4a4",
+      "gloss": "ुक्त"
+    },
+    {
+      "addition_order": 298,
+      "frequency_rank": 377,
+      "train_emissions": 19,
+      "hex": "20e0a487e0a4b8e0a495e0a58720e0a4",
+      "gloss": " इसके ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 299,
+      "frequency_rank": 379,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a4a4e0a4be20e0a4b9e0a588",
+      "gloss": "ाता है"
+    },
+    {
+      "addition_order": 300,
+      "frequency_rank": 380,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a4a4e0a58020e0a4b9e0a588",
+      "gloss": "ाती है"
+    },
+    {
+      "addition_order": 301,
+      "frequency_rank": 381,
+      "train_emissions": 18,
+      "hex": "e0a489",
+      "gloss": "उ"
+    },
+    {
+      "addition_order": 302,
+      "frequency_rank": 382,
+      "train_emissions": 18,
+      "hex": "e0a481e0a497",
+      "gloss": "ँग"
+    },
+    {
+      "addition_order": 303,
+      "frequency_rank": 383,
+      "train_emissions": 18,
+      "hex": "e0a4a6e0a4b2",
+      "gloss": "दल"
+    },
+    {
+      "addition_order": 304,
+      "frequency_rank": 384,
+      "train_emissions": 18,
+      "hex": "e0a4b5e0a4b8",
+      "gloss": "वस"
+    },
+    {
+      "addition_order": 305,
+      "frequency_rank": 385,
+      "train_emissions": 18,
+      "hex": "e0a580e0a4b0",
+      "gloss": "ीर"
+    },
+    {
+      "addition_order": 306,
+      "frequency_rank": 386,
+      "train_emissions": 18,
+      "hex": "20e0a487e0a4a8",
+      "gloss": " इन"
+    },
+    {
+      "addition_order": 307,
+      "frequency_rank": 387,
+      "train_emissions": 18,
+      "hex": "20e0a4b5e0a4b9",
+      "gloss": " वह"
+    },
+    {
+      "addition_order": 308,
+      "frequency_rank": 388,
+      "train_emissions": 18,
+      "hex": "e0a4be20e0a4b2",
+      "gloss": "ा ल"
+    },
+    {
+      "addition_order": 309,
+      "frequency_rank": 389,
+      "train_emissions": 18,
+      "hex": "e0a58020e0a4a5",
+      "gloss": "ी थ"
+    },
+    {
+      "addition_order": 310,
+      "frequency_rank": 390,
+      "train_emissions": 18,
+      "hex": "e0a497e0a580e0a4a4",
+      "gloss": "गीत"
+    },
+    {
+      "addition_order": 311,
+      "frequency_rank": 391,
+      "train_emissions": 18,
+      "hex": "e0a4a6e0a587e0a4b6",
+      "gloss": "देश"
+    },
+    {
+      "addition_order": 312,
+      "frequency_rank": 392,
+      "train_emissions": 18,
+      "hex": "e0a4bee0a487e0a4a1",
+      "gloss": "ाइड"
+    },
+    {
+      "addition_order": 313,
+      "frequency_rank": 393,
+      "train_emissions": 18,
+      "hex": "e0a4bee0a4aee0a4b2",
+      "gloss": "ामल"
+    },
+    {
+      "addition_order": 314,
+      "frequency_rank": 394,
+      "train_emissions": 18,
+      "hex": "e0a58de0a4b5e0a4b0",
+      "gloss": "्वर"
+    },
+    {
+      "addition_order": 315,
+      "frequency_rank": 395,
+      "train_emissions": 18,
+      "hex": "20e0a4a4e0a58b20e0a4",
+      "gloss": " तो ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 316,
+      "frequency_rank": 396,
+      "train_emissions": 18,
+      "hex": "20e0a4b2e0a58be0a495",
+      "gloss": " लोक"
+    },
+    {
+      "addition_order": 317,
+      "frequency_rank": 397,
+      "train_emissions": 18,
+      "hex": "20e0a4b5e0a4bee0a4b9",
+      "gloss": " वाह"
+    },
+    {
+      "addition_order": 318,
+      "frequency_rank": 398,
+      "train_emissions": 18,
+      "hex": "20e0a495e0a4be20e0a4a8",
+      "gloss": " का न"
+    },
+    {
+      "addition_order": 319,
+      "frequency_rank": 400,
+      "train_emissions": 18,
+      "hex": "e0a4bee0a4b0e0a58de0a49f",
+      "gloss": "ार्ट"
+    },
+    {
+      "addition_order": 320,
+      "frequency_rank": 401,
+      "train_emissions": 18,
+      "hex": "e0a4bfe0a4b0e0a482e0a497",
+      "gloss": "िरंग"
+    },
+    {
+      "addition_order": 321,
+      "frequency_rank": 403,
+      "train_emissions": 18,
+      "hex": "e0a4a820e0a495e0a58020e0a4",
+      "gloss": "न की ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 322,
+      "frequency_rank": 406,
+      "train_emissions": 18,
+      "hex": "20e0a486e0a4aae0a495e0a58b20e0a4",
+      "gloss": " आपको ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 323,
+      "frequency_rank": 409,
+      "train_emissions": 17,
+      "hex": "e0a587e0a4af",
+      "gloss": "ेय"
+    },
+    {
+      "addition_order": 324,
+      "frequency_rank": 410,
+      "train_emissions": 17,
+      "hex": "e0a588e0a4b2",
+      "gloss": "ैल"
+    },
+    {
+      "addition_order": 325,
+      "frequency_rank": 411,
+      "train_emissions": 17,
+      "hex": "20e0a497e0a4af",
+      "gloss": " गय"
+    },
+    {
+      "addition_order": 326,
+      "frequency_rank": 412,
+      "train_emissions": 17,
+      "hex": "20e0a4aee0a588",
+      "gloss": " मै"
+    },
+    {
+      "addition_order": 327,
+      "frequency_rank": 414,
+      "train_emissions": 17,
+      "hex": "e0a4a7e0a58de0a4af",
+      "gloss": "ध्य"
+    },
+    {
+      "addition_order": 328,
+      "frequency_rank": 415,
+      "train_emissions": 17,
+      "hex": "e0a4b0e0a58de0a4a1",
+      "gloss": "र्ड"
+    },
+    {
+      "addition_order": 329,
+      "frequency_rank": 416,
+      "train_emissions": 17,
+      "hex": "e0a58720e0a4b9e0a588",
+      "gloss": "े है"
+    },
+    {
+      "addition_order": 330,
+      "frequency_rank": 417,
+      "train_emissions": 17,
+      "hex": "e0a58de0a4a5e0a4bfe0a4a4",
+      "gloss": "्थित"
+    },
+    {
+      "addition_order": 331,
+      "frequency_rank": 418,
+      "train_emissions": 17,
+      "hex": "20e0a4b0e0a4b9e0a58020e0a4b9e0a588",
+      "gloss": " रही है"
+    },
+    {
+      "addition_order": 332,
+      "frequency_rank": 420,
+      "train_emissions": 16,
+      "hex": "e0a581e0a49b",
+      "gloss": "ुछ"
+    },
+    {
+      "addition_order": 333,
+      "frequency_rank": 423,
+      "train_emissions": 15,
+      "hex": "e0a4b9e0a581",
+      "gloss": "हु"
+    },
+    {
+      "addition_order": 334,
+      "frequency_rank": 424,
+      "train_emissions": 15,
+      "hex": "9ae0a4bee0a4b9",
+      "gloss": "⟨9a⟩ाह"
+    },
+    {
+      "addition_order": 335,
+      "frequency_rank": 427,
+      "train_emissions": 14,
+      "hex": "e0a582e0a4a4e0a58720e0a4",
+      "gloss": "ूते ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 336,
+      "frequency_rank": 428,
+      "train_emissions": 13,
+      "hex": "20e0a495e0a4b020e0a4",
+      "gloss": " कर ⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 337,
+      "frequency_rank": 429,
+      "train_emissions": 12,
+      "hex": "2e2e2e",
+      "gloss": "..."
+    },
+    {
+      "addition_order": 338,
+      "frequency_rank": 430,
+      "train_emissions": 12,
+      "hex": "e0a581e0a4b7",
+      "gloss": "ुष"
+    },
+    {
+      "addition_order": 339,
+      "frequency_rank": 431,
+      "train_emissions": 12,
+      "hex": "e0a4a7e0a4bfe0a495",
+      "gloss": "धिक"
+    },
+    {
+      "addition_order": 340,
+      "frequency_rank": 432,
+      "train_emissions": 11,
+      "hex": "97e0a4af",
+      "gloss": "⟨97⟩य"
+    },
+    {
+      "addition_order": 341,
+      "frequency_rank": 435,
+      "train_emissions": 8,
+      "hex": "e0a4b0e0a496",
+      "gloss": "रख"
+    },
+    {
+      "addition_order": 342,
+      "frequency_rank": 436,
+      "train_emissions": 8,
+      "hex": "e0a58de0a4a7",
+      "gloss": "्ध"
+    },
+    {
+      "addition_order": 343,
+      "frequency_rank": 437,
+      "train_emissions": 6,
+      "hex": "e0a58ce0a4b0",
+      "gloss": "ौर"
+    },
+    {
+      "addition_order": 344,
+      "frequency_rank": 438,
+      "train_emissions": 6,
+      "hex": "e0a4b020e0a4b8e0a495",
+      "gloss": "र सक"
+    },
+    {
+      "addition_order": 345,
+      "frequency_rank": 440,
+      "train_emissions": 1,
+      "hex": "e0a582e0a4a6",
+      "gloss": "ूद"
+    },
+    {
+      "addition_order": 346,
+      "frequency_rank": 441,
+      "train_emissions": 1,
+      "hex": "e0a4b6e0a58de0a4af",
+      "gloss": "श्य"
+    },
+    {
+      "addition_order": 347,
+      "frequency_rank": 443,
+      "train_emissions": 0,
+      "hex": "e0a49ae0a58de0a4",
+      "gloss": "च्⟨e0⟩⟨a4⟩"
+    },
+    {
+      "addition_order": 348,
+      "frequency_rank": 444,
+      "train_emissions": 0,
+      "hex": "e0a4a4e0a58de0a4aa",
+      "gloss": "त्प"
+    }
+  ],
+  "random_order": [
+    {
+      "addition_order": 1,
+      "frequency_rank": 374,
+      "train_emissions": 19,
+      "hex": "e0a581e0a495e0a58de0a4a4"
+    },
+    {
+      "addition_order": 2,
+      "frequency_rank": 440,
+      "train_emissions": 1,
+      "hex": "e0a582e0a4a6"
+    },
+    {
+      "addition_order": 3,
+      "frequency_rank": 106,
+      "train_emissions": 35,
+      "hex": "e0a482e0a495"
+    },
+    {
+      "addition_order": 4,
+      "frequency_rank": 166,
+      "train_emissions": 29,
+      "hex": "e0a4bee0a487e0a4a8"
+    },
+    {
+      "addition_order": 5,
+      "frequency_rank": 300,
+      "train_emissions": 21,
+      "hex": "e0a5802e"
+    },
+    {
+      "addition_order": 6,
+      "frequency_rank": 190,
+      "train_emissions": 27,
+      "hex": "e0a4be20e0a4b5"
+    },
+    {
+      "addition_order": 7,
+      "frequency_rank": 321,
+      "train_emissions": 21,
+      "hex": "e0a4b0e0a580e0a495e0a58de0a4b7"
+    },
+    {
+      "addition_order": 8,
+      "frequency_rank": 170,
+      "train_emissions": 28,
+      "hex": "e0a5a4202d"
+    },
+    {
+      "addition_order": 9,
+      "frequency_rank": 145,
+      "train_emissions": 31,
+      "hex": "e0a588e0a4a8"
+    },
+    {
+      "addition_order": 10,
+      "frequency_rank": 180,
+      "train_emissions": 28,
+      "hex": "e0a4bee0a49ce0a58de0a4af"
+    },
+    {
+      "addition_order": 11,
+      "frequency_rank": 256,
+      "train_emissions": 23,
+      "hex": "e0a4b8e0a4bee0a4a8"
+    },
+    {
+      "addition_order": 12,
+      "frequency_rank": 435,
+      "train_emissions": 8,
+      "hex": "e0a4b0e0a496"
+    },
+    {
+      "addition_order": 13,
+      "frequency_rank": 222,
+      "train_emissions": 25,
+      "hex": "e0a58020e0a4ace0a4bee0a4ac"
+    },
+    {
+      "addition_order": 14,
+      "frequency_rank": 259,
+      "train_emissions": 23,
+      "hex": "e0a58de0a4b0e0a588"
+    },
+    {
+      "addition_order": 15,
+      "frequency_rank": 356,
+      "train_emissions": 19,
+      "hex": "ade0a4bee0a497"
+    },
+    {
+      "addition_order": 16,
+      "frequency_rank": 427,
+      "train_emissions": 14,
+      "hex": "e0a582e0a4a4e0a58720e0a4"
+    },
+    {
+      "addition_order": 17,
+      "frequency_rank": 255,
+      "train_emissions": 23,
+      "hex": "20e0a4b9e0a5882e"
+    },
+    {
+      "addition_order": 18,
+      "frequency_rank": 47,
+      "train_emissions": 48,
+      "hex": "e0a58be0a48220e0a495e0a58b20e0a4"
+    },
+    {
+      "addition_order": 19,
+      "frequency_rank": 67,
+      "train_emissions": 41,
+      "hex": "e0a482e0a4aa"
+    },
+    {
+      "addition_order": 20,
+      "frequency_rank": 192,
+      "train_emissions": 27,
+      "hex": "e0a4bee0a4a8e0a587"
+    },
+    {
+      "addition_order": 21,
+      "frequency_rank": 347,
+      "train_emissions": 19,
+      "hex": "86e0a488"
+    },
+    {
+      "addition_order": 22,
+      "frequency_rank": 395,
+      "train_emissions": 18,
+      "hex": "20e0a4a4e0a58b20e0a4"
+    },
+    {
+      "addition_order": 23,
+      "frequency_rank": 325,
+      "train_emissions": 20,
+      "hex": "7761"
+    },
+    {
+      "addition_order": 24,
+      "frequency_rank": 157,
+      "train_emissions": 30,
+      "hex": "e0a4be20e0a4b9e0a58820e0a495e0a4bf"
+    },
+    {
+      "addition_order": 25,
+      "frequency_rank": 363,
+      "train_emissions": 19,
+      "hex": "e0a58de0a4b5e0a4aa"
+    },
+    {
+      "addition_order": 26,
+      "frequency_rank": 176,
+      "train_emissions": 28,
+      "hex": "e0a587e0a482e0a49f"
+    },
+    {
+      "addition_order": 27,
+      "frequency_rank": 284,
+      "train_emissions": 22,
+      "hex": "20e0a495e0a488"
+    },
+    {
+      "addition_order": 28,
+      "frequency_rank": 107,
+      "train_emissions": 35,
+      "hex": "e0a580e0a49c"
+    },
+    {
+      "addition_order": 29,
+      "frequency_rank": 59,
+      "train_emissions": 44,
+      "hex": "e0a4bee0a48fe0a497"
+    },
+    {
+      "addition_order": 30,
+      "frequency_rank": 39,
+      "train_emissions": 51,
+      "hex": "20e0a495e0a58720e0a4b8e0a4bee0a4a5"
+    },
+    {
+      "addition_order": 31,
+      "frequency_rank": 350,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a493"
+    },
+    {
+      "addition_order": 32,
+      "frequency_rank": 379,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a4a4e0a4be20e0a4b9e0a588"
+    },
+    {
+      "addition_order": 33,
+      "frequency_rank": 103,
+      "train_emissions": 36,
+      "hex": "e0a58020e0a495e0a58020e0a4"
+    },
+    {
+      "addition_order": 34,
+      "frequency_rank": 41,
+      "train_emissions": 49,
+      "hex": "20e0a4afe0a4b9"
+    },
+    {
+      "addition_order": 35,
+      "frequency_rank": 43,
+      "train_emissions": 49,
+      "hex": "20e0a495e0a58720e0a4ace0a4bee0a4a6"
+    },
+    {
+      "addition_order": 36,
+      "frequency_rank": 125,
+      "train_emissions": 33,
+      "hex": "aae0a4b0"
+    },
+    {
+      "addition_order": 37,
+      "frequency_rank": 112,
+      "train_emissions": 35,
+      "hex": "e0a4bee0a4b0e0a58de0a4af"
+    },
+    {
+      "addition_order": 38,
+      "frequency_rank": 93,
+      "train_emissions": 38,
+      "hex": "e0a58020e0a495e0a58720e0a4"
+    },
+    {
+      "addition_order": 39,
+      "frequency_rank": 152,
+      "train_emissions": 30,
+      "hex": "e0a580e0a4b8"
+    },
+    {
+      "addition_order": 40,
+      "frequency_rank": 295,
+      "train_emissions": 22,
+      "hex": "20e0a495e0a4b0e0a4a8e0a58720e0a4"
+    },
+    {
+      "addition_order": 41,
+      "frequency_rank": 275,
+      "train_emissions": 22,
+      "hex": "20e28093"
+    },
+    {
+      "addition_order": 42,
+      "frequency_rank": 437,
+      "train_emissions": 6,
+      "hex": "e0a58ce0a4b0"
+    },
+    {
+      "addition_order": 43,
+      "frequency_rank": 196,
+      "train_emissions": 26,
+      "hex": "b8e0a4ae"
+    },
+    {
+      "addition_order": 44,
+      "frequency_rank": 276,
+      "train_emissions": 22,
+      "hex": "696e6469"
+    },
+    {
+      "addition_order": 45,
+      "frequency_rank": 63,
+      "train_emissions": 43,
+      "hex": "e0a587e0a4a6"
+    },
+    {
+      "addition_order": 46,
+      "frequency_rank": 249,
+      "train_emissions": 23,
+      "hex": "e0a4bfe0a497"
+    },
+    {
+      "addition_order": 47,
+      "frequency_rank": 115,
+      "train_emissions": 34,
+      "hex": "e0a4b9e0a4b2"
+    },
+    {
+      "addition_order": 48,
+      "frequency_rank": 77,
+      "train_emissions": 40,
+      "hex": "e0a58be0a48220e0a495e0a58720e0a4"
+    },
+    {
+      "addition_order": 49,
+      "frequency_rank": 223,
+      "train_emissions": 24,
+      "hex": "2041"
+    },
+    {
+      "addition_order": 50,
+      "frequency_rank": 310,
+      "train_emissions": 21,
+      "hex": "e0a58de0a4b9"
+    },
+    {
+      "addition_order": 51,
+      "frequency_rank": 358,
+      "train_emissions": 19,
+      "hex": "e0a4be20e0a49a"
+    },
+    {
+      "addition_order": 52,
+      "frequency_rank": 353,
+      "train_emissions": 19,
+      "hex": "e0a581e0a4a7"
+    },
+    {
+      "addition_order": 53,
+      "frequency_rank": 298,
+      "train_emissions": 21,
+      "hex": "ace0a4a8"
+    },
+    {
+      "addition_order": 54,
+      "frequency_rank": 406,
+      "train_emissions": 18,
+      "hex": "20e0a486e0a4aae0a495e0a58b20e0a4"
+    },
+    {
+      "addition_order": 55,
+      "frequency_rank": 226,
+      "train_emissions": 24,
+      "hex": "85e0a4b2"
+    },
+    {
+      "addition_order": 56,
+      "frequency_rank": 400,
+      "train_emissions": 18,
+      "hex": "e0a4bee0a4b0e0a58de0a49f"
+    },
+    {
+      "addition_order": 57,
+      "frequency_rank": 200,
+      "train_emissions": 26,
+      "hex": "b9e0a58020e0a4"
+    },
+    {
+      "addition_order": 58,
+      "frequency_rank": 415,
+      "train_emissions": 17,
+      "hex": "e0a4b0e0a58de0a4a1"
+    },
+    {
+      "addition_order": 59,
+      "frequency_rank": 219,
+      "train_emissions": 25,
+      "hex": "20e0a495e0a58020e0a49c"
+    },
+    {
+      "addition_order": 60,
+      "frequency_rank": 165,
+      "train_emissions": 29,
+      "hex": "e0a4b0e0a58de0a4a4"
+    },
+    {
+      "addition_order": 61,
+      "frequency_rank": 124,
+      "train_emissions": 33,
+      "hex": "97e0a488"
+    },
+    {
+      "addition_order": 62,
+      "frequency_rank": 73,
+      "train_emissions": 40,
+      "hex": "e0a4bfe0a49c"
+    },
+    {
+      "addition_order": 63,
+      "frequency_rank": 371,
+      "train_emissions": 19,
+      "hex": "20e0a495e0a58020e0a4ac"
+    },
+    {
+      "addition_order": 64,
+      "frequency_rank": 142,
+      "train_emissions": 31,
+      "hex": "2048"
+    },
+    {
+      "addition_order": 65,
+      "frequency_rank": 443,
+      "train_emissions": 0,
+      "hex": "e0a49ae0a58de0a4"
+    },
+    {
+      "addition_order": 66,
+      "frequency_rank": 147,
+      "train_emissions": 31,
+      "hex": "e0a58720e0a4ae"
+    },
+    {
+      "addition_order": 67,
+      "frequency_rank": 161,
+      "train_emissions": 29,
+      "hex": "e0a58be0a4b6"
+    },
+    {
+      "addition_order": 68,
+      "frequency_rank": 362,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a4a8e0a4b5"
+    },
+    {
+      "addition_order": 69,
+      "frequency_rank": 138,
+      "train_emissions": 32,
+      "hex": "e0a482e0a4a4e0a58de0a4b0"
+    },
+    {
+      "addition_order": 70,
+      "frequency_rank": 354,
+      "train_emissions": 19,
+      "hex": "20e0a4a6e0a587"
+    },
+    {
+      "addition_order": 71,
+      "frequency_rank": 299,
+      "train_emissions": 21,
+      "hex": "e0a4be2d"
+    },
+    {
+      "addition_order": 72,
+      "frequency_rank": 14,
+      "train_emissions": 76,
+      "hex": "e0a4bee0a5a420e0a4"
+    },
+    {
+      "addition_order": 73,
+      "frequency_rank": 361,
+      "train_emissions": 19,
+      "hex": "e0a4b0e0a58de0a4b8"
+    },
+    {
+      "addition_order": 74,
+      "frequency_rank": 293,
+      "train_emissions": 22,
+      "hex": "ace0a4a4e0a4bee0a4af"
+    },
+    {
+      "addition_order": 75,
+      "frequency_rank": 428,
+      "train_emissions": 13,
+      "hex": "20e0a495e0a4b020e0a4"
+    },
+    {
+      "addition_order": 76,
+      "frequency_rank": 69,
+      "train_emissions": 41,
+      "hex": "e0a58be0a49f"
+    },
+    {
+      "addition_order": 77,
+      "frequency_rank": 72,
+      "train_emissions": 41,
+      "hex": "20e0a495e0a58de0a4af"
+    },
+    {
+      "addition_order": 78,
+      "frequency_rank": 90,
+      "train_emissions": 38,
+      "hex": "e0a4bfe0a4b020e0a4"
+    },
+    {
+      "addition_order": 79,
+      "frequency_rank": 126,
+      "train_emissions": 33,
+      "hex": "20e0a485e0a4aa"
+    },
+    {
+      "addition_order": 80,
+      "frequency_rank": 380,
+      "train_emissions": 19,
+      "hex": "e0a4bee0a4a4e0a58020e0a4b9e0a588"
+    },
+    {
+      "addition_order": 81,
+      "frequency_rank": 283,
+      "train_emissions": 22,
+      "hex": "20e0a485e0a4ac"
+    },
+    {
+      "addition_order": 82,
+      "frequency_rank": 263,
+      "train_emissions": 23,
+      "hex": "e0a4be20e0a495e0a58b"
+    },
+    {
+      "addition_order": 83,
+      "frequency_rank": 1,
+      "train_emissions": 307,
+      "hex": "2c20e0a4"
+    },
+    {
+      "addition_order": 84,
+      "frequency_rank": 191,
+      "train_emissions": 27,
+      "hex": "e0a58b20e0a4b0"
+    },
+    {
+      "addition_order": 85,
+      "frequency_rank": 303,
+      "train_emissions": 21,
+      "hex": "e0a4a8e0a4b2"
+    },
+    {
+      "addition_order": 86,
+      "frequency_rank": 246,
+      "train_emissions": 24,
+      "hex": "e0a58720e0a4b9e0a588e0a482e0a5a420e0a4"
+    },
+    {
+      "addition_order": 87,
+      "frequency_rank": 9,
+      "train_emissions": 100,
+      "hex": "ade0a58020e0a4"
+    },
+    {
+      "addition_order": 88,
+      "frequency_rank": 38,
+      "train_emissions": 51,
+      "hex": "e0a58be0a48220e0a495e0a58020e0a4"
+    },
+    {
+      "addition_order": 89,
+      "frequency_rank": 220,
+      "train_emissions": 25,
+      "hex": "20e0a495e0a58720e0a4ae"
+    },
+    {
+      "addition_order": 90,
+      "frequency_rank": 188,
+      "train_emissions": 27,
+      "hex": "20e0a495e0a4b9"
+    },
+    {
+      "addition_order": 91,
+      "frequency_rank": 312,
+      "train_emissions": 21,
+      "hex": "a8e0a58720e0a4"
+    },
+    {
+      "addition_order": 92,
+      "frequency_rank": 21,
+      "train_emissions": 68,
+      "hex": "e0a482e0a4a1"
+    },
+    {
+      "addition_order": 93,
+      "frequency_rank": 102,
+      "train_emissions": 36,
+      "hex": "e0a4be20e0a495e0a4b0"
+    },
+    {
+      "addition_order": 94,
+      "frequency_rank": 339,
+      "train_emissions": 20,
+      "hex": "e0a4bee0a4a8e0a58020e0a4"
+    },
+    {
+      "addition_order": 95,
+      "frequency_rank": 351,
+      "train_emissions": 19,
+      "hex": "e0a4bfe0a4b7"
+    },
+    {
+      "addition_order": 96,
+      "frequency_rank": 20,
+      "train_emissions": 69,
+      "hex": "e0a4bfe0a4afe0a4be20e0a4"
+    },
+    {
+      "addition_order": 97,
+      "frequency_rank": 355,
+      "train_emissions": 19,
+      "hex": "96e0a587e0a4b2"
+    },
+    {
+      "addition_order": 98,
+      "frequency_rank": 251,
+      "train_emissions": 23,
+      "hex": "20e0a485e0a4a8"
+    },
+    {
+      "addition_order": 99,
+      "frequency_rank": 328,
+      "train_emissions": 20,
+      "hex": "b9e0a581e0a4"
+    },
+    {
+      "addition_order": 100,
+      "frequency_rank": 382,
+      "train_emissions": 18,
+      "hex": "e0a481e0a497"
+    },
+    {
+      "addition_order": 101,
+      "frequency_rank": 331,
+      "train_emissions": 20,
+      "hex": "e0a4a8e0a58de0a4b9"
+    },
+    {
+      "addition_order": 102,
+      "frequency_rank": 128,
+      "train_emissions": 33,
+      "hex": "e0a4aee0a4bee0a4a8"
+    },
+    {
+      "addition_order": 103,
+      "frequency_rank": 294,
+      "train_emissions": 22,
+      "hex": "e0a587e0a4b8e0a58de0a49f"
+    },
+    {
+      "addition_order": 104,
+      "frequency_rank": 285,
+      "train_emissions": 22,
+      "hex": "20e0a4b8e0a4b0"
+    },
+    {
+      "addition_order": 105,
+      "frequency_rank": 286,
+      "train_emissions": 22,
+      "hex": "9ce0a4bfe0a4b8"
+    },
+    {
+      "addition_order": 106,
+      "frequency_rank": 248,
+      "train_emissions": 23,
+      "hex": "6768"
+    },
+    {
+      "addition_order": 107,
+      "frequency_rank": 370,
+      "train_emissions": 19,
+      "hex": "e0a58020e0a4b9e0a58b"
+    },
+    {
+      "addition_order": 108,
+      "frequency_rank": 26,
+      "train_emissions": 61,
+      "hex": "e0a5a420e0a487e0a4b8"
+    },
+    {
+      "addition_order": 109,
+      "frequency_rank": 393,
+      "train_emissions": 18,
+      "hex": "e0a4bee0a4aee0a4b2"
+    },
+    {
+      "addition_order": 110,
+      "frequency_rank": 148,
+      "train_emissions": 31,
+      "hex": "e0a4bfe0a495e0a58de0a4b7"
+    },
+    {
+      "addition_order": 111,
+      "frequency_rank": 114,
+      "train_emissions": 34,
+      "hex": "89e0a4aa"
+    },
+    {
+      "addition_order": 112,
+      "frequency_rank": 131,
+      "train_emissions": 33,
+      "hex": "20e0a4afe0a58be0a49ce0a4a8"
+    },
+    {
+      "addition_order": 113,
+      "frequency_rank": 424,
+      "train_emissions": 15,
+      "hex": "9ae0a4bee0a4b9"
+    },
+    {
+      "addition_order": 114,
+      "frequency_rank": 341,
+      "train_emissions": 20,
+      "hex": "e0a58de0a4afe0a495e0a58de0a4a4"
+    },
+    {
+      "addition_order": 115,
+      "frequency_rank": 177,
+      "train_emissions": 28,
+      "hex": "20e0a495e0a4bfe0a4b8"
+    },
+    {
+      "addition_order": 116,
+      "frequency_rank": 160,
+      "train_emissions": 29,
+      "hex": "e0a580e0a49a"
+    },
+    {
+      "addition_order": 117,
+      "frequency_rank": 326,
+      "train_emissions": 20,
+      "hex": "20e0a491"
+    },
+    {
+      "addition_order": 118,
+      "frequency_rank": 123,
+      "train_emissions": 33,
+      "hex": "86e0a4b0"
+    },
+    {
+      "addition_order": 119,
+      "frequency_rank": 111,
+      "train_emissions": 35,
+      "hex": "e0a58de0a4b0e0a4ae"
+    },
+    {
+      "addition_order": 120,
+      "frequency_rank": 82,
+      "train_emissions": 39,
+      "hex": "e0a5a420e0a4b8"
+    },
+    {
+      "addition_order": 121,
+      "frequency_rank": 17,
+      "train_emissions": 71,
+      "hex": "2c20e0a4b8"
+    },
+    {
+      "addition_order": 122,
+      "frequency_rank": 52,
+      "train_emissions": 46,
+      "hex": "e0a4be20e0a4b9e0a588e0a5a420e0a4"
+    },
+    {
+      "addition_order": 123,
+      "frequency_rank": 398,
+      "train_emissions": 18,
+      "hex": "20e0a495e0a4be20e0a4a8"
+    },
+    {
+      "addition_order": 124,
+      "frequency_rank": 203,
+      "train_emissions": 26,
+      "hex": "e0a4bee0a482e0a497"
+    },
+    {
+      "addition_order": 125,
+      "frequency_rank": 4,
+      "train_emissions": 109,
+      "hex": "e0a48220e0a4"
+    },
+    {
+      "addition_order": 126,
+      "frequency_rank": 11,
+      "train_emissions": 79,
+      "hex": "e0a4a8e0a587"
+    },
+    {
+      "addition_order": 127,
+      "frequency_rank": 261,
+      "train_emissions": 23,
+      "hex": "20e0a495e0a58be0a488"
+    },
+    {
+      "addition_order": 128,
+      "frequency_rank": 23,
+      "train_emissions": 66,
+      "hex": "b2e0a497"
+    },
+    {
+      "addition_order": 129,
+      "frequency_rank": 214,
+      "train_emissions": 25,
+      "hex": "e0a482e0a5a420e0a4"
+    },
+    {
+      "addition_order": 130,
+      "frequency_rank": 388,
+      "train_emissions": 18,
+      "hex": "e0a4be20e0a4b2"
+    },
+    {
+      "addition_order": 131,
+      "frequency_rank": 221,
+      "train_emissions": 25,
+      "hex": "e0a58de0a4afe0a4bee0a4a6"
+    },
+    {
+      "addition_order": 132,
+      "frequency_rank": 193,
+      "train_emissions": 27,
+      "hex": "e0a580e0a5a420e0a4"
+    },
+    {
+      "addition_order": 133,
+      "frequency_rank": 7,
+      "train_emissions": 102,
+      "hex": "94e0a4b020e0a4"
+    },
+    {
+      "addition_order": 134,
+      "frequency_rank": 113,
+      "train_emissions": 34,
+      "hex": "86e0a4af"
+    },
+    {
+      "addition_order": 135,
+      "frequency_rank": 153,
+      "train_emissions": 30,
+      "hex": "e0a4b020e0a4b2"
+    },
+    {
+      "addition_order": 136,
+      "frequency_rank": 134,
+      "train_emissions": 32,
+      "hex": "2042"
+    },
+    {
+      "addition_order": 137,
+      "frequency_rank": 53,
+      "train_emissions": 45,
+      "hex": "e0a580e0a48f"
+    },
+    {
+      "addition_order": 138,
+      "frequency_rank": 108,
+      "train_emissions": 35,
+      "hex": "20e0a4ace0a4a8"
+    },
+    {
+      "addition_order": 139,
+      "frequency_rank": 137,
+      "train_emissions": 32,
+      "hex": "20e0a4b8e0a495"
+    },
+    {
+      "addition_order": 140,
+      "frequency_rank": 313,
+      "train_emissions": 21,
+      "hex": "e0a58020e0a4b2"
+    },
+    {
+      "addition_order": 141,
+      "frequency_rank": 231,
+      "train_emissions": 24,
+      "hex": "e0a4a820e0a4a8"
+    },
+    {
+      "addition_order": 142,
+      "frequency_rank": 304,
+      "train_emissions": 21,
+      "hex": "e0a4ace0a4b0"
+    },
+    {
+      "addition_order": 143,
+      "frequency_rank": 444,
+      "train_emissions": 0,
+      "hex": "e0a4a4e0a58de0a4aa"
+    },
+    {
+      "addition_order": 144,
+      "frequency_rank": 178,
+      "train_emissions": 28,
+      "hex": "20e0a495e0a58720e0a4aa"
+    },
+    {
+      "addition_order": 145,
+      "frequency_rank": 309,
+      "train_emissions": 21,
+      "hex": "e0a580e0a4ac"
+    },
+    {
+      "addition_order": 146,
+      "frequency_rank": 149,
+      "train_emissions": 31,
+      "hex": "20e0a4ade0a4bee0a4b0e0a4a4"
+    },
+    {
+      "addition_order": 147,
+      "frequency_rank": 394,
+      "train_emissions": 18,
+      "hex": "e0a58de0a4b5e0a4b0"
+    },
+    {
+      "addition_order": 148,
+      "frequency_rank": 207,
+      "train_emissions": 25,
+      "hex": "6d6d"
+    },
+    {
+      "addition_order": 149,
+      "frequency_rank": 74,
+      "train_emissions": 40,
+      "hex": "e0a589e0a4b2"
+    },
+    {
+      "addition_order": 150,
+      "frequency_rank": 271,
+      "train_emissions": 23,
+      "hex": "20e0a4b9e0a58820e0a495e0a4bf"
+    },
+    {
+      "addition_order": 151,
+      "frequency_rank": 277,
+      "train_emissions": 22,
+      "hex": "85e0a4b8"
+    },
+    {
+      "addition_order": 152,
+      "frequency_rank": 432,
+      "train_emissions": 11,
+      "hex": "97e0a4af"
+    },
+    {
+      "addition_order": 153,
+      "frequency_rank": 333,
+      "train_emissions": 20,
+      "hex": "e0a4b0e0a580e0a4a6"
+    },
+    {
+      "addition_order": 154,
+      "frequency_rank": 87,
+      "train_emissions": 38,
+      "hex": "e0a482e0a4a7"
+    },
+    {
+      "addition_order": 155,
+      "frequency_rank": 290,
+      "train_emissions": 22,
+      "hex": "e0a4bfe0a482e0a4b9"
+    },
+    {
+      "addition_order": 156,
+      "frequency_rank": 278,
+      "train_emissions": 22,
+      "hex": "87e0a4a8"
+    },
+    {
+      "addition_order": 157,
+      "frequency_rank": 34,
+      "train_emissions": 54,
+      "hex": "e0a4a4e0a4be20e0a4"
+    },
+    {
+      "addition_order": 158,
+      "frequency_rank": 272,
+      "train_emissions": 23,
+      "hex": "e0a58be0a48220e0a495e0a4be20e0a4"
+    },
+    {
+      "addition_order": 159,
+      "frequency_rank": 234,
+      "train_emissions": 24,
+      "hex": "e0a4a4e0a58de0a4af"
+    },
+    {
+      "addition_order": 160,
+      "frequency_rank": 436,
+      "train_emissions": 8,
+      "hex": "e0a58de0a4a7"
+    },
+    {
+      "addition_order": 161,
+      "frequency_rank": 245,
+      "train_emissions": 24,
+      "hex": "e0a4a4e0a4be20e0a4b9e0a588e0a5a420e0a4"
+    },
+    {
+      "addition_order": 162,
+      "frequency_rank": 12,
+      "train_emissions": 77,
+      "hex": "b9e0a4ae"
+    },
+    {
+      "addition_order": 163,
+      "frequency_rank": 238,
+      "train_emissions": 24,
+      "hex": "20e0a4b2e0a58be0a497"
+    },
+    {
+      "addition_order": 164,
+      "frequency_rank": 88,
+      "train_emissions": 38,
+      "hex": "e0a4bee0a4b6"
+    },
+    {
+      "addition_order": 165,
+      "frequency_rank": 164,
+      "train_emissions": 29,
+      "hex": "20e0a4b9e0a581e0a4"
+    },
+    {
+      "addition_order": 166,
+      "frequency_rank": 70,
+      "train_emissions": 41,
+      "hex": "a6e0a587e0a496"
+    },
+    {
+      "addition_order": 167,
+      "frequency_rank": 189,
+      "train_emissions": 27,
+      "hex": "97e0a58de0a4b0"
+    },
+    {
+      "addition_order": 168,
+      "frequency_rank": 184,
+      "train_emissions": 27,
+      "hex": "90e0a4b8"
+    },
+    {
+      "addition_order": 169,
+      "frequency_rank": 197,
+      "train_emissions": 26,
+      "hex": "e0a58720"
+    },
+    {
+      "addition_order": 170,
+      "frequency_rank": 289,
+      "train_emissions": 22,
+      "hex": "e0a4bee0a4b0e0a4a3"
+    },
+    {
+      "addition_order": 171,
+      "frequency_rank": 327,
+      "train_emissions": 20,
+      "hex": "85e0a4ac"
+    },
+    {
+      "addition_order": 172,
+      "frequency_rank": 150,
+      "train_emissions": 30,
+      "hex": "617264"
+    },
+    {
+      "addition_order": 173,
+      "frequency_rank": 431,
+      "train_emissions": 12,
+      "hex": "e0a4a7e0a4bfe0a495"
+    },
+    {
+      "addition_order": 174,
+      "frequency_rank": 71,
+      "train_emissions": 41,
+      "hex": "e0a4b0e0a580e0a49c"
+    },
+    {
+      "addition_order": 175,
+      "frequency_rank": 174,
+      "train_emissions": 28,
+      "hex": "e0a4bee0a482e0a4b5"
+    },
+    {
+      "addition_order": 176,
+      "frequency_rank": 159,
+      "train_emissions": 29,
+      "hex": "e0a4b9e0a580"
+    },
+    {
+      "addition_order": 177,
+      "frequency_rank": 230,
+      "train_emissions": 24,
+      "hex": "b2e0a58be0a495"
+    },
+    {
+      "addition_order": 178,
+      "frequency_rank": 209,
+      "train_emissions": 25,
+      "hex": "86e0a4b5"
+    },
+    {
+      "addition_order": 179,
+      "frequency_rank": 410,
+      "train_emissions": 17,
+      "hex": "e0a588e0a4b2"
+    },
+    {
+      "addition_order": 180,
+      "frequency_rank": 417,
+      "train_emissions": 17,
+      "hex": "e0a58de0a4a5e0a4bfe0a4a4"
+    },
+    {
+      "addition_order": 181,
+      "frequency_rank": 208,
+      "train_emissions": 25,
+      "hex": "20e0a498"
+    },
+    {
+      "addition_order": 182,
+      "frequency_rank": 401,
+      "train_emissions": 18,
+      "hex": "e0a4bfe0a4b0e0a482e0a497"
+    },
+    {
+      "addition_order": 183,
+      "frequency_rank": 24,
+      "train_emissions": 65,
+      "hex": "aae0a4b020e0a4"
+    },
+    {
+      "addition_order": 184,
+      "frequency_rank": 233,
+      "train_emissions": 24,
+      "hex": "e0a4a4e0a58de0a4a4"
+    },
+    {
+      "addition_order": 185,
+      "frequency_rank": 46,
+      "train_emissions": 48,
+      "hex": "97e0a4bee0a482e0a4a7"
+    },
+    {
+      "addition_order": 186,
+      "frequency_rank": 79,
+      "train_emissions": 39,
+      "hex": "85e0a4aa"
+    },
+    {
+      "addition_order": 187,
+      "frequency_rank": 37,
+      "train_emissions": 52,
+      "hex": "20e0a4aee0a4bfe0a4b2"
+    },
+    {
+      "addition_order": 188,
+      "frequency_rank": 438,
+      "train_emissions": 6,
+      "hex": "e0a4b020e0a4b8e0a495"
+    },
+    {
+      "addition_order": 189,
+      "frequency_rank": 420,
+      "train_emissions": 16,
+      "hex": "e0a581e0a49b"
+    },
+    {
+      "addition_order": 190,
+      "frequency_rank": 389,
+      "train_emissions": 18,
+      "hex": "e0a58020e0a4a5"
+    },
+    {
+      "addition_order": 191,
+      "frequency_rank": 343,
+      "train_emissions": 19,
+      "hex": "2035"
+    },
+    {
+      "addition_order": 192,
+      "frequency_rank": 18,
+      "train_emissions": 69,
+      "hex": "86e0a4aa"
+    },
+    {
+      "addition_order": 193,
+      "frequency_rank": 262,
+      "train_emissions": 23,
+      "hex": "20e0a4b8e0a58de0a4b5"
+    },
+    {
+      "addition_order": 194,
+      "frequency_rank": 127,
+      "train_emissions": 33,
+      "hex": "20e0a4a4e0a495"
+    },
+    {
+      "addition_order": 195,
+      "frequency_rank": 416,
+      "train_emissions": 17,
+      "hex": "e0a58720e0a4b9e0a588"
+    },
+    {
+      "addition_order": 196,
+      "frequency_rank": 372,
+      "train_emissions": 19,
+      "hex": "e0a495e0a4b0e0a58de0a4ae"
+    },
+    {
+      "addition_order": 197,
+      "frequency_rank": 281,
+      "train_emissions": 22,
+      "hex": "e0a581e0a4a6"
+    },
+    {
+      "addition_order": 198,
+      "frequency_rank": 81,
+      "train_emissions": 39,
+      "hex": "e0a580e0a495"
+    },
+    {
+      "addition_order": 199,
+      "frequency_rank": 50,
+      "train_emissions": 46,
+      "hex": "e0a4be20e0a495e0a4bf"
+    },
+    {
+      "addition_order": 200,
+      "frequency_rank": 418,
+      "train_emissions": 17,
+      "hex": "20e0a4b0e0a4b9e0a58020e0a4b9e0a588"
+    },
+    {
+      "addition_order": 201,
+      "frequency_rank": 254,
+      "train_emissions": 23,
+      "hex": "b6e0a58de0a4b0"
+    },
+    {
+      "addition_order": 202,
+      "frequency_rank": 146,
+      "train_emissions": 31,
+      "hex": "e0a58720e0a49c"
+    },
+    {
+      "addition_order": 203,
+      "frequency_rank": 44,
+      "train_emissions": 48,
+      "hex": "e0a482e0a49a"
+    },
+    {
+      "addition_order": 204,
+      "frequency_rank": 274,
+      "train_emissions": 22,
+      "hex": "6720"
+    },
+    {
+      "addition_order": 205,
+      "frequency_rank": 227,
+      "train_emissions": 24,
+      "hex": "e0a581e0a4ae"
+    },
+    {
+      "addition_order": 206,
+      "frequency_rank": 216,
+      "train_emissions": 25,
+      "hex": "e0a581e0a4b0e0a582"
+    },
+    {
+      "addition_order": 207,
+      "frequency_rank": 329,
+      "train_emissions": 20,
+      "hex": "85e0a482e0a4a4"
+    },
+    {
+      "addition_order": 208,
+      "frequency_rank": 345,
+      "train_emissions": 19,
+      "hex": "e0a49d"
+    },
+    {
+      "addition_order": 209,
+      "frequency_rank": 16,
+      "train_emissions": 71,
+      "hex": "afe0a4b9"
+    },
+    {
+      "addition_order": 210,
+      "frequency_rank": 110,
+      "train_emissions": 35,
+      "hex": "b9e0a58be0a497"
+    },
+    {
+      "addition_order": 211,
+      "frequency_rank": 429,
+      "train_emissions": 12,
+      "hex": "2e2e2e"
+    },
+    {
+      "addition_order": 212,
+      "frequency_rank": 403,
+      "train_emissions": 18,
+      "hex": "e0a4a820e0a495e0a58020e0a4"
+    },
+    {
+      "addition_order": 213,
+      "frequency_rank": 42,
+      "train_emissions": 49,
+      "hex": "e0a4b8e0a58720e0a4"
+    },
+    {
+      "addition_order": 214,
+      "frequency_rank": 86,
+      "train_emissions": 38,
+      "hex": "2032"
+    },
+    {
+      "addition_order": 215,
+      "frequency_rank": 280,
+      "train_emissions": 22,
+      "hex": "e0a580e0a4"
+    },
+    {
+      "addition_order": 216,
+      "frequency_rank": 252,
+      "train_emissions": 23,
+      "hex": "97e0a580e0a4a4"
+    },
+    {
+      "addition_order": 217,
+      "frequency_rank": 212,
+      "train_emissions": 25,
+      "hex": "20e0a4b2e0a497"
+    },
+    {
+      "addition_order": 218,
+      "frequency_rank": 414,
+      "train_emissions": 17,
+      "hex": "e0a4a7e0a58de0a4af"
+    },
+    {
+      "addition_order": 219,
+      "frequency_rank": 330,
+      "train_emissions": 20,
+      "hex": "b0e0a4bee0a4ae"
+    },
+    {
+      "addition_order": 220,
+      "frequency_rank": 158,
+      "train_emissions": 29,
+      "hex": "e0a4b9e0a4a8"
+    },
+    {
+      "addition_order": 221,
+      "frequency_rank": 78,
+      "train_emissions": 39,
+      "hex": "2033"
+    },
+    {
+      "addition_order": 222,
+      "frequency_rank": 273,
+      "train_emissions": 22,
+      "hex": "2056"
+    },
+    {
+      "addition_order": 223,
+      "frequency_rank": 117,
+      "train_emissions": 34,
+      "hex": "e0a58be0a4a1"
+    },
+    {
+      "addition_order": 224,
+      "frequency_rank": 306,
+      "train_emissions": 21,
+      "hex": "e0a4b0e0a58b"
+    },
+    {
+      "addition_order": 225,
+      "frequency_rank": 58,
+      "train_emissions": 44,
+      "hex": "e0a482e0a4ac"
+    },
+    {
+      "addition_order": 226,
+      "frequency_rank": 240,
+      "train_emissions": 24,
+      "hex": "e0a58de0a495e0a582e0a4b2"
+    },
+    {
+      "addition_order": 227,
+      "frequency_rank": 187,
+      "train_emissions": 27,
+      "hex": "e0a58be0a4a7"
+    },
+    {
+      "addition_order": 228,
+      "frequency_rank": 132,
+      "train_emissions": 33,
+      "hex": "20e0a4b9e0a588e0a5a420e0a4"
+    },
+    {
+      "addition_order": 229,
+      "frequency_rank": 98,
+      "train_emissions": 36,
+      "hex": "2044"
+    },
+    {
+      "addition_order": 230,
+      "frequency_rank": 235,
+      "train_emissions": 24,
+      "hex": "e0a4a6e0a4bee0a4a8"
+    },
+    {
+      "addition_order": 231,
+      "frequency_rank": 364,
+      "train_emissions": 19,
+      "hex": "20e0a497e0a58de0a4b0"
+    },
+    {
+      "addition_order": 232,
+      "frequency_rank": 324,
+      "train_emissions": 20,
+      "hex": "6169"
+    },
+    {
+      "addition_order": 233,
+      "frequency_rank": 65,
+      "train_emissions": 42,
+      "hex": "e0a4bee0a4b0e0a580"
+    },
+    {
+      "addition_order": 234,
+      "frequency_rank": 25,
+      "train_emissions": 64,
+      "hex": "e0a4b020e0a495"
+    },
+    {
+      "addition_order": 235,
+      "frequency_rank": 211,
+      "train_emissions": 25,
+      "hex": "e0a582e0a4a4"
+    },
+    {
+      "addition_order": 236,
+      "frequency_rank": 441,
+      "train_emissions": 1,
+      "hex": "e0a4b6e0a58de0a4af"
+    },
+    {
+      "addition_order": 237,
+      "frequency_rank": 199,
+      "train_emissions": 26,
+      "hex": "e0a4b0e0a4b9"
+    },
+    {
+      "addition_order": 238,
+      "frequency_rank": 122,
+      "train_emissions": 34,
+      "hex": "e0a4bee0a4a8e0a58720e0a4"
+    },
+    {
+      "addition_order": 239,
+      "frequency_rank": 348,
+      "train_emissions": 19,
+      "hex": "89e0a4ae"
+    },
+    {
+      "addition_order": 240,
+      "frequency_rank": 334,
+      "train_emissions": 20,
+      "hex": "e0a4b0e0a58de0a49a"
+    },
+    {
+      "addition_order": 241,
+      "frequency_rank": 45,
+      "train_emissions": 48,
+      "hex": "e0a482e0a4b8"
+    },
+    {
+      "addition_order": 242,
+      "frequency_rank": 104,
+      "train_emissions": 35,
+      "hex": "2050"
+    },
+    {
+      "addition_order": 243,
+      "frequency_rank": 250,
+      "train_emissions": 23,
+      "hex": "e0a581e0a4b5"
+    },
+    {
+      "addition_order": 244,
+      "frequency_rank": 311,
+      "train_emissions": 21,
+      "hex": "20e0a495e0a4ae"
+    },
+    {
+      "addition_order": 245,
+      "frequency_rank": 288,
+      "train_emissions": 22,
+      "hex": "e0a4a1e0a4bce0a495"
+    },
+    {
+      "addition_order": 246,
+      "frequency_rank": 287,
+      "train_emissions": 22,
+      "hex": "e0a4b2e0a58de0a4"
+    },
+    {
+      "addition_order": 247,
+      "frequency_rank": 338,
+      "train_emissions": 20,
+      "hex": "20e0a495e0a58720e0a4a6"
+    },
+    {
+      "addition_order": 248,
+      "frequency_rank": 136,
+      "train_emissions": 32,
+      "hex": "e0a587e0a4a1"
+    },
+    {
+      "addition_order": 249,
+      "frequency_rank": 258,
+      "train_emissions": 23,
+      "hex": "e0a4bfe0a495e0a4b2"
+    },
+    {
+      "addition_order": 250,
+      "frequency_rank": 228,
+      "train_emissions": 24,
+      "hex": "e0a582e0a49c"
+    },
+    {
+      "addition_order": 251,
+      "frequency_rank": 385,
+      "train_emissions": 18,
+      "hex": "e0a580e0a4b0"
+    },
+    {
+      "addition_order": 252,
+      "frequency_rank": 391,
+      "train_emissions": 18,
+      "hex": "e0a4a6e0a587e0a4b6"
+    },
+    {
+      "addition_order": 253,
+      "frequency_rank": 412,
+      "train_emissions": 17,
+      "hex": "20e0a4aee0a588"
+    },
+    {
+      "addition_order": 254,
+      "frequency_rank": 96,
+      "train_emissions": 37,
+      "hex": "e0a4be20e0a4b9e0a5882e"
+    },
+    {
+      "addition_order": 255,
+      "frequency_rank": 409,
+      "train_emissions": 17,
+      "hex": "e0a587e0a4af"
+    },
+    {
+      "addition_order": 256,
+      "frequency_rank": 392,
+      "train_emissions": 18,
+      "hex": "e0a4bee0a487e0a4a1"
+    },
+    {
+      "addition_order": 257,
+      "frequency_rank": 32,
+      "train_emissions": 54,
+      "hex": "e0a482e0a49f"
+    },
+    {
+      "addition_order": 258,
+      "frequency_rank": 13,
+      "train_emissions": 77,
+      "hex": "e0a4bee0a4b0e0a58020e0a4"
+    },
+    {
+      "addition_order": 259,
+      "frequency_rank": 213,
+      "train_emissions": 25,
+      "hex": "e0a5a420e0a4ae"
+    },
+    {
+      "addition_order": 260,
+      "frequency_rank": 100,
+      "train_emissions": 36,
+      "hex": "e0a580e0a4ae"
+    },
+    {
+      "addition_order": 261,
+      "frequency_rank": 387,
+      "train_emissions": 18,
+      "hex": "20e0a4b5e0a4b9"
+    },
+    {
+      "addition_order": 262,
+      "frequency_rank": 301,
+      "train_emissions": 21,
+      "hex": "2c20e0a495"
+    },
+    {
+      "addition_order": 263,
+      "frequency_rank": 236,
+      "train_emissions": 24,
+      "hex": "e0a4a8e0a58020e0a4"
+    },
+    {
+      "addition_order": 264,
+      "frequency_rank": 29,
+      "train_emissions": 57,
+      "hex": "e0a4bee0a5a4"
+    },
+    {
+      "addition_order": 265,
+      "frequency_rank": 54,
+      "train_emissions": 45,
+      "hex": "e0a58be0a4a1e0a4bc"
+    },
+    {
+      "addition_order": 266,
+      "frequency_rank": 95,
+      "train_emissions": 37,
+      "hex": "e0a58be0a4a8"
+    },
+    {
+      "addition_order": 267,
+      "frequency_rank": 225,
+      "train_emissions": 24,
+      "hex": "e280a6"
+    },
+    {
+      "addition_order": 268,
+      "frequency_rank": 384,
+      "train_emissions": 18,
+      "hex": "e0a4b5e0a4b8"
+    },
+    {
+      "addition_order": 269,
+      "frequency_rank": 33,
+      "train_emissions": 54,
+      "hex": "20e0a495e0a588"
+    },
+    {
+      "addition_order": 270,
+      "frequency_rank": 344,
+      "train_emissions": 19,
+      "hex": "2054"
+    },
+    {
+      "addition_order": 271,
+      "frequency_rank": 381,
+      "train_emissions": 18,
+      "hex": "e0a489"
+    },
+    {
+      "addition_order": 272,
+      "frequency_rank": 430,
+      "train_emissions": 12,
+      "hex": "e0a581e0a4b7"
+    },
+    {
+      "addition_order": 273,
+      "frequency_rank": 335,
+      "train_emissions": 20,
+      "hex": "e0a4bee0a4afe0a495"
+    },
+    {
+      "addition_order": 274,
+      "frequency_rank": 162,
+      "train_emissions": 29,
+      "hex": "b2e0a587e0a495"
+    },
+    {
+      "addition_order": 275,
+      "frequency_rank": 173,
+      "train_emissions": 28,
+      "hex": "e0a495e0a4b020e0a4"
+    },
+    {
+      "addition_order": 276,
+      "frequency_rank": 64,
+      "train_emissions": 42,
+      "hex": "2c20e0a4ae"
+    },
+    {
+      "addition_order": 277,
+      "frequency_rank": 202,
+      "train_emissions": 26,
+      "hex": "e0a4bee0a481e0a4a6"
+    },
+    {
+      "addition_order": 278,
+      "frequency_rank": 144,
+      "train_emissions": 31,
+      "hex": "e0a580e0a4a1"
+    },
+    {
+      "addition_order": 279,
+      "frequency_rank": 171,
+      "train_emissions": 28,
+      "hex": "e0a587e0a4ac"
+    },
+    {
+      "addition_order": 280,
+      "frequency_rank": 279,
+      "train_emissions": 22,
+      "hex": "b5e0a4b9"
+    },
+    {
+      "addition_order": 281,
+      "frequency_rank": 135,
+      "train_emissions": 32,
+      "hex": "89e0a4b8"
+    },
+    {
+      "addition_order": 282,
+      "frequency_rank": 68,
+      "train_emissions": 41,
+      "hex": "e0a582e0a4aa"
+    },
+    {
+      "addition_order": 283,
+      "frequency_rank": 48,
+      "train_emissions": 47,
+      "hex": "20e0a495e0a58020e0a4b8"
+    },
+    {
+      "addition_order": 284,
+      "frequency_rank": 237,
+      "train_emissions": 24,
+      "hex": "e0a4ade0a4bee0a4b5"
+    },
+    {
+      "addition_order": 285,
+      "frequency_rank": 267,
+      "train_emissions": 23,
+      "hex": "20e0a497e0a4bee0a482e0a4a7"
+    },
+    {
+      "addition_order": 286,
+      "frequency_rank": 377,
+      "train_emissions": 19,
+      "hex": "20e0a487e0a4b8e0a495e0a58720e0a4"
+    },
+    {
+      "addition_order": 287,
+      "frequency_rank": 62,
+      "train_emissions": 43,
+      "hex": "e0a4be2e"
+    },
+    {
+      "addition_order": 288,
+      "frequency_rank": 151,
+      "train_emissions": 30,
+      "hex": "e0a495e0a4bf"
+    },
+    {
+      "addition_order": 289,
+      "frequency_rank": 390,
+      "train_emissions": 18,
+      "hex": "e0a497e0a580e0a4a4"
+    },
+    {
+      "addition_order": 290,
+      "frequency_rank": 36,
+      "train_emissions": 53,
+      "hex": "e0a4b9e0a4a4"
+    },
+    {
+      "addition_order": 291,
+      "frequency_rank": 396,
+      "train_emissions": 18,
+      "hex": "20e0a4b2e0a58be0a495"
+    },
+    {
+      "addition_order": 292,
+      "frequency_rank": 397,
+      "train_emissions": 18,
+      "hex": "20e0a4b5e0a4bee0a4b9"
+    },
+    {
+      "addition_order": 293,
+      "frequency_rank": 315,
+      "train_emissions": 21,
+      "hex": "e0a587e0a482e0a4a6"
+    },
+    {
+      "addition_order": 294,
+      "frequency_rank": 386,
+      "train_emissions": 18,
+      "hex": "20e0a487e0a4a8"
+    },
+    {
+      "addition_order": 295,
+      "frequency_rank": 155,
+      "train_emissions": 30,
+      "hex": "e0a495e0a58de0a4b8"
+    },
+    {
+      "addition_order": 296,
+      "frequency_rank": 307,
+      "train_emissions": 21,
+      "hex": "e0a4bee0a4b7"
+    },
+    {
+      "addition_order": 297,
+      "frequency_rank": 66,
+      "train_emissions": 42,
+      "hex": "e0a58de0a4b5e0a4bee0a4b0"
+    },
+    {
+      "addition_order": 298,
+      "frequency_rank": 57,
+      "train_emissions": 44,
+      "hex": "203130"
+    },
+    {
+      "addition_order": 299,
+      "frequency_rank": 367,
+      "train_emissions": 19,
+      "hex": "b9e0a588e0a5a420e0a4"
+    },
+    {
+      "addition_order": 300,
+      "frequency_rank": 84,
+      "train_emissions": 39,
+      "hex": "ade0a4bee0a4b0e0a4a4"
+    },
+    {
+      "addition_order": 301,
+      "frequency_rank": 129,
+      "train_emissions": 33,
+      "hex": "20e0a495e0a58720e0a4b2"
+    },
+    {
+      "addition_order": 302,
+      "frequency_rank": 366,
+      "train_emissions": 19,
+      "hex": "aae0a58de0a4b0e0a495"
+    },
+    {
+      "addition_order": 303,
+      "frequency_rank": 305,
+      "train_emissions": 21,
+      "hex": "e0a4aee0a4af"
+    },
+    {
+      "addition_order": 304,
+      "frequency_rank": 168,
+      "train_emissions": 29,
+      "hex": "e0a582e0a4b0e0a58de0a4a3"
+    },
+    {
+      "addition_order": 305,
+      "frequency_rank": 116,
+      "train_emissions": 34,
+      "hex": "e0a4bfe0a496"
+    },
+    {
+      "addition_order": 306,
+      "frequency_rank": 49,
+      "train_emissions": 46,
+      "hex": "e0a587e0a5a420e0a4"
+    },
+    {
+      "addition_order": 307,
+      "frequency_rank": 292,
+      "train_emissions": 22,
+      "hex": "20e0a4aae0a582e0a4b0"
+    },
+    {
+      "addition_order": 308,
+      "frequency_rank": 5,
+      "train_emissions": 104,
+      "hex": "b8e0a58720e0a4"
+    },
+    {
+      "addition_order": 309,
+      "frequency_rank": 119,
+      "train_emissions": 34,
+      "hex": "e0a58020e0a4a4"
+    },
+    {
+      "addition_order": 310,
+      "frequency_rank": 101,
+      "train_emissions": 36,
+      "hex": "e0a495e0a58de0a49f"
+    },
+    {
+      "addition_order": 311,
+      "frequency_rank": 357,
+      "train_emissions": 19,
+      "hex": "e0a4b020e0a49c"
+    },
+    {
+      "addition_order": 312,
+      "frequency_rank": 239,
+      "train_emissions": 24,
+      "hex": "e0a4bfe0a4b6e0a58de0a4b5"
+    },
+    {
+      "addition_order": 313,
+      "frequency_rank": 195,
+      "train_emissions": 26,
+      "hex": "86e0a49c"
+    },
+    {
+      "addition_order": 314,
+      "frequency_rank": 154,
+      "train_emissions": 30,
+      "hex": "e0a58020e0a4b5"
+    },
+    {
+      "addition_order": 315,
+      "frequency_rank": 118,
+      "train_emissions": 34,
+      "hex": "e0a4b020e0a4ac"
+    },
+    {
+      "addition_order": 316,
+      "frequency_rank": 314,
+      "train_emissions": 21,
+      "hex": "e0a4b0e0a58de0a49f"
+    },
+    {
+      "addition_order": 317,
+      "frequency_rank": 253,
+      "train_emissions": 23,
+      "hex": "b5e0a4bee0a4b2"
+    },
+    {
+      "addition_order": 318,
+      "frequency_rank": 217,
+      "train_emissions": 25,
+      "hex": "20e0a4b8e0a4bee0a4b2"
+    },
+    {
+      "addition_order": 319,
+      "frequency_rank": 308,
+      "train_emissions": 21,
+      "hex": "e0a580e0a49f"
+    },
+    {
+      "addition_order": 320,
+      "frequency_rank": 40,
+      "train_emissions": 49,
+      "hex": "e0a582e0a49f"
+    },
+    {
+      "addition_order": 321,
+      "frequency_rank": 61,
+      "train_emissions": 43,
+      "hex": "9ae0a4b2"
+    },
+    {
+      "addition_order": 322,
+      "frequency_rank": 210,
+      "train_emissions": 25,
+      "hex": "a4e0a495"
+    },
+    {
+      "addition_order": 323,
+      "frequency_rank": 268,
+      "train_emissions": 23,
+      "hex": "e0a58be0a48220e0a495e0a58b"
+    },
+    {
+      "addition_order": 324,
+      "frequency_rank": 349,
+      "train_emissions": 19,
+      "hex": "e0a4b0e0a4a8"
+    },
+    {
+      "addition_order": 325,
+      "frequency_rank": 282,
+      "train_emissions": 22,
+      "hex": "e0a58be0a4b9"
+    },
+    {
+      "addition_order": 326,
+      "frequency_rank": 224,
+      "train_emissions": 24,
+      "hex": "6b6172"
+    },
+    {
+      "addition_order": 327,
+      "frequency_rank": 423,
+      "train_emissions": 15,
+      "hex": "e0a4b9e0a581"
+    },
+    {
+      "addition_order": 328,
+      "frequency_rank": 183,
+      "train_emissions": 27,
+      "hex": "5265"
+    },
+    {
+      "addition_order": 329,
+      "frequency_rank": 19,
+      "train_emissions": 69,
+      "hex": "e0a4a820e0a495"
+    },
+    {
+      "addition_order": 330,
+      "frequency_rank": 56,
+      "train_emissions": 45,
+      "hex": "e0a58de0a49fe0a58de0a4b0"
+    },
+    {
+      "addition_order": 331,
+      "frequency_rank": 105,
+      "train_emissions": 35,
+      "hex": "2c20e0a4aa"
+    },
+    {
+      "addition_order": 332,
+      "frequency_rank": 97,
+      "train_emissions": 37,
+      "hex": "e0a4bee0a4b0e0a58de0a4a1"
+    },
+    {
+      "addition_order": 333,
+      "frequency_rank": 94,
+      "train_emissions": 37,
+      "hex": "e0a580e0a4b5"
+    },
+    {
+      "addition_order": 334,
+      "frequency_rank": 265,
+      "train_emissions": 23,
+      "hex": "20e0a495e0a58720e0a4b0"
+    },
+    {
+      "addition_order": 335,
+      "frequency_rank": 186,
+      "train_emissions": 27,
+      "hex": "e0a4bee0a4ab"
+    },
+    {
+      "addition_order": 336,
+      "frequency_rank": 218,
+      "train_emissions": 25,
+      "hex": "20e0a4b8e0a58de0a49f"
+    },
+    {
+      "addition_order": 337,
+      "frequency_rank": 80,
+      "train_emissions": 39,
+      "hex": "e0a482e0a49c"
+    },
+    {
+      "addition_order": 338,
+      "frequency_rank": 172,
+      "train_emissions": 28,
+      "hex": "a4e0a58b20e0a4"
+    },
+    {
+      "addition_order": 339,
+      "frequency_rank": 411,
+      "train_emissions": 17,
+      "hex": "20e0a497e0a4af"
+    },
+    {
+      "addition_order": 340,
+      "frequency_rank": 167,
+      "train_emissions": 29,
+      "hex": "20e0a4b9e0a58b20e0a4"
+    },
+    {
+      "addition_order": 341,
+      "frequency_rank": 383,
+      "train_emissions": 18,
+      "hex": "e0a4a6e0a4b2"
+    },
+    {
+      "addition_order": 342,
+      "frequency_rank": 332,
+      "train_emissions": 20,
+      "hex": "e0a4afe0a58720e0a4"
+    },
+    {
+      "addition_order": 343,
+      "frequency_rank": 27,
+      "train_emissions": 61,
+      "hex": "e0a4a4e0a58020e0a4b9e0a588"
+    },
+    {
+      "addition_order": 344,
+      "frequency_rank": 264,
+      "train_emissions": 23,
+      "hex": "e0a58720e0a495e0a4b9"
+    },
+    {
+      "addition_order": 345,
+      "frequency_rank": 215,
+      "train_emissions": 25,
+      "hex": "e0a4afe0a58be0a497"
+    },
+    {
+      "addition_order": 346,
+      "frequency_rank": 359,
+      "train_emissions": 19,
+      "hex": "e0a58720e0a4ac"
+    },
+    {
+      "addition_order": 347,
+      "frequency_rank": 143,
+      "train_emissions": 31,
+      "hex": "2053"
+    },
+    {
+      "addition_order": 348,
+      "frequency_rank": 352,
+      "train_emissions": 19,
+      "hex": "e0a580e0a4b2"
+    }
+  ]
+}

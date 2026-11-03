@@ -1,0 +1,271 @@
+experiment,replicate,language,status,rank_by_dedicated_test_emissions,dedicated_test_emissions,dedicated_train_emissions,raw_nonoverlapping_test_count,byte_length,valid_utf8,text,modal_in_context_shared_split,modal_split_count,isolated_shared_encoding
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,1,64,73,64,5,1,ence ,en | ce ,64,en | ce 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,2,58,43,59,5,1,mill ,m | ill ,58,m | ill 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,3,58,43,71,2,1,Ch,C | h,58,C | h
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,4,51,53,162,2,1,ov,o | v,19,o | v
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,5,46,66,95,6,1,tions ,tion | s ,46,tion | s 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,6,43,136,72,2,1,oc,o | c,24,o | c
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,7,39,66,49,8,1,ing the ,ing  | the ,39,ing  | the 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,8,38,54,144,5,1,e of ,e  | of ,38,e  | of 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,9,36,48,36,9,1,that the ,that  | the ,36,that  | the 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,10,36,49,36,4,1,ary ,ar | y ,36,ar | y 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,11,35,49,50,6,1,es of ,es  | of ,35,es  | of 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,12,34,74,34,5,1,most ,m | ost ,34,m | ost 
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,13,34,39,69,3,1,anc,an | c,34,an | c
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,14,33,120,419,2,1,ri,r | i,6,r | i
+repeated_vocabulary_sharing_v1,replicate_1,english,absent_from_shared_vocab,15,33,117,174,2,1,m ,m |  ,21,m |  
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,1,187,209,468,13,0, में ⟨e0⟩⟨a4⟩, में |  ⟨e0⟩⟨a4⟩,2, में |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,2,149,307,386,4,0,", ⟨e0⟩⟨a4⟩",", |  ⟨e0⟩⟨a4⟩",8,", |  ⟨e0⟩⟨a4⟩"
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,3,115,170,220,9,0,ार ⟨e0⟩⟨a4⟩,ार |  ⟨e0⟩⟨a4⟩,3,ार |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,4,108,102,265,7,0,⟨94⟩र ⟨e0⟩⟨a4⟩,⟨94⟩ | र ⟨e0⟩⟨a4⟩,43,⟨94⟩ | र ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,5,90,109,1272,6,0,ं ⟨e0⟩⟨a4⟩,ं |  ⟨e0⟩⟨a4⟩,5,ं |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,6,82,104,382,7,0,⟨b8⟩े ⟨e0⟩⟨a4⟩,⟨b8⟩ | े ⟨e0⟩⟨a4⟩,19,⟨b8⟩ | े ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,7,80,79,598,6,1,ने,न | े,10,न | े
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,8,76,103,425,9,0,ों ⟨e0⟩⟨a4⟩,ों |  ⟨e0⟩⟨a4⟩,1,ों |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,9,76,102,592,9,0,ें ⟨e0⟩⟨a4⟩,ें |  ⟨e0⟩⟨a4⟩,5,ें |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,10,75,38,165,2,1, 2,  | 2,54,  | 2
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,11,70,68,83,6,1,ंड,ं | ड,56,ं | ड
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,12,69,65,177,7,0,⟨aa⟩र ⟨e0⟩⟨a4⟩,⟨aa⟩ | र ⟨e0⟩⟨a4⟩,18,⟨aa⟩ | र ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,13,66,75,506,10,0,⟨ae⟩ें ⟨e0⟩⟨a4⟩,,0,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,14,65,54,261,9,0,ता ⟨e0⟩⟨a4⟩,त | ा ⟨e0⟩⟨a4⟩,33,त | ा ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,hindi,absent_from_shared_vocab,15,63,21,63,6,1,ीट,ी | ट,63,ी | ट
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,1,176,136,729,6,0,ि ⟨e0⟩⟨a4⟩,ि |  ⟨e0⟩⟨a4⟩,9,ि |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,2,134,136,137,9,0,ित ⟨e0⟩⟨a4⟩,ित |  ⟨e0⟩⟨a4⟩,5,ित |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,3,116,87,116,12,0,ीले ⟨e0⟩⟨a4⟩,ी | ले ⟨e0⟩⟨a4⟩,91,ी | ले ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,4,107,67,108,7,0,⟨9b⟩। ⟨e0⟩⟨a4⟩,⟨9b⟩ | । ⟨e0⟩⟨a4⟩,57,⟨9b⟩ | । ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,5,106,115,118,12,0,ामा ⟨e0⟩⟨a4⟩,ाम | ा ⟨e0⟩⟨a4⟩,43,ाम | ा ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,6,100,107,378,6,0,त ⟨e0⟩⟨a4⟩,त |  ⟨e0⟩⟨a4⟩,1,त |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,7,89,73,713,4,0,⟨97⟩र,⟨97⟩ | र,41,⟨97⟩ | र
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,8,85,28,173,9,1,हरु,हर | ु,85,हर | ु
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,9,83,21,89,11,0,ुन्⟨e0⟩⟨a4⟩,ु | न्⟨e0⟩⟨a4⟩,83,ु | न्⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,10,82,40,111,14,0,⟨9b⟩न् । ⟨e0⟩⟨a4⟩,⟨9b⟩न् |  । ⟨e0⟩⟨a4⟩,52,⟨9b⟩न् |  । ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,11,78,74,78,12,0,ीको ⟨e0⟩⟨a4⟩,ी | को ⟨e0⟩⟨a4⟩,53,ी | को ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,12,78,51,219,10,1, हुन, ह | ुन,49, ह | ुन
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,13,73,49,177,13,0, पनि ⟨e0⟩⟨a4⟩, प | नि |  ⟨e0⟩⟨a4⟩,4, प | नि |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,14,72,45,132,6,1,्ध,्⟨e0⟩⟨a4⟩ | ⟨a7⟩,14,्⟨e0⟩⟨a4⟩ | ⟨a7⟩
+repeated_vocabulary_sharing_v1,replicate_1,nepali,absent_from_shared_vocab,15,71,44,73,6,1,ुद,ु | द,42,ु | द
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,1,225,503,1039,5,1, the ,  | the ,10,  | the 
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,2,187,607,451,4,1, to ,  | to ,14,  | to 
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,3,142,418,2328,2,1, t,  | t,5,  | t
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,4,122,387,1579,3,1, th,  | th,6,  | th
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,5,102,240,204,6,1, that ,  | that ,3,  | that 
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,6,84,230,160,2,1,iv,i | v,5,i | v
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,7,69,49,72,3,1,my ,m | y ,69,m | y 
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,8,64,115,185,3,1,ill,il | l,51,il | l
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,9,63,214,71,3,1,ist,i | st,22,i | st
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,10,57,39,59,5,1,mill ,m | ill ,57,m | ill 
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,11,57,136,161,4,1,e th,e  | th,6,e  | th
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,12,55,141,457,3,1,ion,i | on,20,i | on
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,13,51,158,692,2,1,of,o | f,8,o | f
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,14,51,125,216,4,1,ion ,i | on ,12,i | on 
+repeated_vocabulary_sharing_v1,replicate_2,english,absent_from_shared_vocab,15,49,60,53,4,1,pres,pre | s,49,pre | s
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,1,192,279,468,13,0, में ⟨e0⟩⟨a4⟩, में |  ⟨e0⟩⟨a4⟩,2, में |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,2,118,189,220,9,0,ार ⟨e0⟩⟨a4⟩,ार |  ⟨e0⟩⟨a4⟩,3,ार |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,3,111,133,386,4,0,", ⟨e0⟩⟨a4⟩",", |  ⟨e0⟩⟨a4⟩",8,", |  ⟨e0⟩⟨a4⟩"
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,4,108,124,265,7,0,⟨94⟩र ⟨e0⟩⟨a4⟩,⟨94⟩ | र ⟨e0⟩⟨a4⟩,43,⟨94⟩ | र ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,5,105,149,506,10,0,⟨ae⟩ें ⟨e0⟩⟨a4⟩,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩,2,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,6,99,140,1286,5,0,ो⟨e0⟩⟨a4⟩,ो | ⟨e0⟩⟨a4⟩,3,ो | ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,7,91,60,120,2,1, -,  | -,77,  | -
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,8,90,113,382,7,0,⟨b8⟩े ⟨e0⟩⟨a4⟩,⟨b8⟩ | े ⟨e0⟩⟨a4⟩,15,⟨b8⟩ | े ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,9,83,110,425,9,0,ों ⟨e0⟩⟨a4⟩,ों |  ⟨e0⟩⟨a4⟩,1,ों |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,10,81,63,938,5,0,ं⟨e0⟩⟨a4⟩,,0,ं | ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,11,79,87,843,5,0,ी⟨e0⟩⟨a4⟩,ी | ⟨e0⟩⟨a4⟩,11,ी | ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,12,75,52,112,6,1,ढ़,ढ | ़,75,ढ | ़
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,13,75,59,83,6,1,ंड,ं | ड,56,ं | ड
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,14,75,56,165,2,1, 2,  | 2,44,  | 2
+repeated_vocabulary_sharing_v1,replicate_2,hindi,absent_from_shared_vocab,15,69,63,261,9,0,ता ⟨e0⟩⟨a4⟩,त | ा ⟨e0⟩⟨a4⟩,34,त | ा ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,1,125,121,137,9,0,ित ⟨e0⟩⟨a4⟩,ित |  ⟨e0⟩⟨a4⟩,5,ित |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,2,118,26,160,6,1,ंक,ं | क,17,ं | क
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,3,107,80,116,12,0,ीले ⟨e0⟩⟨a4⟩,ी | ले ⟨e0⟩⟨a4⟩,93,ी | ले ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,4,106,100,118,12,0,ामा ⟨e0⟩⟨a4⟩,ाम | ा ⟨e0⟩⟨a4⟩,48,ाम | ा ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,5,100,131,286,9,0, वि⟨e0⟩⟨a4⟩, व | ि⟨e0⟩⟨a4⟩,12, व | ि⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,6,98,68,108,7,0,⟨9b⟩। ⟨e0⟩⟨a4⟩,⟨9b⟩ | । ⟨e0⟩⟨a4⟩,57,⟨9b⟩ | । ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,7,95,74,111,14,0,⟨9b⟩न् । ⟨e0⟩⟨a4⟩,⟨9b⟩न् |  । ⟨e0⟩⟨a4⟩,73,⟨9b⟩न् |  । ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,8,94,59,181,10,1, पनि, प | नि,91, प | नि
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,9,91,32,173,9,1,हरु,हर | ु,80,हर | ु
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,10,90,121,369,6,0,⟨b5⟩ि⟨e0⟩⟨a4⟩,⟨b5⟩ | ि⟨e0⟩⟨a4⟩,25,⟨b5⟩ | ि⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,11,88,46,108,9,1,हिल,ह | िल,77,ह | िल
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,12,85,43,150,15,0,र्ने ⟨e0⟩⟨a4⟩,र्न | े ⟨e0⟩⟨a4⟩,73,र्न | े ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,13,83,29,98,6,1,ैन,ै | न,76,ै | न
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,14,83,60,98,15,0,हेको ⟨e0⟩⟨a4⟩,ह | ेको ⟨e0⟩⟨a4⟩,58,ह | ेको ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_2,nepali,absent_from_shared_vocab,15,75,30,88,6,1,िध,ि⟨e0⟩⟨a4⟩ | ⟨a7⟩,75,ि⟨e0⟩⟨a4⟩ | ⟨a7⟩
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,1,67,59,71,2,1,Ch,C | h,67,C | h
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,2,64,81,64,5,1,ence ,enc | e ,50,enc | e 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,3,51,91,198,3,1,ce ,c | e ,30,c | e 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,4,48,70,50,4,1,its ,it | s ,48,it | s 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,5,46,154,141,2,1,ci,c | i,27,c | i
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,6,44,68,59,2,1,dr,d | r,44,d | r
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,7,40,58,56,3,1,des,d | es,40,d | es
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,8,38,68,458,5,1, and ,  | and ,38,  | and 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,9,34,61,34,5,1,most ,m | ost ,34,m | ost 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,10,34,64,35,2,1,0 ,0 |  ,31,0 |  
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,11,33,68,33,6,1,which ,wh | ich ,33,wh | ich 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,12,33,61,33,4,1,had ,ha | d ,33,ha | d 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,13,33,54,36,4,1,ary ,ar | y ,33,ar | y 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,14,32,69,34,4,1,ame ,am | e ,32,am | e 
+repeated_vocabulary_sharing_v1,replicate_3,english,absent_from_shared_vocab,15,31,46,51,2,1,tw,t | w,31,t | w
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,1,208,291,468,13,0, में ⟨e0⟩⟨a4⟩, में |  ⟨e0⟩⟨a4⟩,3, में |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,2,184,277,386,4,0,", ⟨e0⟩⟨a4⟩",", |  ⟨e0⟩⟨a4⟩",8,", |  ⟨e0⟩⟨a4⟩"
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,3,112,105,265,7,0,⟨94⟩र ⟨e0⟩⟨a4⟩,⟨94⟩ | र ⟨e0⟩⟨a4⟩,49,⟨94⟩ | र ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,4,106,191,220,9,0,ार ⟨e0⟩⟨a4⟩,ार |  ⟨e0⟩⟨a4⟩,4,ार |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,5,94,103,506,10,0,⟨ae⟩ें ⟨e0⟩⟨a4⟩,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩,1,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,6,87,66,112,6,1,ढ़,ढ | ़,87,ढ | ़
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,7,82,81,261,9,0,ता ⟨e0⟩⟨a4⟩,त | ा ⟨e0⟩⟨a4⟩,35,त | ा ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,8,80,85,382,7,0,⟨b8⟩े ⟨e0⟩⟨a4⟩,⟨b8⟩ | े ⟨e0⟩⟨a4⟩,23,⟨b8⟩ | े ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,9,77,104,177,7,0,⟨aa⟩र ⟨e0⟩⟨a4⟩,⟨aa⟩ | र ⟨e0⟩⟨a4⟩,31,⟨aa⟩ | र ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,10,76,86,425,9,0,ों ⟨e0⟩⟨a4⟩,ों |  ⟨e0⟩⟨a4⟩,1,ों |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,11,76,76,592,9,0,ें ⟨e0⟩⟨a4⟩,ें |  ⟨e0⟩⟨a4⟩,3,ें |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,12,75,57,165,2,1, 2,  | 2,54,  | 2
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,13,69,67,83,6,1,ंड,ं | ड,56,ं | ड
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,14,66,81,1272,6,0,ं ⟨e0⟩⟨a4⟩,ं |  ⟨e0⟩⟨a4⟩,2,ं |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,hindi,absent_from_shared_vocab,15,64,78,673,4,1,। ,। |  ,46,। |  
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,1,127,127,137,9,0,ित ⟨e0⟩⟨a4⟩,ित |  ⟨e0⟩⟨a4⟩,5,ित |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,2,124,90,369,6,0,⟨b5⟩ि⟨e0⟩⟨a4⟩,⟨b5⟩ | ि⟨e0⟩⟨a4⟩,32,⟨b5⟩ | ि⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,3,116,72,116,12,0,ीले ⟨e0⟩⟨a4⟩,ी | ले ⟨e0⟩⟨a4⟩,105,ी | ले ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,4,113,17,160,6,1,ंक,ं | क,12,ं | क
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,5,107,71,108,7,0,⟨9b⟩। ⟨e0⟩⟨a4⟩,⟨9b⟩ | । ⟨e0⟩⟨a4⟩,59,⟨9b⟩ | । ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,6,103,99,142,10,1,को स,को |  स,52,को |  स
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,7,96,78,713,4,0,⟨97⟩र,⟨97⟩ | र,42,⟨97⟩ | र
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,8,92,66,181,10,1, पनि, प | नि,89, प | नि
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,9,90,130,378,6,0,त ⟨e0⟩⟨a4⟩,,0,त |  ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,10,82,72,219,10,1, हुन, ह | ुन,49, ह | ुन
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,11,78,37,150,15,0,र्ने ⟨e0⟩⟨a4⟩,र्न | े ⟨e0⟩⟨a4⟩,65,र्न | े ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,12,78,71,286,9,0, वि⟨e0⟩⟨a4⟩, व | ि⟨e0⟩⟨a4⟩,15, व | ि⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,13,73,23,73,6,1,ौँ,ौ | ँ,73,ौ | ँ
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,14,72,54,926,5,0,ो⟨e0⟩⟨a4⟩,ो | ⟨e0⟩⟨a4⟩,11,ो | ⟨e0⟩⟨a4⟩
+repeated_vocabulary_sharing_v1,replicate_3,nepali,absent_from_shared_vocab,15,72,56,185,7,0,⟨aa⟩नि,⟨aa⟩ | नि,61,⟨aa⟩ | नि
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,1,332,232,1039,5,1, the ,  | the ,6,  | the 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,2,199,164,451,4,1, to ,  | to ,17,  | to 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,3,190,212,458,5,1, and ,  | and ,34,  | and 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,4,158,140,274,3,1, a ,  | a ,3,  | a 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,5,126,142,1750,2,1, a,  | a,2,  | a
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,6,121,115,2328,2,1, t,  | t,3,  | t
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,7,120,80,457,3,1,ion,i | on,11,i | on
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,8,114,97,692,2,1,of,o | f,15,o | f
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,9,100,77,1579,3,1, th,  | th,4,  | th
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,10,99,88,204,6,1, that ,  | that ,3,  | that 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,11,96,125,802,2,1, c,  | c,13,  | c
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,12,95,92,216,4,1,ion ,i | on ,10,i | on 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,13,93,51,407,2,1,ea,e | a,30,e | a
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,14,76,95,117,5,1, are ,  | are ,2,  | are 
+total_budget_matched_v1,replicate_1,english,absent_from_shared_vocab,15,74,86,495,3,1, to,  | t | o,1,  | t | o
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,1,212,71,386,4,0,", ⟨e0⟩⟨a4⟩",", |  ⟨e0⟩⟨a4⟩",21,", |  ⟨e0⟩⟨a4⟩"
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,2,179,80,468,13,0, में ⟨e0⟩⟨a4⟩, में |  ⟨e0⟩⟨a4⟩,10, में |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,3,166,78,654,6,0,न ⟨e0⟩⟨a4⟩,न |  ⟨e0⟩⟨a4⟩,7,न |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,4,111,45,382,7,0,⟨b8⟩े ⟨e0⟩⟨a4⟩,⟨b8⟩ | े ⟨e0⟩⟨a4⟩,15,⟨b8⟩ | े ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,5,107,29,1272,6,0,ं ⟨e0⟩⟨a4⟩,ं |  ⟨e0⟩⟨a4⟩,5,ं |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,6,106,42,220,9,0,ार ⟨e0⟩⟨a4⟩,ार |  ⟨e0⟩⟨a4⟩,3,ार |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,7,101,44,425,9,0,ों ⟨e0⟩⟨a4⟩,ों |  ⟨e0⟩⟨a4⟩,1,ों |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,8,96,30,265,7,0,⟨94⟩र ⟨e0⟩⟨a4⟩,⟨94⟩ | र ⟨e0⟩⟨a4⟩,30,⟨94⟩ | र ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,9,95,12,120,2,1, -,  | -,80,  | -
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,10,78,21,90,6,1,ंत,ं | त,26,ं | त
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,11,78,25,506,10,0,⟨ae⟩ें ⟨e0⟩⟨a4⟩,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩,5,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,12,75,14,165,2,1, 2,  | 2,56,  | 2
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,13,73,29,592,9,0,ें ⟨e0⟩⟨a4⟩,ें |  ⟨e0⟩⟨a4⟩,5,ें |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,14,70,18,70,6,1,िश,ि⟨e0⟩⟨a4⟩ | ⟨b6⟩,49,ि⟨e0⟩⟨a4⟩ | ⟨b6⟩
+total_budget_matched_v1,replicate_1,hindi,absent_from_shared_vocab,15,70,16,938,5,0,ं⟨e0⟩⟨a4⟩,,0,ं | ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,1,186,13,1370,4,0,⟨a4⟩ ⟨e0⟩⟨a4⟩,⟨a4⟩ |  ⟨e0⟩⟨a4⟩,1,⟨a4⟩ |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,2,133,37,729,6,0,ि ⟨e0⟩⟨a4⟩,ि |  ⟨e0⟩⟨a4⟩,14,ि |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,3,123,38,137,9,0,ित ⟨e0⟩⟨a4⟩,ित |  ⟨e0⟩⟨a4⟩,6,ित |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,4,116,24,116,6,1,ाख,ा⟨e0⟩⟨a4⟩ | ⟨96⟩,116,ा⟨e0⟩⟨a4⟩ | ⟨96⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,5,114,13,194,9,0,नि ⟨e0⟩⟨a4⟩,न | ि |  ⟨e0⟩⟨a4⟩,9,न | ि |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,6,112,21,112,6,0, १⟨e0⟩⟨a5⟩, १ | ⟨e0⟩⟨a5⟩,103, १ | ⟨e0⟩⟨a5⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,7,111,10,173,9,1,हरु,हर | ु,102,हर | ु
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,8,107,25,116,12,0,ीले ⟨e0⟩⟨a4⟩,ी | ले ⟨e0⟩⟨a4⟩,81,ी | ले ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,9,107,21,108,9,1,हिल,ह | िल,97,ह | िल
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,10,106,33,118,12,0,ामा ⟨e0⟩⟨a4⟩,ाम | ा ⟨e0⟩⟨a4⟩,48,ाम | ा ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,11,97,24,713,4,0,⟨97⟩र,⟨97⟩ | र,31,⟨97⟩ | र
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,12,93,7,386,6,1,यो,य | ो,24,य | ो
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,13,91,7,1083,3,1,छ,⟨e0⟩⟨a4⟩ | ⟨9b⟩,89,⟨e0⟩⟨a4⟩ | ⟨9b⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,14,88,9,108,7,0,⟨9b⟩। ⟨e0⟩⟨a4⟩,⟨9b⟩ | । ⟨e0⟩⟨a4⟩,62,⟨9b⟩ | । ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_1,nepali,absent_from_shared_vocab,15,86,11,111,14,0,⟨9b⟩न् । ⟨e0⟩⟨a4⟩,⟨9b⟩ | न | ् |  । ⟨e0⟩⟨a4⟩,79,⟨9b⟩ | न | ् |  । ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,1,74,16,141,2,1,bo,b | o,74,b | o
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,2,64,24,64,5,1,ence ,en | ce ,64,en | ce 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,3,54,15,54,7,1,at the ,at |  the ,54,at |  the 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,4,50,13,53,4,1,pres,pre | s,50,pre | s
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,5,48,25,145,5,1,s of ,s  | of ,48,s  | of 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,6,48,20,50,4,1,its ,it | s ,48,it | s 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,7,48,13,185,3,1,ill,il | l,48,il | l
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,8,42,16,95,6,1,tions ,tion | s ,42,tion | s 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,9,42,38,327,2,1,ra,r | a,19,r | a
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,10,41,16,47,6,1,ement ,em | ent ,41,em | ent 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,11,41,19,59,2,1,dr,d | r,41,d | r
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,12,41,20,458,5,1, and ,  | and ,41,  | and 
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,13,40,28,138,2,1,w ,w |  ,38,w |  
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,14,39,16,56,3,1,des,d | es,39,d | es
+total_budget_matched_v1,replicate_2,english,absent_from_shared_vocab,15,38,16,38,8,1,and the ,and |  the ,38,and |  the 
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,1,181,62,468,13,0, में ⟨e0⟩⟨a4⟩, में |  ⟨e0⟩⟨a4⟩,2, में |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,2,150,25,150,2,1, 1,  | 1,128,  | 1
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,3,147,74,386,4,0,", ⟨e0⟩⟨a4⟩",", |  ⟨e0⟩⟨a4⟩",7,", |  ⟨e0⟩⟨a4⟩"
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,4,120,50,220,9,0,ार ⟨e0⟩⟨a4⟩,ार |  ⟨e0⟩⟨a4⟩,3,ार |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,5,120,38,120,2,1, -,  | -,99,  | -
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,6,110,36,382,7,0,⟨b8⟩े ⟨e0⟩⟨a4⟩,⟨b8⟩ | े ⟨e0⟩⟨a4⟩,14,⟨b8⟩ | े ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,7,110,45,265,7,0,⟨94⟩र ⟨e0⟩⟨a4⟩,⟨94⟩ | र ⟨e0⟩⟨a4⟩,44,⟨94⟩ | र ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,8,106,41,384,7,1, को, क | ो,26, क | ो
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,9,100,38,506,10,0,⟨ae⟩ें ⟨e0⟩⟨a4⟩,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩,1,⟨ae⟩ें |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,10,88,29,425,9,0,ों ⟨e0⟩⟨a4⟩,ों |  ⟨e0⟩⟨a4⟩,1,ों |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,11,86,31,843,5,0,ी⟨e0⟩⟨a4⟩,ी | ⟨e0⟩⟨a4⟩,11,ी | ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,12,76,24,90,6,1,ंत,ं | त,73,ं | त
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,13,71,24,98,11,0,ार्⟨e0⟩⟨a4⟩,ार | ्⟨e0⟩⟨a4⟩,9,ार | ्⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,14,70,14,70,3,0, ⟨e2⟩⟨80⟩,  | ⟨e2⟩⟨80⟩,12,  | ⟨e2⟩⟨80⟩
+total_budget_matched_v1,replicate_2,hindi,absent_from_shared_vocab,15,69,21,592,9,0,ें ⟨e0⟩⟨a4⟩,ें |  ⟨e0⟩⟨a4⟩,2,ें |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,1,206,42,729,6,0,ि ⟨e0⟩⟨a4⟩,ि |  ⟨e0⟩⟨a4⟩,6,ि |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,2,123,27,137,9,0,ित ⟨e0⟩⟨a4⟩,ित |  ⟨e0⟩⟨a4⟩,5,ित |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,3,116,32,116,12,0,ीले ⟨e0⟩⟨a4⟩,ी | ले ⟨e0⟩⟨a4⟩,81,ी | ले ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,4,106,40,118,12,0,ामा ⟨e0⟩⟨a4⟩,ाम | ा ⟨e0⟩⟨a4⟩,52,ाम | ा ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,5,97,26,102,15,0,िएको ⟨e0⟩⟨a4⟩,िए | को ⟨e0⟩⟨a4⟩,91,िए | को ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,6,97,25,98,15,0,हेको ⟨e0⟩⟨a4⟩,ह | ेको ⟨e0⟩⟨a4⟩,59,ह | ेको ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,7,87,7,173,9,1,हरु,हर | ु,72,हर | ु
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,8,86,20,111,14,0,⟨9b⟩न् । ⟨e0⟩⟨a4⟩,⟨9b⟩न् |  । ⟨e0⟩⟨a4⟩,73,⟨9b⟩न् |  । ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,9,82,9,108,7,0,⟨9b⟩। ⟨e0⟩⟨a4⟩,⟨9b⟩ | । ⟨e0⟩⟨a4⟩,57,⟨9b⟩ | । ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,10,82,14,219,10,1, हुन, ह | ुन,53, ह | ुन
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,11,81,7,95,9,1,जार,ज | ार,81,ज | ार
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,12,76,7,175,7,0,⟨b2⟩ाग,⟨b2⟩ | ाग,73,⟨b2⟩ | ाग
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,13,74,15,194,9,0,नि ⟨e0⟩⟨a4⟩,नि |  ⟨e0⟩⟨a4⟩,3,नि |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,14,69,10,69,9,1,म्ब,म्⟨e0⟩⟨a4⟩ | ⟨ac⟩,60,म्⟨e0⟩⟨a4⟩ | ⟨ac⟩
+total_budget_matched_v1,replicate_2,nepali,absent_from_shared_vocab,15,69,12,79,9,1,म्प,म्⟨e0⟩⟨a4⟩ | ⟨aa⟩,69,म्⟨e0⟩⟨a4⟩ | ⟨aa⟩
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,1,91,27,141,2,1,bo,b | o,90,b | o
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,2,72,16,262,2,1,mi,m | i,71,m | i
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,3,59,28,116,3,1,ch ,ch |  ,58,ch |  
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,4,57,21,59,4,1,has ,h | as ,57,h | as 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,5,52,25,62,7,1,to the ,to  | the ,47,to  | the 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,6,52,16,64,5,1,ence ,enc | e ,52,enc | e 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,7,51,17,52,5,1,’s ,’ | s ,51,’ | s 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,8,51,26,51,4,1,but ,bu | t ,51,bu | t 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,9,50,17,53,4,1,pres,p | res,50,p | res
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,10,48,41,296,2,1,ma,m | a,13,m | a
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,11,47,31,83,3,1,ty ,t | y ,41,t | y 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,12,47,22,145,5,1,s of ,s  | of ,47,s  | of 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,13,47,19,49,4,1,ous ,ou | s ,47,ou | s 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,14,47,14,50,4,1,its ,it | s ,47,it | s 
+total_budget_matched_v1,replicate_3,english,absent_from_shared_vocab,15,46,20,95,6,1,tions ,tion | s ,46,tion | s 
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,1,192,73,468,13,0, में ⟨e0⟩⟨a4⟩, में |  ⟨e0⟩⟨a4⟩,9, में |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,2,139,18,150,2,1, 1,  | 1,119,  | 1
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,3,102,30,592,9,0,ें ⟨e0⟩⟨a4⟩,ें |  ⟨e0⟩⟨a4⟩,7,ें |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,4,100,31,1272,6,0,ं ⟨e0⟩⟨a4⟩,ं |  ⟨e0⟩⟨a4⟩,6,ं |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,5,87,16,112,6,1,ढ़,ढ | ़,87,ढ | ़
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,6,77,26,190,7,1, इस, ⟨e0⟩⟨a4⟩ | ⟨87⟩स,76, ⟨e0⟩⟨a4⟩ | ⟨87⟩स
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,7,75,7,165,2,1, 2,  | 2,56,  | 2
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,8,73,36,146,12,0,िया ⟨e0⟩⟨a4⟩,िय | ा ⟨e0⟩⟨a4⟩,26,िय | ा ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,9,70,10,83,6,1,ंड,ं | ड,57,ं | ड
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,10,66,24,177,7,0,⟨aa⟩र ⟨e0⟩⟨a4⟩,⟨aa⟩ | र ⟨e0⟩⟨a4⟩,24,⟨aa⟩ | र ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,11,64,8,67,2,1, 3,  | 3,54,  | 3
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,12,63,21,425,9,0,ों ⟨e0⟩⟨a4⟩,ों |  ⟨e0⟩⟨a4⟩,3,ों |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,13,63,17,160,10,0, पर ⟨e0⟩⟨a4⟩, प | र ⟨e0⟩⟨a4⟩,48, प | र ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,14,61,19,673,4,1,। ,। |  ,54,। |  
+total_budget_matched_v1,replicate_3,hindi,absent_from_shared_vocab,15,61,14,291,3,1,ष,⟨e0⟩⟨a4⟩ | ⟨b7⟩,46,⟨e0⟩⟨a4⟩ | ⟨b7⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,1,319,69,729,6,0,ि ⟨e0⟩⟨a4⟩,ि |  ⟨e0⟩⟨a4⟩,6,ि |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,2,163,57,276,8,0,⟨9b⟩ । ⟨e0⟩⟨a4⟩,⟨9b⟩ |  । ⟨e0⟩⟨a4⟩,62,⟨9b⟩ |  । ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,3,118,10,160,6,1,ंक,ं | क,17,ं | क
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,4,107,23,116,12,0,ीले ⟨e0⟩⟨a4⟩,ी | ले ⟨e0⟩⟨a4⟩,92,ी | ले ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,5,107,32,137,9,0,ित ⟨e0⟩⟨a4⟩,ित |  ⟨e0⟩⟨a4⟩,2,ित |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,6,106,29,118,12,0,ामा ⟨e0⟩⟨a4⟩,ाम | ा ⟨e0⟩⟨a4⟩,39,ाम | ा ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,7,104,19,168,12,0,ेका ⟨e0⟩⟨a4⟩,े | का ⟨e0⟩⟨a4⟩,82,े | का ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,8,101,28,108,9,1,हिल,ह | िल,94,ह | िल
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,9,100,19,142,10,1,को स,को |  स,61,को |  स
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,10,100,31,713,4,0,⟨97⟩र,⟨97⟩ | र,50,⟨97⟩ | र
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,11,98,24,108,7,0,⟨9b⟩। ⟨e0⟩⟨a4⟩,⟨9b⟩ | । ⟨e0⟩⟨a4⟩,27,⟨9b⟩ | । ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,12,92,12,143,7,0,⟨b9⟩ाम,⟨b9⟩ | ाम,61,⟨b9⟩ | ाम
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,13,91,25,378,6,0,त ⟨e0⟩⟨a4⟩,,0,त |  ⟨e0⟩⟨a4⟩
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,14,87,18,98,6,1,ैन,ै | न,80,ै | न
+total_budget_matched_v1,replicate_3,nepali,absent_from_shared_vocab,15,86,25,124,9,1,बाट,ब | ाट,86,ब | ाट
